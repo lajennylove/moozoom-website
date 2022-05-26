@@ -1,0 +1,12 @@
+@use "vendor/tailwind";
+
+// main
+@use "variables";
+@use "main";
+@use "fonts";
+
+// Components
+@use "elements/header";
+@use "elements/footer";
+@use "elements/components";
+@use "elements/slick";

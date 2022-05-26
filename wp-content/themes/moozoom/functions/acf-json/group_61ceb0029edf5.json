@@ -1,0 +1,56 @@
+{
+    "key": "group_61ceb0029edf5",
+    "title": "Add hero to page",
+    "fields": [
+        {
+            "key": "field_61ceb03c79795",
+            "label": "Hero Selector",
+            "name": "hero_selector",
+            "type": "post_object",
+            "instructions": "Select your hero header.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "hero_headers"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "object",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "post_template",
+                "operator": "!=",
+                "value": "page-subheader.php"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "page-noheader.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1645425007
+}

@@ -1,0 +1,10 @@
+.footer-background {
+    background-image: url('https://moozoomapp.com/assets/backgrounds/background-footer-mobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    @media (min-width: 768px) {
+        background-image: url('https://moozoomapp.com/assets/backgrounds/background-footer.svg');
+    }
+}

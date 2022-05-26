@@ -1,0 +1,8 @@
+name: moozoomapp
+recipe: wordpress
+services:
+  appserver:
+    webroot: .
+    xdebug: true
+    config:
+      php: .vscode/php.ini
