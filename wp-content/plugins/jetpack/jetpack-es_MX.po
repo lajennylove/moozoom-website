@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: es_MX\n"
 "Project-Id-Version: Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release)\n"
 
@@ -1647,7 +1647,7 @@ msgstr "Tu sitio no está conectado a Jetpack"
 msgid "Google Calendar"
 msgstr "Google Calendar"
 
-#: modules/sso.php:944
+#: modules/sso.php:950
 msgid "Account not found. If you already have an account, make sure you have connected to WordPress.com."
 msgstr "No hemos podido encontrar tu cuenta. Si ya dispones de una, asegúrate de que has conectado con WordPress.com."
 
@@ -1723,7 +1723,7 @@ msgstr "No se ha proporcionado una URL de podcast. Introduce una URL de feed RSS
 msgid "Your podcast URL is invalid and couldn't be embedded. Please double check your URL."
 msgstr "La URL del podcast no es válida y no se puede insertar. Revisa la URL."
 
-#: modules/sso.php:768
+#: modules/sso.php:774
 msgid "You must have Two-Step Authentication enabled on your WordPress.com account."
 msgstr "Debes tener activa la identificación en dos pasos en tu cuenta de WordPress.com."
 
@@ -1747,7 +1747,7 @@ msgstr "Personaliza la barra lateral dentro de la superposición del buscador de
 msgid "Jetpack Search Sidebar"
 msgstr "Barra lateral de búsqueda de Jetpack"
 
-#: modules/sso.php:783
+#: modules/sso.php:789
 msgid "Something got a little mixed up and an unexpected WordPress.com user logged in."
 msgstr "Algo se lió y se conectó un usuario inesperado en WordPress.com."
 
@@ -2116,14 +2116,14 @@ msgid "Go to slide %d"
 msgstr "Ir a la diapositiva %d"
 
 #: extensions/blocks/slideshow/slideshow.php:100
-#: modules/shortcodes/slideshow.php:311 _inc/blocks/editor-beta.js:54
+#: modules/shortcodes/slideshow.php:292 _inc/blocks/editor-beta.js:54
 #: _inc/blocks/editor-experimental.js:54 _inc/blocks/editor.js:54
 #: _inc/blocks/story/view.js:6
 msgid "Next Slide"
 msgstr "Siguiente diapositiva"
 
 #: extensions/blocks/slideshow/slideshow.php:101
-#: modules/shortcodes/slideshow.php:309 _inc/blocks/editor-beta.js:54
+#: modules/shortcodes/slideshow.php:290 _inc/blocks/editor-beta.js:54
 #: _inc/blocks/editor-experimental.js:54 _inc/blocks/editor.js:54
 #: _inc/blocks/story/view.js:6
 msgid "Previous Slide"
@@ -2142,7 +2142,7 @@ msgid "Play Slideshow"
 msgstr "Reproducir carrusel"
 
 #: extensions/blocks/slideshow/slideshow.php:195
-#: modules/shortcodes/slideshow.php:310
+#: modules/shortcodes/slideshow.php:291
 msgid "Pause Slideshow"
 msgstr "Pausar carrusel"
 
@@ -4137,8 +4137,8 @@ msgid "Add social-media icons to your site."
 msgstr "Añade iconos de medios sociales a tu sitio."
 
 #. translators: Service name is %1$s, and account name is %2$s.
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1286
-#: modules/publicize/publicize.php:1299
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1280
+#: modules/publicize/publicize.php:1293
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
@@ -4153,32 +4153,32 @@ msgstr "Haz clic para compartir en Skype"
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1311
-#: modules/publicize/publicize.php:1324
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1305
+#: modules/publicize/publicize.php:1318
 msgid "Project published and sharing project on %1$s."
 msgstr "Proyecto publicado y compartiendo proyecto en %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1303
-#: modules/publicize/publicize.php:1316
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1297
+#: modules/publicize/publicize.php:1310
 msgid "Post published, sending emails to subscribers and sharing post on %1$s."
 msgstr "Entrada publicada, enviando correos electrónicos a los suscriptores y compartiendo entrada en %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1294
-#: modules/publicize/publicize.php:1307
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1288
+#: modules/publicize/publicize.php:1301
 msgid "Post published and sharing on %1$s."
 msgstr "Entrada publicada y compartiendo en %1$s."
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1267
-#: modules/publicize/publicize.php:1280
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1261
+#: modules/publicize/publicize.php:1274
 msgid "View project"
 msgstr "Ver proyecto"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1264
-#: modules/publicize/publicize.php:1277 modules/subscriptions.php:220
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1258
+#: modules/publicize/publicize.php:1271 modules/subscriptions.php:220
 msgid "View post"
 msgstr "Ver entrada"
 
@@ -5681,20 +5681,20 @@ msgstr "Error al recuperar static.html. Trata de ejecutar:"
 msgid "Color scheme"
 msgstr "Esquema de color"
 
-#: modules/widget-visibility/widget-conditions.php:313
+#: modules/widget-visibility/widget-conditions.php:306
 msgid "Post type Archives:"
 msgstr "Archivo del tipo de contenido:"
 
-#: modules/widget-visibility/widget-conditions.php:601
+#: modules/widget-visibility/widget-conditions.php:594
 msgctxt "Checkbox on Widget Visibility if children of the selected page should be included in the visibility rule."
 msgid "Include children"
 msgstr "Incluir hijos"
 
-#: modules/widget-visibility/widget-conditions.php:633
+#: modules/widget-visibility/widget-conditions.php:626
 msgid "Match all conditions"
 msgstr "Coincide con todas las condiciones"
 
-#: modules/widget-visibility/widget-conditions.php:611
+#: modules/widget-visibility/widget-conditions.php:604
 msgctxt "Shown between widget visibility conditions."
 msgid "and"
 msgstr "y"
@@ -5978,7 +5978,7 @@ msgstr "Sin eventos próximos."
 msgid "The Blip.tv service has been shut down since August 20th, 2015."
 msgstr "El servicio Blip.tv ha estado cerrado desde el 20 de agosto de 2015."
 
-#: modules/widgets/authors.php:264
+#: modules/widgets/authors.php:257
 msgid "(at most 10)"
 msgstr "(como mucho 10)"
 
@@ -5990,7 +5990,7 @@ msgstr "Biografía del autor"
 msgid "Authors"
 msgstr "Autores"
 
-#: modules/widgets/authors.php:269
+#: modules/widgets/authors.php:262
 msgid "Avatar Size (px):"
 msgstr "Tamaño de avatar (px):"
 
@@ -6006,7 +6006,7 @@ msgstr "Estadísticas del sitio"
 msgid "Choose between a full post or an excerpt for the blog and archive pages."
 msgstr "Elige entre la visualización de entrada completa o extracto para el blog y las páginas de archivo."
 
-#: modules/widgets/authors.php:257
+#: modules/widgets/authors.php:250
 msgid "Display all authors (including those who have not written any posts)"
 msgstr "Muestra todos los autores (incluidos los que no hayan escrito ninguna entrada)"
 
@@ -6049,11 +6049,11 @@ msgstr "Mostrar etiquetas"
 msgid "Hit counter is delayed by up to 60 seconds."
 msgstr "El contador de visitas tiene un retardo de hasta 60 segundos."
 
-#: modules/widgets/authors.php:273
+#: modules/widgets/authors.php:266
 msgid "No Avatars"
 msgstr "Sin avatares"
 
-#: modules/widgets/authors.php:262
+#: modules/widgets/authors.php:255
 msgid "Number of posts to show for each author:"
 msgstr "Número de entradas a mostrar de cada autor:"
 
@@ -8182,7 +8182,7 @@ msgstr "Descripción:"
 msgid "Carousel"
 msgstr "Carrusel"
 
-#: modules/widget-visibility/widget-conditions.php:557
+#: modules/widget-visibility/widget-conditions.php:550
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/dashboard/jp-search-dashboard.js:2
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
@@ -8254,7 +8254,7 @@ msgctxt "Example of a phone number"
 msgid "1-202-555-1212"
 msgstr "1-202-555-1212"
 
-#: modules/widget-visibility/widget-conditions.php:567
+#: modules/widget-visibility/widget-conditions.php:560
 msgctxt "Example: The user is looking at a page, not a post."
 msgid "Page"
 msgstr "Página"
@@ -8404,32 +8404,32 @@ msgstr "Medio"
 msgid "My Tweets"
 msgstr "Mis tuits"
 
-#: modules/widget-visibility/widget-conditions.php:561
+#: modules/widget-visibility/widget-conditions.php:554
 msgctxt "Noun"
 msgid "User"
 msgstr "Usuario"
 
-#: modules/widget-visibility/widget-conditions.php:558
+#: modules/widget-visibility/widget-conditions.php:551
 msgctxt "Noun, as in: \"The author of this post is...\""
 msgid "Author"
 msgstr "Autor"
 
-#: modules/widget-visibility/widget-conditions.php:562
+#: modules/widget-visibility/widget-conditions.php:555
 msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
 msgid "Role"
 msgstr "Perfil"
 
-#: modules/widget-visibility/widget-conditions.php:566
+#: modules/widget-visibility/widget-conditions.php:559
 msgctxt "Noun, as in: \"This page is a date archive.\""
 msgid "Date"
 msgstr "Fecha"
 
-#: modules/widget-visibility/widget-conditions.php:565
+#: modules/widget-visibility/widget-conditions.php:558
 msgctxt "Noun, as in: \"This post has one tag.\""
 msgid "Tag"
 msgstr "Etiquetas"
 
-#: modules/widget-visibility/widget-conditions.php:569
+#: modules/widget-visibility/widget-conditions.php:562
 msgctxt "Noun, as in: \"This post has one taxonomy.\""
 msgid "Taxonomy"
 msgstr "Taxonomía"
@@ -8540,7 +8540,7 @@ msgstr "Mostrar mapa"
 msgid "Show profile photos in the plugin."
 msgstr "Mostrar el perfil de las fotos en el complemento."
 
-#: modules/widget-visibility/widget-conditions.php:608
+#: modules/widget-visibility/widget-conditions.php:601
 msgctxt "Shown between widget visibility conditions."
 msgid "or"
 msgstr "o"
@@ -8595,7 +8595,7 @@ msgid "Top Posts &amp; Pages by views are calculated from 24-48 hours of stats. 
 msgstr "Top de entradas y páginas más vistas se calcula a partir de las estadísticas de las últimas 24-48 horas. Por lo que tarda un tiempo en cambiar."
 
 #: jetpack_vendor/automattic/jetpack-search/src/widgets/class-search-widget.php:1024
-#: modules/widgets/authors.php:250 modules/widgets/blog-stats.php:93
+#: modules/widgets/authors.php:243 modules/widgets/blog-stats.php:93
 #: modules/widgets/contact-info.php:259 modules/widgets/flickr/form.php:12
 #: modules/widgets/gallery/templates/form.php:11
 #: modules/widgets/goodreads.php:186 modules/widgets/google-translate.php:191
@@ -8617,17 +8617,17 @@ msgstr "Timeline de Twitter"
 msgid "Types of pages to display:"
 msgstr "Tipos de páginas que deben mostrarse:"
 
-#: modules/widget-visibility/widget-conditions.php:556
+#: modules/widget-visibility/widget-conditions.php:549
 msgctxt "Used as the default option in a dropdown list"
 msgid "-- Select --"
 msgstr "-- Seleccionar --"
 
-#: modules/widget-visibility/widget-conditions.php:534
+#: modules/widget-visibility/widget-conditions.php:527
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Hide"
 msgstr "Ocultar"
 
-#: modules/widget-visibility/widget-conditions.php:533
+#: modules/widget-visibility/widget-conditions.php:526
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Show"
 msgstr "Mostrar"
@@ -8645,7 +8645,7 @@ msgstr "Ver perfil de %1$s en %2$s"
 msgid "View Full Profile &rarr;"
 msgstr "Ver perfil completo &rarr;"
 
-#: modules/widget-visibility/widget-conditions.php:525
+#: modules/widget-visibility/widget-conditions.php:518
 #: _inc/blocks/editor-beta.js:36 _inc/blocks/editor-beta.js:94
 #: _inc/blocks/editor-experimental.js:36 _inc/blocks/editor-experimental.js:94
 #: _inc/blocks/editor-no-post-editor.js:21
@@ -8654,7 +8654,7 @@ msgstr "Ver perfil completo &rarr;"
 msgid "Visibility"
 msgstr "Visibilidad"
 
-#: modules/widget-visibility/widget-conditions.php:573
+#: modules/widget-visibility/widget-conditions.php:566
 #: _inc/build/widget-visibility/editor/index.js:1
 msgctxt "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
 msgid "is"
@@ -8683,7 +8683,7 @@ msgstr "Leido"
 
 #. translators: %s is a HTML select widget for widget visibility, 'show' and
 #. 'hide' are it's options. It will read like 'show if' or 'hide if'.
-#: modules/widget-visibility/widget-conditions.php:531
+#: modules/widget-visibility/widget-conditions.php:524
 msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show if"
 msgid "%s if:"
 msgstr "%s si:"
@@ -8700,7 +8700,7 @@ msgstr "Centrar"
 msgid "What's a Gravatar?"
 msgstr "¿Qué es un gravatar?"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 #: _inc/blocks/editor-beta.js:88 _inc/blocks/editor-experimental.js:88
 #: _inc/blocks/editor-no-post-editor.js:59 _inc/blocks/editor.js:88
 msgid "Delete"
@@ -8752,7 +8752,7 @@ msgstr "Enviar"
 msgid "%s Error"
 msgstr "%s Error"
 
-#: modules/widget-visibility/widget-conditions.php:298
+#: modules/widget-visibility/widget-conditions.php:291
 msgid "404 error page"
 msgstr "página con error 404"
 
@@ -8776,19 +8776,19 @@ msgstr "Las páginas de los autores"
 msgid "All category pages"
 msgstr "Todas las páginas de categoría"
 
-#: modules/widget-visibility/widget-conditions.php:289
+#: modules/widget-visibility/widget-conditions.php:282
 msgid "All date archives"
 msgstr "Los archivos de fecha"
 
-#: modules/widget-visibility/widget-conditions.php:264
+#: modules/widget-visibility/widget-conditions.php:257
 msgid "All tag pages"
 msgstr "Todas las páginas de la etiqueta"
 
-#: modules/widget-visibility/widget-conditions.php:341
+#: modules/widget-visibility/widget-conditions.php:334
 msgid "All taxonomy pages"
 msgstr "Todas las páginas de taxonomía "
 
-#: modules/widget-visibility/widget-conditions.php:297
+#: modules/widget-visibility/widget-conditions.php:290
 msgid "Archive page"
 msgstr "Página de archivo"
 
@@ -8833,7 +8833,7 @@ msgstr "No se pudo obtener un token de carga para VideoPress. Por favor, intenta
 msgid "Count the page views of registered users who are logged in."
 msgstr "Cuenta las p&#225;ginas vista de los usuarios registrados logueados."
 
-#: modules/widget-visibility/widget-conditions.php:290
+#: modules/widget-visibility/widget-conditions.php:283
 msgid "Daily archives"
 msgstr "Archivos diarios"
 
@@ -8917,7 +8917,7 @@ msgstr "La sesión"
 msgid "Logo"
 msgstr "Logotipo"
 
-#: modules/widget-visibility/widget-conditions.php:291
+#: modules/widget-visibility/widget-conditions.php:284
 msgid "Monthly archives"
 msgstr "Archivos mensuales."
 
@@ -8954,11 +8954,11 @@ msgstr "Requiere JavaScript para ver a%s."
 msgid "Please verify your birthday."
 msgstr "Por favor, verifica tu fecha de nacimiento."
 
-#: modules/widget-visibility/widget-conditions.php:311
+#: modules/widget-visibility/widget-conditions.php:304
 msgid "Post type:"
 msgstr "Entrada personalizada:"
 
-#: modules/widget-visibility/widget-conditions.php:296
+#: modules/widget-visibility/widget-conditions.php:289
 msgid "Posts page"
 msgstr "Página de entradas"
 
@@ -8970,7 +8970,7 @@ msgstr "El Editor limita la reproducción de videos embebidos."
 msgid "Remove logo"
 msgstr "Quitar logotipo"
 
-#: modules/widget-visibility/widget-conditions.php:299
+#: modules/widget-visibility/widget-conditions.php:292
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
 msgid "Search results"
@@ -9021,7 +9021,7 @@ msgstr "Lo sentimos, nada que mostrar."
 msgid "Square Tiles"
 msgstr "Mosaicos cuadrados"
 
-#: modules/widget-visibility/widget-conditions.php:338
+#: modules/widget-visibility/widget-conditions.php:331
 msgid "Static page:"
 msgstr "Página estática:"
 
@@ -9099,7 +9099,7 @@ msgstr "No ha sido posible obtener tus estadísticas en este momento. Por favor 
 msgid "Widget title:"
 msgstr "Título de la aplicación:"
 
-#: modules/widget-visibility/widget-conditions.php:292
+#: modules/widget-visibility/widget-conditions.php:285
 msgid "Yearly archives"
 msgstr "Archivo anual"
 
@@ -9154,7 +9154,7 @@ msgstr "Este video necesita <a rel=\"nofollow noopener noreferrer\" href=\"%s\" 
 msgid "You do not have sufficient <a rel=\"nofollow noopener noreferrer\" href=\"%s\" target=\"_blank\">freedom levels</a> to view this video. Support free software and upgrade."
 msgstr "No tienes suficiente <a rel=\"nofollow noopener noreferrer\" href=\"%s\" target=\"_blank\">nivel de libertad</a> para ver este video. Apoya al software libre y actualiza."
 
-#: modules/widget-visibility/widget-conditions.php:295 _inc/build/admin.js:148
+#: modules/widget-visibility/widget-conditions.php:288 _inc/build/admin.js:148
 msgid "Front page"
 msgstr "Página de inicio"
 
@@ -9545,7 +9545,7 @@ msgstr "¡Este artículo ha sido compartido!"
 msgid "This slideshow could not be started. Try refreshing the page or viewing it in another browser."
 msgstr "No se pudo iniciar esta presentación. Intenta actualizar la página o utiliza otro navegador."
 
-#: modules/shortcodes/slideshow.php:228
+#: modules/shortcodes/slideshow.php:219
 msgid "This slideshow requires JavaScript."
 msgstr "El pase de diapositivas requiere JavaScript."
 
@@ -9651,7 +9651,7 @@ msgctxt "share to"
 msgid "Twitter"
 msgstr "Twitter"
 
-#: modules/sso.php:576 modules/sso.php:976
+#: modules/sso.php:576 modules/sso.php:982
 msgid "Log in with WordPress.com"
 msgstr "Accede con WordPress.com"
 
@@ -12190,7 +12190,7 @@ msgctxt "{$date_format} \\a\\t {$time_format}"
 msgid "%1$s \\a\\t %2$s"
 msgstr "%1$s a las %2$s"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 msgid "Add"
 msgstr "Añadir"
 

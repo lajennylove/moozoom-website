@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-17 13:54:08+0000\n"
+"PO-Revision-Date: 2022-05-23 17:54:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -765,7 +765,7 @@ msgid "Connection Manager"
 msgstr "إدارة الاتصالات"
 
 #. translators: %1$s is a PHP class name.
-#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:147
+#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:154
 msgid "Unable to load class %1$s. Please add the package that contains it using composer and make sure you are requiring the Jetpack autoloader"
 msgstr "يتعذر تحميل الفئة ⁦%1$s⁩. يرجى إضافة الحزمة التي تحتوي عليها باستخدام المؤلف والتأكُّد من أنَّك تحتاج إلى برنامج التحميل التلقائي من Jetpack"
 
@@ -1242,7 +1242,7 @@ msgstr "يمكن لمستخدمي ووردبريس.كوم تغيير تفاصي�
 #: modules/masterbar/nudges/additional-css/class-atomic-additional-css-manager.php:44
 #: modules/masterbar/nudges/additional-css/class-wpcom-additional-css-manager.php:42
 msgid "Purchase a Pro Plan to<br> activate CSS customization"
-msgstr "شراء خطة احترافية<br> لتفعيل تخصيص CSS"
+msgstr "شراء خطة متميزة<br> لتنشيط تخصيص CSS"
 
 #: modules/carousel/jetpack-carousel.php:531
 msgid "Toggle photo comments visibility"
@@ -1473,7 +1473,7 @@ msgstr "WooCommerce"
 #. link to the Jetpack dashboard.
 #: modules/widgets/class-jetpack-instagram-widget.php:403
 msgid "In order to use this widget you need to %1$scomplete your Jetpack connection%2$s by authorizing your user."
-msgstr "لاستخدام هذا المربع الجانبي، تحتاج إلى ⁦%1$s⁩إكمال اتصال Jetpack لديك⁦%2$s⁩ عن طريق تخويل مستخدمك."
+msgstr "لاستخدام هذا المربع الجانبي، تحتاج إلى⁦%1$s⁩إكمال اتصال Jetpack لديك⁦%2$s⁩ عن طريق تخويل مستخدمك."
 
 #: _inc/lib/class-jetpack-podcast-helper.php:528
 msgid "The value used for that option, the episode GUID"
@@ -2680,7 +2680,7 @@ msgstr "موقعك غير متصل بـ Jetpack"
 msgid "Google Calendar"
 msgstr "تقويم Google"
 
-#: modules/sso.php:944
+#: modules/sso.php:950
 msgid "Account not found. If you already have an account, make sure you have connected to WordPress.com."
 msgstr "الحساب غير موجود. إذا كان لديك حساب بالفعل، فتأكَّد من اقترانك بووردبريس.كوم."
 
@@ -2756,7 +2756,7 @@ msgstr "إدخال اسمك الأول"
 msgid "Earn"
 msgstr "تحقيق ربح"
 
-#: modules/sso.php:768
+#: modules/sso.php:774
 msgid "You must have Two-Step Authentication enabled on your WordPress.com account."
 msgstr "يجب أن تكون لديك مصادقة من خطوتين ممكَّنة على حسابك على ووردبريس.كوم."
 
@@ -2803,7 +2803,7 @@ msgstr "استخدام ترويسة صغيرة"
 msgid "Help visitors quickly find answers with highly relevant instant search results and powerful filtering."
 msgstr "ساعد الزائرين على العثور بسرعة على إجابات تحمل نتائج بحث فورية بالغة الأهمية وتصفية فعَّالة."
 
-#: modules/sso.php:783
+#: modules/sso.php:789
 msgid "Something got a little mixed up and an unexpected WordPress.com user logged in."
 msgstr "حصل القليل من الخلط وتسجيل دخول لمستخدم WordPress.com غير متوقع."
 
@@ -3033,7 +3033,7 @@ msgstr "رمز حالة استجابة عنوان URL."
 #. https://subscribe.wordpress.com/, 2: Description of this link
 #: modules/subscriptions/views.php:248
 msgid "You subscribed this site before but you have not clicked the confirmation link yet. Please check your inbox. <br /> Otherwise, you can manage your preferences at <a href=\"%1$s\" title=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">subscribe.wordpress.com</a>."
-msgstr "لقد اشتركت في هذا الموقع من قبل، ولكنك لم تنقر على رابط التأكيد حتى الآن. يُرجى التحقق من صندوق الوارد لديك. <br /> خلاف ذلك، يمكنك إدارة التفضيلات الخاصة بك من خلال الموقع <a href=\"%1$s\" title=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">subscribe.wordpress.com</a>."
+msgstr "لقد اشتركت في هذا الموقع من قبل، ولكنك لم تنقر على رابط التأكيد حتى الآن. يُرجى التحقُّق من علبة الوارد لديك. <br /> خلاف ذلك، يمكنك إدارة تفضيلاتك على الرابط <a href=\"%1$s\" title=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">subscribe.wordpress.com</a>."
 
 #. translators: 1: Link to Subscription Management page
 #. https://subscribe.wordpress.com/, 2: Description of this link
@@ -3131,7 +3131,7 @@ msgid "Play Slideshow"
 msgstr "تشغيل عرض الشرائح"
 
 #: extensions/blocks/slideshow/slideshow.php:195
-#: modules/shortcodes/slideshow.php:310
+#: modules/shortcodes/slideshow.php:291
 msgid "Pause Slideshow"
 msgstr "إيقاف مؤقت لعرض الشرائح"
 
@@ -3145,14 +3145,14 @@ msgid "Go to slide %d"
 msgstr "الانتقال إلى الشريحة %d"
 
 #: extensions/blocks/slideshow/slideshow.php:100
-#: modules/shortcodes/slideshow.php:311 _inc/blocks/editor-beta.js:54
+#: modules/shortcodes/slideshow.php:292 _inc/blocks/editor-beta.js:54
 #: _inc/blocks/editor-experimental.js:54 _inc/blocks/editor.js:54
 #: _inc/blocks/story/view.js:6
 msgid "Next Slide"
 msgstr "الشريحة التالية"
 
 #: extensions/blocks/slideshow/slideshow.php:101
-#: modules/shortcodes/slideshow.php:309 _inc/blocks/editor-beta.js:54
+#: modules/shortcodes/slideshow.php:290 _inc/blocks/editor-beta.js:54
 #: _inc/blocks/editor-experimental.js:54 _inc/blocks/editor.js:54
 #: _inc/blocks/story/view.js:6
 msgid "Previous Slide"
@@ -5131,7 +5131,7 @@ msgstr "تنتهي صلاحية الموافقة بعد"
 
 #: modules/widgets/eu-cookie-law/form.php:201
 msgid "Visitors must provide consent by clicking the dismiss button when WordAds is turned on."
-msgstr "يجب أن يُقدّم الزائرون الموافقة بالنقر على زر \"تجاهل\" عند تشغيل إعلانات WordAds."
+msgstr "يجب أن يُقدّم الزائرون الموافقة بالنقر على زر \"تجاهل\" عند تشغيل إعلانات Jetpack."
 
 #: modules/widgets/eu-cookie-law/form.php:149
 msgctxt "action"
@@ -5145,7 +5145,7 @@ msgstr "نص الرابط"
 #. Translators: %s is the URL to a Jetpack support article.
 #: modules/widgets/eu-cookie-law/form.php:97
 msgid "For GDPR compliance, please make sure your policy contains <a href=\"%s\" target=\"_blank\">privacy information relating to WordAds</a>."
-msgstr "فيما يتعلق بالامتثال للائحة العامة لحماية البيانات، يرجى التأكُّد من أن سياستك تحتوي على <a href=\"%s\" target=\"_blank\">معلومات الخصوصية ذات الصلة بإعلانات WordAds</a>."
+msgstr "فيما يتعلق بالامتثال للائحة العامة لحماية البيانات، تأكد من أن سياستك تحتوي على <a href=\"%s\" target=\"_blank\">معلومات الخصوصية ذات الصلة بإعلانات Jetpack</a>."
 
 #: modules/widgets/eu-cookie-law/form.php:86
 msgid "The default policy URL only covers cookies set by Jetpack. If you’re running other plugins, custom cookies, or third-party tracking technologies, you should create and link to your own cookie statement."
@@ -5238,33 +5238,33 @@ msgstr "انقر للمشاركة على Skype"
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1311
-#: modules/publicize/publicize.php:1324
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1305
+#: modules/publicize/publicize.php:1318
 msgid "Project published and sharing project on %1$s."
 msgstr "تم نشر المشروع ومشاركة المشروع على %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1303
-#: modules/publicize/publicize.php:1316
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1297
+#: modules/publicize/publicize.php:1310
 msgid "Post published, sending emails to subscribers and sharing post on %1$s."
 msgstr "تم نشر المقالة، وإرسال رسائل البريد الإلكتروني إلى المشتركين ومشاركة المقالة على %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1294
-#: modules/publicize/publicize.php:1307
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1288
+#: modules/publicize/publicize.php:1301
 msgid "Post published and sharing on %1$s."
 msgstr "تم نشر المقالة ومشاركتها على %1$s."
 
 #. translators: Service name is %1$s, and account name is %2$s.
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1286
-#: modules/publicize/publicize.php:1299
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1280
+#: modules/publicize/publicize.php:1293
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1267
-#: modules/publicize/publicize.php:1280
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1261
+#: modules/publicize/publicize.php:1274
 msgid "View project"
 msgstr "عرض المشروع"
 
@@ -5274,8 +5274,8 @@ msgstr "عرض المشروع"
 msgid "You have already subscribed to this site. Please check your inbox. <br /> You can manage your preferences at <a href=\"%1$s\" title=\"%2$s\" target=\"_blank\">subscribe.wordpress.com</a>"
 msgstr "أنت مشترك بالفعل في هذا الموقع. يُرجى التحقق من علبة الوارد لديك. <br /> يمكنك إدارة تفضيلاتك على الموقع <a href=\"%1$s\" title=\"%2$s\" target=\"_blank\">subscribe.wordpress.com</a>"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1264
-#: modules/publicize/publicize.php:1277 modules/subscriptions.php:220
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1258
+#: modules/publicize/publicize.php:1271 modules/subscriptions.php:220
 msgid "View post"
 msgstr "مشاهدة المقالة"
 
@@ -5318,7 +5318,7 @@ msgstr "حدثت مشكلة أثناء التحقق من هذا الطلب."
 #: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:186
 #: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:205
 msgid "The required \"%s\" parameter is missing."
-msgstr "معيار \"%s\" اللازم مفقود."
+msgstr "معلمة \"nonce\" مفقودة."
 
 #: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:283
 #: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:384
@@ -5900,6 +5900,11 @@ msgstr[5] "<span class=\"difference\">%s</span> <span class=\"label\">من ال�
 msgid "Type of gallery."
 msgstr "نوع المعرض."
 
+#: modules/masterbar/masterbar/class-masterbar.php:1377
+msgctxt "Label for the button on the Masterbar to manage plugins"
+msgid "Manage"
+msgstr "إدارة"
+
 #. translators: %s is the number of hour(s).
 #: modules/widgets/milestone/class-milestone-widget.php:426
 msgid "<span class=\"difference\">%s</span> <span class=\"label\">hour to go.</span>"
@@ -5921,11 +5926,6 @@ msgstr[2] "<span class=\"difference\">%s</span> <span class=\"label\">من ال�
 msgstr[3] "<span class=\"difference\">%s</span> <span class=\"label\">من الأيام للانتقال.</span>"
 msgstr[4] "<span class=\"difference\">%s</span> <span class=\"label\">من الأيام للانتقال.</span>"
 msgstr[5] "<span class=\"difference\">%s</span> <span class=\"label\">من الأيام للانتقال.</span>"
-
-#: modules/masterbar/masterbar/class-masterbar.php:1377
-msgctxt "Label for the button on the Masterbar to manage plugins"
-msgid "Manage"
-msgstr "إدارة"
 
 #: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:202
 msgid "Plugin deactivation is not allowed"
@@ -5965,6 +5965,10 @@ msgstr "تمنع أذونات الملف الموجودة على هذا المض
 #: json-endpoints/jetpack/class.jetpack-json-api-plugins-delete-endpoint.php:82
 msgid "You cannot delete a plugin while it is active on the main site."
 msgstr "لا يمكنك حذف مكوّن إضافي وهو نشط على الموقع الرئيسي."
+
+#: _inc/lib/core-api/class.jetpack-core-api-widgets-endpoints.php:48
+msgid "The requested widget was not found."
+msgstr "كان المربع الجانبي المطلوب غير موجود."
 
 #. translators: %s is the number of year(s).
 #: modules/widgets/milestone/class-milestone-widget.php:390
@@ -6020,10 +6024,6 @@ msgstr[2] "<span class=\"difference\">%s</span> <span class=\"label\">منذ ي�
 msgstr[3] "<span class=\"difference\">%s</span> <span class=\"label\">منذ يوم (أيام).</span>"
 msgstr[4] "<span class=\"difference\">%s</span> <span class=\"label\">منذ يوم (أيام).</span>"
 msgstr[5] "<span class=\"difference\">%s</span> <span class=\"label\">منذ يوم (أيام).</span>"
-
-#: _inc/lib/core-api/class.jetpack-core-api-widgets-endpoints.php:48
-msgid "The requested widget was not found."
-msgstr "كان المربع الجانبي المطلوب غير موجود."
 
 #. translators: %s is the number of month(s).
 #: modules/widgets/milestone/class-milestone-widget.php:327
@@ -6852,20 +6852,20 @@ msgstr "حدث خطأ أثناء إحضار static.html. جارٍ المحاول
 msgid "Color scheme"
 msgstr "نظام الألوان"
 
-#: modules/widget-visibility/widget-conditions.php:313
+#: modules/widget-visibility/widget-conditions.php:306
 msgid "Post type Archives:"
 msgstr "أرشيفات نوع المقالة:"
 
-#: modules/widget-visibility/widget-conditions.php:633
+#: modules/widget-visibility/widget-conditions.php:626
 msgid "Match all conditions"
 msgstr "يطابق كل الشروط"
 
-#: modules/widget-visibility/widget-conditions.php:611
+#: modules/widget-visibility/widget-conditions.php:604
 msgctxt "Shown between widget visibility conditions."
 msgid "and"
 msgstr "و"
 
-#: modules/widget-visibility/widget-conditions.php:601
+#: modules/widget-visibility/widget-conditions.php:594
 msgctxt "Checkbox on Widget Visibility if children of the selected page should be included in the visibility rule."
 msgid "Include children"
 msgstr "تضمين الأطفال"
@@ -7165,23 +7165,23 @@ msgstr "إحصائيات المدونة"
 msgid "Show a hit counter for your blog."
 msgstr "إظهار عداد زوار مدونتك."
 
-#: modules/widgets/authors.php:273
+#: modules/widgets/authors.php:266
 msgid "No Avatars"
 msgstr "لا توجد صور أفاتار"
 
-#: modules/widgets/authors.php:269
+#: modules/widgets/authors.php:262
 msgid "Avatar Size (px):"
 msgstr "حجم صورة الأفاتار (بكسل):"
 
-#: modules/widgets/authors.php:264
+#: modules/widgets/authors.php:257
 msgid "(at most 10)"
 msgstr "(10 على الأكثر)"
 
-#: modules/widgets/authors.php:262
+#: modules/widgets/authors.php:255
 msgid "Number of posts to show for each author:"
 msgstr "عدد المواضيع الواجب عرضها لكل كاتب:"
 
-#: modules/widgets/authors.php:257
+#: modules/widgets/authors.php:250
 msgid "Display all authors (including those who have not written any posts)"
 msgstr "عرض كل المؤلفين (بما في ذلك المؤلفون الذين لم يكتبوا أي مقالات)"
 
@@ -7850,7 +7850,9 @@ msgstr "حالة نشطة وإنشاء اتصال جديد"
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:1055
 msgid "No. <a href=\"%1$s\">%2$s</a> is a new and different website that's separate from <a href=\"%3$s\">%4$s</a>. It requires  a new connection to WordPress.com for new stats and subscribers."
-msgstr "لا.  يُعد <a href=\"%1$s\">%2$s</a> موقع ويب جديدًا ومختلفًا مستقلاً عن <a href=\"%3$s\">%4$s</a>. يتطلب  اتصالاً جديدًا بووردبريس.كوم للإحصاءات الجديدة والمشتركين."
+msgstr ""
+"لا. <a href=\"%1$s\">%2$s</a> موقع جديد ومختلف مستقل عن \n"
+"\t\t\t\t\t<a href=\"%3$s\">%4$s</a>. يتطلب اتصالاً جديدًا بـ WordPress.com للإحصاءات الجديدة والمشتركين."
 
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:1033
 msgid "Migrate Stats &amp; Subscribers"
@@ -7859,7 +7861,9 @@ msgstr "ترحيل الإحصاءات والمشتركين"
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:1007
 msgid "Yes. <a href=\"%1$s\">%2$s</a> is replacing <a href=\"%3$s\">%4$s</a>. I would like to migrate my stats and subscribers from <a href=\"%3$s\">%4$s</a> to <a href=\"%1$s\">%2$s</a>."
-msgstr "نعم. يحل <a href=\"%1$s\">%2$s</a> محل <a href=\"%3$s\">%4$s</a>. أرغب في ترحيل إحصاءاتي والمشتركين من <a href=\"%3$s\">%4$s</a> إلى <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+"نعم. <a href=\"%1$s\">%2$s</a> يستبدل <a href=\"%3$s\">%4$s</a>. أريد\n"
+"\t\t\t\t\tترحيل الإحصاءات والمشتركين لدي من <a href=\"%3$s\">%4$s</a> إلى <a href=\"%1$s\">%2$s</a>."
 
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:982
@@ -7877,17 +7881,23 @@ msgstr "التأكيد على الوضع الآمن"
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:891
 msgid "Is this website a temporary duplicate of <a href=\"%1$s\">%2$s</a> for the purposes of testing, staging or development? If so, we recommend keeping it in Safe Mode."
-msgstr "هل هذا الموقع تكرار مؤقت لـ <a href=\"%1$s\">%2$s</a> لأغراض الاختبار أو التقسيم المرحلي أو التطوير؟ إذا كان الأمر كذلك، فنوصي بأن يظل في الوضع الآمن."
+msgstr ""
+"هل هذا الموقع تكرار مؤقت لـ <a href=\"%1$s\">%2$s</a> لأغراض \n"
+"\t\t\t\t\tالاختبار أو التقسيم المرحلي أو التطوير؟ إذا كان الأمر كذلك، فنوصي بأن يظل في الوضع الآمن."
 
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:937
 msgid "If this is a separate and new website, or the new home of <a href=\"%1$s\">%2$s</a>, we recommend turning Safe Mode off, and re-establishing your connection to WordPress.com."
-msgstr "إذا كان هذا موقع ويب مستقلاً وجديدًا أو المكان الجديد لـ <a href=\"%1$s\">%2$s</a>، فنوصي بإيقاف تشغيل الوضع الآمن وإعادة إنشاء اتصالك بووردبريس.كوم."
+msgstr ""
+"إذا كان هذا موقعًا مستقلاً وجديدًا أو المكان الجديد لـ <a href=\"%1$s\">%2$s</a>، \n"
+"\t\t\t\t\tفنوصي بإيقاف تشغيل الوضع الآمن وإعادة إنشاء اتصالك بـ WordPress.com."
 
 #. translators: %s: Safe mode docs URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:865
 msgid "Please confirm Safe Mode or fix the Jetpack connection. Select one of the options below or <a href=\"%1$s\">learn more about Safe Mode</a>."
-msgstr "يُرجى التأكيد على الوضع الآمن أو إصلاح اتصال Jetpack. حدِّد أحد الخيارات التالية أو <a href=\"%1$s\">اعرف المزيد حول الوضع الآمن</a>."
+msgstr ""
+"يُرجى التأكيد على الوضع الآمن أو إصلاح اتصال Jetpack. حدد أحد الخيارات التالية أو <a href=\"%1$s\">اعرف \n"
+"\t\t\t\t\tالمزيد عن الوضع الآمن</a>."
 
 #. translators: %s: Safe mode docs URL and site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:837
@@ -8154,7 +8164,7 @@ msgid ""
 "\t\tand email. You can configure services to appear as icons, text, or both and some services like Twitter\n"
 "\t\thave additional options."
 msgstr ""
-"يمكن للزائرين مشاركة تدويناتك على تويتر وفيسبوك وReddit وDigg وLinkedIn وبصورة مطبوعة،\n"
+"يستطيع الزوار مشاركة مقالاتك على Twitter وFacebook وReddit وDigg وLinkedIn وGoogle+‎ وبصورة مطبوعة\n"
 "\t\tوعبر البريد الإلكتروني. يمكنك تكوين الخدمات لتظهر على شكل أيقونات أو نص أو كليهما، كما أن بعض الخدمات مثل Twitter\n"
 "\t\tتشتمل على خيارات إضافية."
 
@@ -8446,12 +8456,12 @@ msgstr "كل الإضافات محدثة. استمر في أدائك الجيد!
 #: _inc/lib/class.core-rest-api-endpoints.php:3750
 msgid "%s plugin needs updating."
 msgid_plural "%s plugins need updating."
-msgstr[0] "يتعيَّن تحديث %s إضافة."
-msgstr[1] "يتعيَّن تحديث %s من الإضافات."
-msgstr[2] "يتعيَّن تحديث %s من الإضافات."
-msgstr[3] "يتعيَّن تحديث %s من الإضافات."
-msgstr[4] "يتعيَّن تحديث %s من الإضافات."
-msgstr[5] "يتعيَّن تحديث %s من الإضافات."
+msgstr[0] "يلزم تحديث %s من المكوّنات الإضافية."
+msgstr[1] "يلزم تحديث %s من المكوّنات الإضافية"
+msgstr[2] "يلزم تحديث %s من المكوّنات الإضافية"
+msgstr[3] "يلزم تحديث %s من المكوّنات الإضافية"
+msgstr[4] "يلزم تحديث %s من المكوّنات الإضافية"
+msgstr[5] "يلزم تحديث %s من المكوّنات الإضافية"
 
 #. translators: placeholder is a unit of time (1 hour, 5 days, ...)
 #: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1778
@@ -9398,7 +9408,7 @@ msgstr "الشرح:"
 msgid "Carousel"
 msgstr "معرض صور Carousel"
 
-#: modules/widget-visibility/widget-conditions.php:557
+#: modules/widget-visibility/widget-conditions.php:550
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/dashboard/jp-search-dashboard.js:2
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
@@ -9429,7 +9439,7 @@ msgstr "مخصص"
 msgid "Custom Email Address"
 msgstr "بريد إلكتروني مخصص"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 #: _inc/blocks/editor-beta.js:88 _inc/blocks/editor-experimental.js:88
 #: _inc/blocks/editor-no-post-editor.js:59 _inc/blocks/editor.js:88
 msgid "Delete"
@@ -9484,7 +9494,7 @@ msgctxt "Example of a phone number"
 msgid "1-202-555-1212"
 msgstr "1-202-555-1212"
 
-#: modules/widget-visibility/widget-conditions.php:567
+#: modules/widget-visibility/widget-conditions.php:560
 msgctxt "Example: The user is looking at a page, not a post."
 msgid "Page"
 msgstr "الصفحة"
@@ -9638,27 +9648,27 @@ msgstr "متوسط"
 msgid "My Tweets"
 msgstr "تغريداتي"
 
-#: modules/widget-visibility/widget-conditions.php:558
+#: modules/widget-visibility/widget-conditions.php:551
 msgctxt "Noun, as in: \"The author of this post is...\""
 msgid "Author"
 msgstr "المؤلف"
 
-#: modules/widget-visibility/widget-conditions.php:562
+#: modules/widget-visibility/widget-conditions.php:555
 msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
 msgid "Role"
 msgstr "الدور"
 
-#: modules/widget-visibility/widget-conditions.php:566
+#: modules/widget-visibility/widget-conditions.php:559
 msgctxt "Noun, as in: \"This page is a date archive.\""
 msgid "Date"
 msgstr "التاريخ"
 
-#: modules/widget-visibility/widget-conditions.php:565
+#: modules/widget-visibility/widget-conditions.php:558
 msgctxt "Noun, as in: \"This post has one tag.\""
 msgid "Tag"
 msgstr "العلامة"
 
-#: modules/widget-visibility/widget-conditions.php:569
+#: modules/widget-visibility/widget-conditions.php:562
 msgctxt "Noun, as in: \"This post has one taxonomy.\""
 msgid "Taxonomy"
 msgstr "الفئة"
@@ -9769,7 +9779,7 @@ msgstr "إظهار الخريطة"
 msgid "Show profile photos in the plugin."
 msgstr "إظهار صور الملف الشخصي في الإضافة."
 
-#: modules/widget-visibility/widget-conditions.php:608
+#: modules/widget-visibility/widget-conditions.php:601
 msgctxt "Shown between widget visibility conditions."
 msgid "or"
 msgstr "أو"
@@ -9815,7 +9825,7 @@ msgid "Tiles"
 msgstr "تجانبات"
 
 #: jetpack_vendor/automattic/jetpack-search/src/widgets/class-search-widget.php:1024
-#: modules/widgets/authors.php:250 modules/widgets/blog-stats.php:93
+#: modules/widgets/authors.php:243 modules/widgets/blog-stats.php:93
 #: modules/widgets/contact-info.php:259 modules/widgets/flickr/form.php:12
 #: modules/widgets/gallery/templates/form.php:11
 #: modules/widgets/goodreads.php:186 modules/widgets/google-translate.php:191
@@ -9854,17 +9864,17 @@ msgstr "اسم مستخدم تويتر:"
 msgid "Types of pages to display:"
 msgstr "أنواع الصفحات المطلوب عرضها:"
 
-#: modules/widget-visibility/widget-conditions.php:556
+#: modules/widget-visibility/widget-conditions.php:549
 msgctxt "Used as the default option in a dropdown list"
 msgid "-- Select --"
 msgstr "-- تحديد --"
 
-#: modules/widget-visibility/widget-conditions.php:534
+#: modules/widget-visibility/widget-conditions.php:527
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Hide"
 msgstr "إخفاء"
 
-#: modules/widget-visibility/widget-conditions.php:533
+#: modules/widget-visibility/widget-conditions.php:526
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Show"
 msgstr "إظهار"
@@ -9886,7 +9896,7 @@ msgstr "عرض الملف الشخصي &larr;"
 msgid "What's a Gravatar?"
 msgstr "ما هو Gravatar؟"
 
-#: modules/widget-visibility/widget-conditions.php:573
+#: modules/widget-visibility/widget-conditions.php:566
 #: _inc/build/widget-visibility/editor/index.js:1
 msgctxt "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
 msgid "is"
@@ -9909,7 +9919,7 @@ msgstr "قراءة"
 
 #. translators: %s is a HTML select widget for widget visibility, 'show' and
 #. 'hide' are it's options. It will read like 'show if' or 'hide if'.
-#: modules/widget-visibility/widget-conditions.php:531
+#: modules/widget-visibility/widget-conditions.php:524
 msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show if"
 msgid "%s if:"
 msgstr "%s لو:"
@@ -9928,7 +9938,7 @@ msgstr "اعرض خريطة تتضمن معلومات عن موقعك والسا
 msgid "Open link in a new window/tab"
 msgstr "فتح الرابط في نافذة/علامة تبويب جديدة"
 
-#: modules/widget-visibility/widget-conditions.php:525
+#: modules/widget-visibility/widget-conditions.php:518
 #: _inc/blocks/editor-beta.js:36 _inc/blocks/editor-beta.js:94
 #: _inc/blocks/editor-experimental.js:36 _inc/blocks/editor-experimental.js:94
 #: _inc/blocks/editor-no-post-editor.js:21
@@ -9937,7 +9947,7 @@ msgstr "فتح الرابط في نافذة/علامة تبويب جديدة"
 msgid "Visibility"
 msgstr "الظهور"
 
-#: modules/widget-visibility/widget-conditions.php:561
+#: modules/widget-visibility/widget-conditions.php:554
 msgctxt "Noun"
 msgid "User"
 msgstr "مستخدم"
@@ -9955,7 +9965,7 @@ msgstr "%s خطأ"
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; اختيار &mdash;"
 
-#: modules/widget-visibility/widget-conditions.php:298
+#: modules/widget-visibility/widget-conditions.php:291
 msgid "404 error page"
 msgstr "صفحة الخطأ 404"
 
@@ -9979,15 +9989,15 @@ msgstr "كل صفحات المؤلف"
 msgid "All category pages"
 msgstr "كل صفحات الفئة"
 
-#: modules/widget-visibility/widget-conditions.php:289
+#: modules/widget-visibility/widget-conditions.php:282
 msgid "All date archives"
 msgstr "كل أرشيفات التاريخ"
 
-#: modules/widget-visibility/widget-conditions.php:264
+#: modules/widget-visibility/widget-conditions.php:257
 msgid "All tag pages"
 msgstr "كل صفحات العلامة"
 
-#: modules/widget-visibility/widget-conditions.php:341
+#: modules/widget-visibility/widget-conditions.php:334
 msgid "All taxonomy pages"
 msgstr "كل صفحات التصنيف"
 
@@ -9995,7 +10005,7 @@ msgstr "كل صفحات التصنيف"
 msgid "An unknown error has occurred. Please try again later."
 msgstr "حدث خطأ غير معروف. يُرجى المحاولة مرة أخرى لاحقًا."
 
-#: modules/widget-visibility/widget-conditions.php:297
+#: modules/widget-visibility/widget-conditions.php:290
 msgid "Archive page"
 msgstr "صفحة الأرشيف"
 
@@ -10040,7 +10050,7 @@ msgstr "تعذر الحصول على رمز مميز للتحميل على Video
 msgid "Count the page views of registered users who are logged in."
 msgstr "قم بعد مشاهدات الصفحة للأعضاء المسجلين الذين قاموا بتسجيل الدخول."
 
-#: modules/widget-visibility/widget-conditions.php:290
+#: modules/widget-visibility/widget-conditions.php:283
 msgid "Daily archives"
 msgstr "أرشيفات يومية"
 
@@ -10089,7 +10099,7 @@ msgstr "متابعة التعليقات"
 msgid "Follower Settings"
 msgstr "إعدادات المتابعين"
 
-#: modules/widget-visibility/widget-conditions.php:295 _inc/build/admin.js:148
+#: modules/widget-visibility/widget-conditions.php:288 _inc/build/admin.js:148
 msgid "Front page"
 msgstr "الصفحة الرئيسية"
 
@@ -10175,7 +10185,7 @@ msgstr "تسجيل الخروج"
 msgid "Logo"
 msgstr "الشعار"
 
-#: modules/widget-visibility/widget-conditions.php:291
+#: modules/widget-visibility/widget-conditions.php:284
 msgid "Monthly archives"
 msgstr "الأرشيف الشهري"
 
@@ -10212,11 +10222,11 @@ msgstr "الجافا سكريبت المطلوبة للتشغيل %s."
 msgid "Please verify your birthday."
 msgstr "يرجى التحقق من تاريخ ميلادك."
 
-#: modules/widget-visibility/widget-conditions.php:311
+#: modules/widget-visibility/widget-conditions.php:304
 msgid "Post type:"
 msgstr "نوع المقالة:"
 
-#: modules/widget-visibility/widget-conditions.php:296
+#: modules/widget-visibility/widget-conditions.php:289
 msgid "Posts page"
 msgstr "صفحة المقالات"
 
@@ -10228,7 +10238,7 @@ msgstr "يحد الناشر تشغيل ملفات الفيديو المتضمن�
 msgid "Remove logo"
 msgstr "إزالة الشعار"
 
-#: modules/widget-visibility/widget-conditions.php:299
+#: modules/widget-visibility/widget-conditions.php:292
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
 msgid "Search results"
@@ -10283,7 +10293,7 @@ msgstr "نأسف، لا يوجد شيء للتبليغ عنه."
 msgid "Square Tiles"
 msgstr "بلاط مربع"
 
-#: modules/widget-visibility/widget-conditions.php:338
+#: modules/widget-visibility/widget-conditions.php:331
 msgid "Static page:"
 msgstr "الصفحة الثابتة:"
 
@@ -10383,7 +10393,7 @@ msgstr "لم نتمكن من الحصول على إحصائياتك الآن. ا
 msgid "Widget title:"
 msgstr "عنوان المربع الجانبي:"
 
-#: modules/widget-visibility/widget-conditions.php:292
+#: modules/widget-visibility/widget-conditions.php:285
 msgid "Yearly archives"
 msgstr "أرشيفات سنوية"
 
@@ -10795,7 +10805,7 @@ msgstr "تم مشاركة هذا الموضوع!"
 msgid "This slideshow could not be started. Try refreshing the page or viewing it in another browser."
 msgstr "تعذر بدء تشغيل عرض الشرائح هذا. حاول تحديث الصفحة أو عرضها في متصفح آخر."
 
-#: modules/shortcodes/slideshow.php:228
+#: modules/shortcodes/slideshow.php:219
 msgid "This slideshow requires JavaScript."
 msgstr "تتطلب عرض الشرائح هذه للجافا سكريبت."
 
@@ -10841,12 +10851,12 @@ msgstr "تحذير! دعم وحدات البايت المتعددة مفقودة
 #: modules/related-posts/jetpack-related-posts.php:1722
 msgid "With %s comment"
 msgid_plural "With %s comments"
-msgstr[0] "تتضمن %s تعليق"
-msgstr[1] "تتضمن %s من التعليقات"
-msgstr[2] "تتضمن %s من التعليقات"
-msgstr[3] "تتضمن %s من التعليقات"
-msgstr[4] "تتضمن %s من التعليقات"
-msgstr[5] "تتضمن %s من التعليقات"
+msgstr[0] "بدون تعليقات"
+msgstr[1] "مع تعليق واحد"
+msgstr[2] "مع تعليقين"
+msgstr[3] "مع %d تعليقات"
+msgstr[4] "مع %d تعليقاً"
+msgstr[5] "مع %d تعليقٍ"
 
 #: modules/sharedaddy/sharing.php:486
 msgid "You can add the following variables to your service sharing URL:"
@@ -10935,7 +10945,7 @@ msgstr "تويتر"
 msgid "This plugin will work without it, but multibyte support is used <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">if available</a>. You may see minor problems with Tweets and other sharing services."
 msgstr "سيعمل هذ المكوّن الإضافي من دونه، ولكن سيُستخدم الدعم متعدد البايت <a href=\"%s\" rel=\"noopener noreferrer\" target=\"_blank\">إذا كان متوفرًا</a>. قد تظهر مشكلات بسيطة في التغريدات وخدمات المشاركة الأخرى."
 
-#: modules/sso.php:576 modules/sso.php:976
+#: modules/sso.php:576 modules/sso.php:982
 msgid "Log in with WordPress.com"
 msgstr "تسجيل الدخول باستخدام WordPress.com"
 
@@ -11279,13 +11289,13 @@ msgstr "CSS مخصص"
 msgid "Tiled Galleries"
 msgstr "المعارض المتجانبة"
 
-#: modules/protect/math-fallback.php:72
-msgid "<strong>You failed to correctly answer the math problem.</strong> This is used to combat spam when the Protect API is unavailable. Please use your browser’s back button to return to the login form, press the \"refresh\" button to generate a new math problem, and try to log in again."
-msgstr "<strong>لقد أخفقت في الإجابة بشكل صحيح على مسألة رياضية.</strong> يستخدم هذا لمواجهة البريد المزعج عندما تكون واجهة برمجة التطبيقات لأداة Protect غير متوفرة. يرجى استخدام زر الرجوع في متصفحك للعودة إلى نموذج تسجيل الدخول، اضغط على زر \"تحديث\" لإنشاء مسألة رياضية جديدة وحاول تسجيل الدخول مرة أخرى."
-
 #: modules/protect/math-fallback.php:94
 msgid "Please solve this math problem to prove that you are not a bot. Once you solve it, you will need to log in again."
 msgstr "يرجى حل هذه المسألة الرياضية لتثبت أنك لست برنامجًا آليًا. حالما تحل هذه المسألة، يجب عليك تسجيل الدخول مرة أخرى."
+
+#: modules/protect/math-fallback.php:72
+msgid "<strong>You failed to correctly answer the math problem.</strong> This is used to combat spam when the Protect API is unavailable. Please use your browser’s back button to return to the login form, press the \"refresh\" button to generate a new math problem, and try to log in again."
+msgstr "<strong>لقد أخفقت في الإجابة بشكل صحيح على مسألة رياضية.</strong> يستخدم هذا لمواجهة البريد المزعج عندما تكون واجهة برمجة التطبيقات لأداة Protect غير متوفرة. يرجى استخدام زر الرجوع في متصفحك للعودة إلى نموذج تسجيل الدخول، اضغط على زر \"تحديث\" لإنشاء مسألة رياضية جديدة وحاول تسجيل الدخول مرة أخرى."
 
 #: modules/module-headings.php:71
 msgctxt "Module Description"
@@ -11504,7 +11514,7 @@ msgstr "النشر عبر البريد الإلكتروني"
 #: modules/module-headings.php:161
 msgctxt "Module Description"
 msgid "Add Twitter and Facebook buttons at the bottom of each post, making it easy for visitors to share your content."
-msgstr "قم بإضافة أزرار تويتر وفيسبوك في أسفل كل تدوينة، ما يُسهِّل على الزائرين مشاركة محتواك."
+msgstr "إضافة أزرار Twitter وFacebook وGoogle+ في أسفل كل مقالة مما يُسهِّل للزوار مشاركة المحتوى الخاص بك."
 
 #: modules/module-headings.php:146
 msgctxt "Module Description"
@@ -12838,7 +12848,7 @@ msgstr "**مطلوب"
 msgid "A few catchy words to motivate your readers to comment"
 msgstr "بضع كلمات جذابة لتحفيز القراء على التعليق"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 msgid "Add"
 msgstr "اضف"
 

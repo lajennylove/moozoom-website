@@ -749,7 +749,7 @@ msgid "Connection Manager"
 msgstr "Përgjegjës Lidhjesh"
 
 #. translators: %1$s is a PHP class name.
-#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:147
+#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:154
 msgid "Unable to load class %1$s. Please add the package that contains it using composer and make sure you are requiring the Jetpack autoloader"
 msgstr "S’arrihet të ngarkohet klasa %1$s. Ju lutemi, shtoni paketën që e përmban, duke përdorur hartuesin dhe sigurohuni se po kërkoni vetëngarkuesin e Jetpack-ut"
 
@@ -2712,15 +2712,15 @@ msgstr "Ju lutemi, shihni te email-et tuaj, që të ripohoni pajtimin tuaj te bu
 msgid "Subscription received!"
 msgstr "U mor pajtim!"
 
-#: modules/sso.php:944
+#: modules/sso.php:950
 msgid "Account not found. If you already have an account, make sure you have connected to WordPress.com."
 msgstr "S’u gjet llogari. Nëse keni tashmë një llogari, sigurohuni se jeni lidhur me WordPress.com."
 
-#: modules/sso.php:783
+#: modules/sso.php:789
 msgid "Something got a little mixed up and an unexpected WordPress.com user logged in."
 msgstr "Diç është ngatërruar ca dhe ka bërë hyrjen një përdorues i panjohur WordPress.com."
 
-#: modules/sso.php:768
+#: modules/sso.php:774
 msgid "You must have Two-Step Authentication enabled on your WordPress.com account."
 msgstr "Duhet të keni të aktivizuar Mirëfilltësimin Dyfaktorësh te llogaria juaj në WordPress.com."
 
@@ -3090,7 +3090,7 @@ msgid "Play Slideshow"
 msgstr "Shfaq Diapozitiva"
 
 #: extensions/blocks/slideshow/slideshow.php:195
-#: modules/shortcodes/slideshow.php:310
+#: modules/shortcodes/slideshow.php:291
 msgid "Pause Slideshow"
 msgstr "Ndali Diapozitivat"
 
@@ -3104,14 +3104,14 @@ msgid "Go to slide %d"
 msgstr "Kaloni te diapozitivi %d"
 
 #: extensions/blocks/slideshow/slideshow.php:101
-#: modules/shortcodes/slideshow.php:309 _inc/blocks/editor-beta.js:54
+#: modules/shortcodes/slideshow.php:290 _inc/blocks/editor-beta.js:54
 #: _inc/blocks/editor-experimental.js:54 _inc/blocks/editor.js:54
 #: _inc/blocks/story/view.js:6
 msgid "Previous Slide"
 msgstr "Diapozitivi i Mëparshëm"
 
 #: extensions/blocks/slideshow/slideshow.php:100
-#: modules/shortcodes/slideshow.php:311 _inc/blocks/editor-beta.js:54
+#: modules/shortcodes/slideshow.php:292 _inc/blocks/editor-beta.js:54
 #: _inc/blocks/editor-experimental.js:54 _inc/blocks/editor.js:54
 #: _inc/blocks/story/view.js:6
 msgid "Next Slide"
@@ -5180,38 +5180,38 @@ msgstr "Klikoni për ta ndarë me të tjerët në Skype"
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1311
-#: modules/publicize/publicize.php:1324
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1305
+#: modules/publicize/publicize.php:1318
 msgid "Project published and sharing project on %1$s."
 msgstr "Projekti u botua dhe po ndahet me të tjerë në %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1303
-#: modules/publicize/publicize.php:1316
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1297
+#: modules/publicize/publicize.php:1310
 msgid "Post published, sending emails to subscribers and sharing post on %1$s."
 msgstr "Postimi u botua, po dërgohen email-e te pajtimtarët dhe po ndahet postimi me të tjerë në %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1294
-#: modules/publicize/publicize.php:1307
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1288
+#: modules/publicize/publicize.php:1301
 msgid "Post published and sharing on %1$s."
 msgstr "Postimi u botua dhe po ndahet me të tjerë në %1$s."
 
 #. translators: Service name is %1$s, and account name is %2$s.
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1286
-#: modules/publicize/publicize.php:1299
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1280
+#: modules/publicize/publicize.php:1293
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1267
-#: modules/publicize/publicize.php:1280
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1261
+#: modules/publicize/publicize.php:1274
 msgid "View project"
 msgstr "Shiheni projektin"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1264
-#: modules/publicize/publicize.php:1277 modules/subscriptions.php:220
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1258
+#: modules/publicize/publicize.php:1271 modules/subscriptions.php:220
 msgid "View post"
 msgstr "Shiheni postimin"
 
@@ -6733,20 +6733,20 @@ msgstr "Gabim në prurjen e static.html. Provoni të xhironi: "
 msgid "Color scheme"
 msgstr "Skemë ngjyrash"
 
-#: modules/widget-visibility/widget-conditions.php:313
+#: modules/widget-visibility/widget-conditions.php:306
 msgid "Post type Archives:"
 msgstr "Arkiva llojesh postimi:"
 
-#: modules/widget-visibility/widget-conditions.php:633
+#: modules/widget-visibility/widget-conditions.php:626
 msgid "Match all conditions"
 msgstr "Me përputhje për krejt kushtet"
 
-#: modules/widget-visibility/widget-conditions.php:611
+#: modules/widget-visibility/widget-conditions.php:604
 msgctxt "Shown between widget visibility conditions."
 msgid "and"
 msgstr "dhe"
 
-#: modules/widget-visibility/widget-conditions.php:601
+#: modules/widget-visibility/widget-conditions.php:594
 msgctxt "Checkbox on Widget Visibility if children of the selected page should be included in the visibility rule."
 msgid "Include children"
 msgstr "Përfshi pjellat"
@@ -7038,23 +7038,23 @@ msgstr "Statistika Blogu"
 msgid "Show a hit counter for your blog."
 msgstr "Shfaqin në blogun tuaj një numërator vizitash."
 
-#: modules/widgets/authors.php:273
+#: modules/widgets/authors.php:266
 msgid "No Avatars"
 msgstr "Pa Avatare"
 
-#: modules/widgets/authors.php:269
+#: modules/widgets/authors.php:262
 msgid "Avatar Size (px):"
 msgstr "Madhësi Avatari (px):"
 
-#: modules/widgets/authors.php:264
+#: modules/widgets/authors.php:257
 msgid "(at most 10)"
 msgstr "(e shumta 10)"
 
-#: modules/widgets/authors.php:262
+#: modules/widgets/authors.php:255
 msgid "Number of posts to show for each author:"
 msgstr "Numër postimesh për t’i shfaqur për çdo autor:"
 
-#: modules/widgets/authors.php:257
+#: modules/widgets/authors.php:250
 msgid "Display all authors (including those who have not written any posts)"
 msgstr "Shfaq krejt autorët (përfshi ata që s’kanë shkruar ndonjë postim)"
 
@@ -9671,7 +9671,7 @@ msgid "Address:"
 msgstr "Adresë:"
 
 #: jetpack_vendor/automattic/jetpack-search/src/widgets/class-search-widget.php:1024
-#: modules/widgets/authors.php:250 modules/widgets/blog-stats.php:93
+#: modules/widgets/authors.php:243 modules/widgets/blog-stats.php:93
 #: modules/widgets/contact-info.php:259 modules/widgets/flickr/form.php:12
 #: modules/widgets/gallery/templates/form.php:11
 #: modules/widgets/goodreads.php:186 modules/widgets/google-translate.php:191
@@ -9713,59 +9713,59 @@ msgstr "Orë & Info"
 msgid "Display a map with your location, hours, and contact information."
 msgstr "Shfaqni një hartë me vendndodhjen tuaj, orët dhe të dhëna kontakti."
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 #: _inc/blocks/editor-beta.js:88 _inc/blocks/editor-experimental.js:88
 #: _inc/blocks/editor-no-post-editor.js:59 _inc/blocks/editor.js:88
 msgid "Delete"
 msgstr "Fshije"
 
-#: modules/widget-visibility/widget-conditions.php:608
+#: modules/widget-visibility/widget-conditions.php:601
 msgctxt "Shown between widget visibility conditions."
 msgid "or"
 msgstr "ose"
 
-#: modules/widget-visibility/widget-conditions.php:573
+#: modules/widget-visibility/widget-conditions.php:566
 #: _inc/build/widget-visibility/editor/index.js:1
 msgctxt "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
 msgid "is"
 msgstr "është"
 
-#: modules/widget-visibility/widget-conditions.php:569
+#: modules/widget-visibility/widget-conditions.php:562
 msgctxt "Noun, as in: \"This post has one taxonomy.\""
 msgid "Taxonomy"
 msgstr "Klasifikim"
 
-#: modules/widget-visibility/widget-conditions.php:567
+#: modules/widget-visibility/widget-conditions.php:560
 msgctxt "Example: The user is looking at a page, not a post."
 msgid "Page"
 msgstr "Faqe"
 
-#: modules/widget-visibility/widget-conditions.php:566
+#: modules/widget-visibility/widget-conditions.php:559
 msgctxt "Noun, as in: \"This page is a date archive.\""
 msgid "Date"
 msgstr "Datë"
 
-#: modules/widget-visibility/widget-conditions.php:565
+#: modules/widget-visibility/widget-conditions.php:558
 msgctxt "Noun, as in: \"This post has one tag.\""
 msgid "Tag"
 msgstr "Etiketë"
 
-#: modules/widget-visibility/widget-conditions.php:562
+#: modules/widget-visibility/widget-conditions.php:555
 msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
 msgid "Role"
 msgstr "Rol"
 
-#: modules/widget-visibility/widget-conditions.php:561
+#: modules/widget-visibility/widget-conditions.php:554
 msgctxt "Noun"
 msgid "User"
 msgstr "Përdorues"
 
-#: modules/widget-visibility/widget-conditions.php:558
+#: modules/widget-visibility/widget-conditions.php:551
 msgctxt "Noun, as in: \"The author of this post is...\""
 msgid "Author"
 msgstr "Autor"
 
-#: modules/widget-visibility/widget-conditions.php:557
+#: modules/widget-visibility/widget-conditions.php:550
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/dashboard/jp-search-dashboard.js:2
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
@@ -9776,29 +9776,29 @@ msgstr "Autor"
 msgid "Category"
 msgstr "Kategori"
 
-#: modules/widget-visibility/widget-conditions.php:556
+#: modules/widget-visibility/widget-conditions.php:549
 msgctxt "Used as the default option in a dropdown list"
 msgid "-- Select --"
 msgstr "-- Përzgjidhni --"
 
-#: modules/widget-visibility/widget-conditions.php:534
+#: modules/widget-visibility/widget-conditions.php:527
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Hide"
 msgstr "Fshihe"
 
-#: modules/widget-visibility/widget-conditions.php:533
+#: modules/widget-visibility/widget-conditions.php:526
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Show"
 msgstr "Shfaqe"
 
 #. translators: %s is a HTML select widget for widget visibility, 'show' and
 #. 'hide' are it's options. It will read like 'show if' or 'hide if'.
-#: modules/widget-visibility/widget-conditions.php:531
+#: modules/widget-visibility/widget-conditions.php:524
 msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show if"
 msgid "%s if:"
 msgstr "%s nëse:"
 
-#: modules/widget-visibility/widget-conditions.php:525
+#: modules/widget-visibility/widget-conditions.php:518
 #: _inc/blocks/editor-beta.js:36 _inc/blocks/editor-beta.js:94
 #: _inc/blocks/editor-experimental.js:36 _inc/blocks/editor-experimental.js:94
 #: _inc/blocks/editor-no-post-editor.js:21
@@ -9807,57 +9807,57 @@ msgstr "%s nëse:"
 msgid "Visibility"
 msgstr "Dukshmëri"
 
-#: modules/widget-visibility/widget-conditions.php:341
+#: modules/widget-visibility/widget-conditions.php:334
 msgid "All taxonomy pages"
 msgstr "Krejt faqet e klasifikimit"
 
-#: modules/widget-visibility/widget-conditions.php:338
+#: modules/widget-visibility/widget-conditions.php:331
 msgid "Static page:"
 msgstr "Faqe statike:"
 
-#: modules/widget-visibility/widget-conditions.php:311
+#: modules/widget-visibility/widget-conditions.php:304
 msgid "Post type:"
 msgstr "Lloj postimi:"
 
-#: modules/widget-visibility/widget-conditions.php:299
+#: modules/widget-visibility/widget-conditions.php:292
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
 msgid "Search results"
 msgstr "Përfundime kërkimi"
 
-#: modules/widget-visibility/widget-conditions.php:298
+#: modules/widget-visibility/widget-conditions.php:291
 msgid "404 error page"
 msgstr "Faqe gabimi 404"
 
-#: modules/widget-visibility/widget-conditions.php:297
+#: modules/widget-visibility/widget-conditions.php:290
 msgid "Archive page"
 msgstr "Faqe arkivi"
 
-#: modules/widget-visibility/widget-conditions.php:296
+#: modules/widget-visibility/widget-conditions.php:289
 msgid "Posts page"
 msgstr "Faqe postimesh"
 
-#: modules/widget-visibility/widget-conditions.php:295 _inc/build/admin.js:148
+#: modules/widget-visibility/widget-conditions.php:288 _inc/build/admin.js:148
 msgid "Front page"
 msgstr "Faqja ballore"
 
-#: modules/widget-visibility/widget-conditions.php:292
+#: modules/widget-visibility/widget-conditions.php:285
 msgid "Yearly archives"
 msgstr "Arkiva të përvitshme"
 
-#: modules/widget-visibility/widget-conditions.php:291
+#: modules/widget-visibility/widget-conditions.php:284
 msgid "Monthly archives"
 msgstr "Arkiva mujore"
 
-#: modules/widget-visibility/widget-conditions.php:290
+#: modules/widget-visibility/widget-conditions.php:283
 msgid "Daily archives"
 msgstr "Arkiva të përditshme"
 
-#: modules/widget-visibility/widget-conditions.php:289
+#: modules/widget-visibility/widget-conditions.php:282
 msgid "All date archives"
 msgstr "Krejt arkivat e datave"
 
-#: modules/widget-visibility/widget-conditions.php:264
+#: modules/widget-visibility/widget-conditions.php:257
 msgid "All tag pages"
 msgstr "Krejt faqet e etiketave"
 
@@ -10330,7 +10330,7 @@ msgstr "Shihni që tani statistika te WordPress.com"
 msgid "Loading&hellip;"
 msgstr "Po ngarkohet…"
 
-#: modules/sso.php:576 modules/sso.php:976
+#: modules/sso.php:576 modules/sso.php:982
 msgid "Log in with WordPress.com"
 msgstr "Hyni me WordPress.com-in"
 
@@ -10351,7 +10351,7 @@ msgstr "Kërko Mirëfilltësim Me Dy Hapa"
 msgid "Tweets by @%s"
 msgstr "Cicërima nga @%s"
 
-#: modules/shortcodes/slideshow.php:228
+#: modules/shortcodes/slideshow.php:219
 msgid "This slideshow requires JavaScript."
 msgstr "Kjo paraqitje diapozitivash lyp JavaScript."
 
@@ -13360,7 +13360,7 @@ msgstr "Koment"
 msgid "Jetpack's Carousel has been disabled, because another plugin or your theme is overriding the [gallery] shortcode."
 msgstr "Rrotullamja e Jetpack-ut është çaktivizuar, ngaqë një tjetër shtojcë ose temë e juaj po anashkalon kodin e shkurtër [gallery]."
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 msgid "Add"
 msgstr "Shtojeni"
 

@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
-"X-Generator: GlotPress/3.0.0\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: hr\n"
 "Project-Id-Version: Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release)\n"
 
@@ -555,38 +555,38 @@ msgstr "Kliknite kako bi podijelili na Skype-u"
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1311
-#: modules/publicize/publicize.php:1324
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1305
+#: modules/publicize/publicize.php:1318
 msgid "Project published and sharing project on %1$s."
 msgstr "Projekt je objavljen i objavljuje se na %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1303
-#: modules/publicize/publicize.php:1316
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1297
+#: modules/publicize/publicize.php:1310
 msgid "Post published, sending emails to subscribers and sharing post on %1$s."
 msgstr "Objava je objavljena, poruke e-pošte se šalju pretplatnicima i objavljuje se na %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1294
-#: modules/publicize/publicize.php:1307
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1288
+#: modules/publicize/publicize.php:1301
 msgid "Post published and sharing on %1$s."
 msgstr "Objava je objavljena i objavljuje se na %1$s."
 
 #. translators: Service name is %1$s, and account name is %2$s.
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1286
-#: modules/publicize/publicize.php:1299
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1280
+#: modules/publicize/publicize.php:1293
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1267
-#: modules/publicize/publicize.php:1280
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1261
+#: modules/publicize/publicize.php:1274
 msgid "View project"
 msgstr "Pogledaj projekt"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1264
-#: modules/publicize/publicize.php:1277 modules/subscriptions.php:220
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1258
+#: modules/publicize/publicize.php:1271 modules/subscriptions.php:220
 msgid "View post"
 msgstr "Pogledaj objavu"
 
@@ -2115,20 +2115,20 @@ msgstr "Greška pri dohvaćanju static.html. Pokušajte pokrenuti:"
 msgid "Color scheme"
 msgstr "Paleta boja"
 
-#: modules/widget-visibility/widget-conditions.php:313
+#: modules/widget-visibility/widget-conditions.php:306
 msgid "Post type Archives:"
 msgstr "Arhive Vrste objava:"
 
-#: modules/widget-visibility/widget-conditions.php:633
+#: modules/widget-visibility/widget-conditions.php:626
 msgid "Match all conditions"
 msgstr "Podudaranje sa svim uvjetima"
 
-#: modules/widget-visibility/widget-conditions.php:611
+#: modules/widget-visibility/widget-conditions.php:604
 msgctxt "Shown between widget visibility conditions."
 msgid "and"
 msgstr "i"
 
-#: modules/widget-visibility/widget-conditions.php:601
+#: modules/widget-visibility/widget-conditions.php:594
 msgctxt "Checkbox on Widget Visibility if children of the selected page should be included in the visibility rule."
 msgid "Include children"
 msgstr "Obuhvati podstranice"
@@ -2430,23 +2430,23 @@ msgstr "Blog statistika"
 msgid "Show a hit counter for your blog."
 msgstr "Prikaži brojač posjeta za moj blog."
 
-#: modules/widgets/authors.php:273
+#: modules/widgets/authors.php:266
 msgid "No Avatars"
 msgstr "Nema avatara"
 
-#: modules/widgets/authors.php:269
+#: modules/widgets/authors.php:262
 msgid "Avatar Size (px):"
 msgstr "Veličina avatara (px):"
 
-#: modules/widgets/authors.php:264
+#: modules/widgets/authors.php:257
 msgid "(at most 10)"
 msgstr "(najviše 10)"
 
-#: modules/widgets/authors.php:262
+#: modules/widgets/authors.php:255
 msgid "Number of posts to show for each author:"
 msgstr "Broj prikazanih objava za svakog autora:"
 
-#: modules/widgets/authors.php:257
+#: modules/widgets/authors.php:250
 msgid "Display all authors (including those who have not written any posts)"
 msgstr "Prikaži sve autore (uključujući one koji nisu ništa objavili)"
 
@@ -4513,7 +4513,7 @@ msgstr "Plava"
 msgid "Caption:"
 msgstr "Opis"
 
-#: modules/widget-visibility/widget-conditions.php:557
+#: modules/widget-visibility/widget-conditions.php:550
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/dashboard/jp-search-dashboard.js:2
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
@@ -4532,7 +4532,7 @@ msgstr "Centar"
 msgid "Custom"
 msgstr "Prilagodljivo"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 #: _inc/blocks/editor-beta.js:88 _inc/blocks/editor-experimental.js:88
 #: _inc/blocks/editor-no-post-editor.js:59 _inc/blocks/editor.js:88
 msgid "Delete"
@@ -4613,7 +4613,7 @@ msgid "Text Link"
 msgstr "tekstualna poveznica"
 
 #: jetpack_vendor/automattic/jetpack-search/src/widgets/class-search-widget.php:1024
-#: modules/widgets/authors.php:250 modules/widgets/blog-stats.php:93
+#: modules/widgets/authors.php:243 modules/widgets/blog-stats.php:93
 #: modules/widgets/contact-info.php:259 modules/widgets/flickr/form.php:12
 #: modules/widgets/gallery/templates/form.php:11
 #: modules/widgets/goodreads.php:186 modules/widgets/google-translate.php:191
@@ -4626,7 +4626,7 @@ msgstr "tekstualna poveznica"
 msgid "Title:"
 msgstr "Naslov:"
 
-#: modules/widget-visibility/widget-conditions.php:525
+#: modules/widget-visibility/widget-conditions.php:518
 #: _inc/blocks/editor-beta.js:36 _inc/blocks/editor-beta.js:94
 #: _inc/blocks/editor-experimental.js:36 _inc/blocks/editor-experimental.js:94
 #: _inc/blocks/editor-no-post-editor.js:21
@@ -4635,37 +4635,37 @@ msgstr "Naslov:"
 msgid "Visibility"
 msgstr "Vidljivost"
 
-#: modules/widget-visibility/widget-conditions.php:533
+#: modules/widget-visibility/widget-conditions.php:526
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Show"
 msgstr "Prikaži"
 
-#: modules/widget-visibility/widget-conditions.php:534
+#: modules/widget-visibility/widget-conditions.php:527
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Hide"
 msgstr "Sakrij"
 
-#: modules/widget-visibility/widget-conditions.php:558
+#: modules/widget-visibility/widget-conditions.php:551
 msgctxt "Noun, as in: \"The author of this post is...\""
 msgid "Author"
 msgstr "Autor"
 
-#: modules/widget-visibility/widget-conditions.php:561
+#: modules/widget-visibility/widget-conditions.php:554
 msgctxt "Noun"
 msgid "User"
 msgstr "Korisnik"
 
-#: modules/widget-visibility/widget-conditions.php:567
+#: modules/widget-visibility/widget-conditions.php:560
 msgctxt "Example: The user is looking at a page, not a post."
 msgid "Page"
 msgstr "Stranica"
 
-#: modules/widget-visibility/widget-conditions.php:569
+#: modules/widget-visibility/widget-conditions.php:562
 msgctxt "Noun, as in: \"This post has one taxonomy.\""
 msgid "Taxonomy"
 msgstr "Taksonomija"
 
-#: modules/widget-visibility/widget-conditions.php:608
+#: modules/widget-visibility/widget-conditions.php:601
 msgctxt "Shown between widget visibility conditions."
 msgid "or"
 msgstr "ili"
@@ -4812,32 +4812,32 @@ msgstr "%1$s na %2$s"
 
 #. translators: %s is a HTML select widget for widget visibility, 'show' and
 #. 'hide' are it's options. It will read like 'show if' or 'hide if'.
-#: modules/widget-visibility/widget-conditions.php:531
+#: modules/widget-visibility/widget-conditions.php:524
 msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show if"
 msgid "%s if:"
 msgstr "%s ako:"
 
-#: modules/widget-visibility/widget-conditions.php:556
+#: modules/widget-visibility/widget-conditions.php:549
 msgctxt "Used as the default option in a dropdown list"
 msgid "-- Select --"
 msgstr "-- Odaberi --"
 
-#: modules/widget-visibility/widget-conditions.php:562
+#: modules/widget-visibility/widget-conditions.php:555
 msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
 msgid "Role"
 msgstr "Uloga"
 
-#: modules/widget-visibility/widget-conditions.php:565
+#: modules/widget-visibility/widget-conditions.php:558
 msgctxt "Noun, as in: \"This post has one tag.\""
 msgid "Tag"
 msgstr "Oznaka"
 
-#: modules/widget-visibility/widget-conditions.php:566
+#: modules/widget-visibility/widget-conditions.php:559
 msgctxt "Noun, as in: \"This page is a date archive.\""
 msgid "Date"
 msgstr "Datum"
 
-#: modules/widget-visibility/widget-conditions.php:573
+#: modules/widget-visibility/widget-conditions.php:566
 #: _inc/build/widget-visibility/editor/index.js:1
 msgctxt "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
 msgid "is"
@@ -5099,7 +5099,7 @@ msgstr "Prati Blog"
 msgid "Follow Comments"
 msgstr "Prati Komentare"
 
-#: modules/widget-visibility/widget-conditions.php:295 _inc/build/admin.js:148
+#: modules/widget-visibility/widget-conditions.php:288 _inc/build/admin.js:148
 msgid "Front page"
 msgstr "Početna stranica"
 
@@ -5120,7 +5120,7 @@ msgstr "prijavljen"
 msgid "Logo"
 msgstr "Logo"
 
-#: modules/widget-visibility/widget-conditions.php:291
+#: modules/widget-visibility/widget-conditions.php:284
 msgid "Monthly archives"
 msgstr "Mjesečni arhiv"
 
@@ -5128,7 +5128,7 @@ msgstr "Mjesečni arhiv"
 msgid "Please verify your birthday."
 msgstr "Molim potvrdite vaš rođendan."
 
-#: modules/widget-visibility/widget-conditions.php:299
+#: modules/widget-visibility/widget-conditions.php:292
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
 msgid "Search results"
@@ -5289,7 +5289,7 @@ msgstr "Pogledaj: %s"
 msgid "this video"
 msgstr "ovaj video"
 
-#: modules/widget-visibility/widget-conditions.php:338
+#: modules/widget-visibility/widget-conditions.php:331
 msgid "Static page:"
 msgstr "Statična stranica:"
 
@@ -5480,31 +5480,31 @@ msgstr "Odjavljen"
 msgid "All author pages"
 msgstr "Sve stranice autora"
 
-#: modules/widget-visibility/widget-conditions.php:264
+#: modules/widget-visibility/widget-conditions.php:257
 msgid "All tag pages"
 msgstr "Sve stranice oznaka"
 
-#: modules/widget-visibility/widget-conditions.php:289
+#: modules/widget-visibility/widget-conditions.php:282
 msgid "All date archives"
 msgstr "Svi datumske arhive"
 
-#: modules/widget-visibility/widget-conditions.php:290
+#: modules/widget-visibility/widget-conditions.php:283
 msgid "Daily archives"
 msgstr "Dnevne arhive"
 
-#: modules/widget-visibility/widget-conditions.php:292
+#: modules/widget-visibility/widget-conditions.php:285
 msgid "Yearly archives"
 msgstr "Godišnje arhive"
 
-#: modules/widget-visibility/widget-conditions.php:297
+#: modules/widget-visibility/widget-conditions.php:290
 msgid "Archive page"
 msgstr "Stranica arhive"
 
-#: modules/widget-visibility/widget-conditions.php:298
+#: modules/widget-visibility/widget-conditions.php:291
 msgid "404 error page"
 msgstr "Stranica 404 greške"
 
-#: modules/widget-visibility/widget-conditions.php:341
+#: modules/widget-visibility/widget-conditions.php:334
 msgid "All taxonomy pages"
 msgstr "Sve stranice taksonomija"
 
@@ -5520,7 +5520,7 @@ msgstr "Prikaži najbolje objave"
 msgid "Notify me of new posts by email."
 msgstr "Obavijesti me o novim objavama putem e-pošte."
 
-#: modules/widget-visibility/widget-conditions.php:296
+#: modules/widget-visibility/widget-conditions.php:289
 msgid "Posts page"
 msgstr "Stranica objava"
 
@@ -5592,7 +5592,7 @@ msgstr "Dodatak VideoPress ne može komunicirati s VideoPress poslužiteljima. O
 msgid "Success! An email was just sent to confirm your subscription. Please find the email now and click 'Confirm Follow' to start subscribing."
 msgstr "Uspjeh! Poruka e-pošte je poslana kako bi potvrdili pretplatu. Pronađite poruku e-pošte i kliknite poveznicu 'Potvrdi praćenje' kako bi pretplata bila potvrđena."
 
-#: modules/widget-visibility/widget-conditions.php:311
+#: modules/widget-visibility/widget-conditions.php:304
 msgid "Post type:"
 msgstr "Vrsta objave:"
 
@@ -5975,7 +5975,7 @@ msgstr "Dodajte gumbe za dijeljenje na svoj blog i dopustite posjetiteljima da d
 msgid "Cannot deal with cookie redirects, as headers are already sent."
 msgstr "Nije moguće upravljati s preusmjeravanjem kolačića, jer su zaglavlja (headers) već poslana."
 
-#: modules/sso.php:576 modules/sso.php:976
+#: modules/sso.php:576 modules/sso.php:982
 msgid "Log in with WordPress.com"
 msgstr "Prijavite se s WordPress.com"
 
@@ -6028,7 +6028,7 @@ msgstr "Dostupni servisi"
 msgid "Live Preview"
 msgstr "Pregled uživo"
 
-#: modules/shortcodes/slideshow.php:228
+#: modules/shortcodes/slideshow.php:219
 msgid "This slideshow requires JavaScript."
 msgstr "Ovaj vrtuljak zahtijeva JavaScript"
 
@@ -7872,7 +7872,7 @@ msgstr "%s je potrebno"
 msgid "(required)"
 msgstr "(obavezno)"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 msgid "Add"
 msgstr "Dodaj"
 

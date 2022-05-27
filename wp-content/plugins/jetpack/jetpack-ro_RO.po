@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-06 11:23:39+0000\n"
+"PO-Revision-Date: 2022-05-23 20:53:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -779,7 +779,7 @@ msgid "Connection Manager"
 msgstr "Manager conexiuni"
 
 #. translators: %1$s is a PHP class name.
-#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:147
+#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:154
 msgid "Unable to load class %1$s. Please add the package that contains it using composer and make sure you are requiring the Jetpack autoloader"
 msgstr "Nu pot încărca clasa %1$s. Te rog adaugă pachetul care o conține folosind compozitorul și asigură-te că ceri încărcătorul automat Jetpack"
 
@@ -1168,7 +1168,7 @@ msgstr "CRM"
 
 #: modules/stats/class-jetpack-stats-upgrade-nudges.php:531
 msgid "Sell more and get more leads with the free Jetpack CRM plugin built specifically for WordPress."
-msgstr "Cu modulul gratuit Jetpack CRM, creat special pentru WordPress, vinzi mai mult și ai mai mulți clienți potențiali."
+msgstr "Cu modulul Jetpack CRM, creat special pentru WordPress, vinzi mai mult și ai mai mulți clienți potențiali."
 
 #: modules/stats/class-jetpack-stats-upgrade-nudges.php:527
 msgid "Install CRM"
@@ -1256,7 +1256,7 @@ msgstr "Utilizatorii WordPress.com își pot modifica detaliile de bază ale pro
 #: modules/masterbar/nudges/additional-css/class-atomic-additional-css-manager.php:44
 #: modules/masterbar/nudges/additional-css/class-wpcom-additional-css-manager.php:42
 msgid "Purchase a Pro Plan to<br> activate CSS customization"
-msgstr "Cumpără un plan Pro pentru<br> a activa personalizarea CSS"
+msgstr "Cumpără un plan Premium pentru<br> a activa personalizarea CSS"
 
 #: modules/carousel/jetpack-carousel.php:542
 msgid "This image has comments."
@@ -1739,7 +1739,7 @@ msgstr "Afișează meniul de partajare în player."
 
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-videopress.php:55
 msgid "The video content rating. One of G, PG-13 or R-17"
-msgstr "Evaluarea conținutului video. Una dintre acestea: G, PG-13 sau R-17"
+msgstr "Evaluarea conținutului video. Una dintre acestea: G, PG-13, R-17 sau X-18"
 
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-videopress.php:49
 msgid "The description of the video."
@@ -2723,7 +2723,7 @@ msgstr "URL-ul podcast-ului este invalid și nu a putut fi înglobat. Te rog ver
 
 #: extensions/blocks/podcast-player/podcast-player.php:99
 msgid "No Podcast URL provided. Please enter a valid Podcast RSS feed URL."
-msgstr "Nu ai furnizat un URL de podcast. Te rog introdu un URL valid pentru fluxul RSS de podcast."
+msgstr "Nu ai furnizat un URL de podcast. Te rog să introduci un URL valid pentru fluxul RSS de podcast."
 
 #: extensions/blocks/revue/revue.php:156 _inc/blocks/editor-beta.js:36
 #: _inc/blocks/editor-experimental.js:36
@@ -2757,15 +2757,15 @@ msgstr "Te rog verifică-ți emailurile primite pentru a confirma abonarea la bu
 msgid "Subscription received!"
 msgstr "Abonamentul a fost primit!"
 
-#: modules/sso.php:944
+#: modules/sso.php:950
 msgid "Account not found. If you already have an account, make sure you have connected to WordPress.com."
 msgstr "Nu am găsit contul. Dacă ai deja un cont, asigură-te că te-ai conectat la WordPress.com."
 
-#: modules/sso.php:783
+#: modules/sso.php:789
 msgid "Something got a little mixed up and an unexpected WordPress.com user logged in."
 msgstr "Ceva s-a amestecat puțin și a fost autentificat un utilizator WordPress.com neașteptat."
 
-#: modules/sso.php:768
+#: modules/sso.php:774
 msgid "You must have Two-Step Authentication enabled on your WordPress.com account."
 msgstr "Autentificarea în-doi-pași trebuie să fie activată pentru contul tău WordPress.com."
 
@@ -3135,7 +3135,7 @@ msgid "Play Slideshow"
 msgstr "Rulează prezentarea"
 
 #: extensions/blocks/slideshow/slideshow.php:195
-#: modules/shortcodes/slideshow.php:310
+#: modules/shortcodes/slideshow.php:291
 msgid "Pause Slideshow"
 msgstr "Întrerupe prezentarea"
 
@@ -3149,14 +3149,14 @@ msgid "Go to slide %d"
 msgstr "Mergi la diapozitivul %d"
 
 #: extensions/blocks/slideshow/slideshow.php:101
-#: modules/shortcodes/slideshow.php:309 _inc/blocks/editor-beta.js:54
+#: modules/shortcodes/slideshow.php:290 _inc/blocks/editor-beta.js:54
 #: _inc/blocks/editor-experimental.js:54 _inc/blocks/editor.js:54
 #: _inc/blocks/story/view.js:6
 msgid "Previous Slide"
 msgstr "Diapozitivul anterior"
 
 #: extensions/blocks/slideshow/slideshow.php:100
-#: modules/shortcodes/slideshow.php:311 _inc/blocks/editor-beta.js:54
+#: modules/shortcodes/slideshow.php:292 _inc/blocks/editor-beta.js:54
 #: _inc/blocks/editor-experimental.js:54 _inc/blocks/editor.js:54
 #: _inc/blocks/story/view.js:6
 msgid "Next Slide"
@@ -4800,7 +4800,7 @@ msgstr "Actualizează-ți setările de partajare"
 #: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize.php:796
 #: modules/publicize/publicize-jetpack.php:792
 msgid "<a class=\"button\" href=\"%1$s\" target=\"%2$s\">Create a Facebook page</a> to get started."
-msgstr "Pentru a începe, <a class=\"button\" href=\"%1$s\" target=\"%2$s\">creează o pagină Facebook</a>."
+msgstr "Pentru a începe, <a class=\"button\" href=\"%s\" target=\"%s\">creează o pagină Facebook</a>."
 
 #. translators: %s is the link to the support page about using Facebook with
 #. Publicize
@@ -5118,7 +5118,7 @@ msgstr "Consimțământul expiră după"
 
 #: modules/widgets/eu-cookie-law/form.php:201
 msgid "Visitors must provide consent by clicking the dismiss button when WordAds is turned on."
-msgstr "Vizitatorii trebuie să-și dea consimțământul dând clic pe butonul de renunțare când WordAds este activat."
+msgstr "Vizitatorii trebuie să-și dea consimțământul dând clic pe butonul de renunțare când reclamele Jetpack sunt activate."
 
 #: modules/widgets/eu-cookie-law/form.php:149
 msgctxt "action"
@@ -5132,7 +5132,7 @@ msgstr "Text legătură"
 #. Translators: %s is the URL to a Jetpack support article.
 #: modules/widgets/eu-cookie-law/form.php:97
 msgid "For GDPR compliance, please make sure your policy contains <a href=\"%s\" target=\"_blank\">privacy information relating to WordAds</a>."
-msgstr "Pentru respectarea GDPR, te rog asigură-te că politica ta conține <a href=\"%s\" target=\"_blank\">informații despre confidențialitate referitoare la WordAds</a>."
+msgstr "Pentru respectarea GDPR, te rog asigură-te că politica ta conține <a href=\"%s\" target=\"_blank\">informații despre confidențialitate referitoare la reclamele Jetpack</a>."
 
 #: modules/widgets/eu-cookie-law/form.php:86
 msgid "The default policy URL only covers cookies set by Jetpack. If you’re running other plugins, custom cookies, or third-party tracking technologies, you should create and link to your own cookie statement."
@@ -5231,38 +5231,38 @@ msgstr "Dă clic aici pentru a partaja pe Skype"
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1311
-#: modules/publicize/publicize.php:1324
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1305
+#: modules/publicize/publicize.php:1318
 msgid "Project published and sharing project on %1$s."
 msgstr "Proiectul a fost publicat și partajez proiectul pe %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1303
-#: modules/publicize/publicize.php:1316
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1297
+#: modules/publicize/publicize.php:1310
 msgid "Post published, sending emails to subscribers and sharing post on %1$s."
 msgstr "Articolul a fost publicat, trimit emailuri la abonați și partajez articolul pe %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1294
-#: modules/publicize/publicize.php:1307
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1288
+#: modules/publicize/publicize.php:1301
 msgid "Post published and sharing on %1$s."
 msgstr "Articolul a fost publicat și partajez pe %1$s."
 
 #. translators: Service name is %1$s, and account name is %2$s.
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1286
-#: modules/publicize/publicize.php:1299
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1280
+#: modules/publicize/publicize.php:1293
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1267
-#: modules/publicize/publicize.php:1280
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1261
+#: modules/publicize/publicize.php:1274
 msgid "View project"
 msgstr "Vezi proiectul"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1264
-#: modules/publicize/publicize.php:1277 modules/subscriptions.php:220
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1258
+#: modules/publicize/publicize.php:1271 modules/subscriptions.php:220
 msgid "View post"
 msgstr "Vezi articolul"
 
@@ -5310,7 +5310,7 @@ msgstr "A fost o problemă la validarea acestei cereri."
 #: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:186
 #: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:205
 msgid "The required \"%s\" parameter is missing."
-msgstr "Parametrul „%s” cerut lipsește."
+msgstr "Lipsește parametrul „nunic” cerut."
 
 #: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:283
 #: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:384
@@ -6797,20 +6797,20 @@ msgstr "Eroare la aducerea static.html. Încearcă rularea: "
 msgid "Color scheme"
 msgstr "Schemă de culori"
 
-#: modules/widget-visibility/widget-conditions.php:313
+#: modules/widget-visibility/widget-conditions.php:306
 msgid "Post type Archives:"
 msgstr "Arhive tip de articol:"
 
-#: modules/widget-visibility/widget-conditions.php:633
+#: modules/widget-visibility/widget-conditions.php:626
 msgid "Match all conditions"
 msgstr "Potrivește toate condițiile"
 
-#: modules/widget-visibility/widget-conditions.php:611
+#: modules/widget-visibility/widget-conditions.php:604
 msgctxt "Shown between widget visibility conditions."
 msgid "and"
 msgstr "și"
 
-#: modules/widget-visibility/widget-conditions.php:601
+#: modules/widget-visibility/widget-conditions.php:594
 msgctxt "Checkbox on Widget Visibility if children of the selected page should be included in the visibility rule."
 msgid "Include children"
 msgstr "Include copil"
@@ -7103,23 +7103,23 @@ msgstr "Statistici blog"
 msgid "Show a hit counter for your blog."
 msgstr "Arată un contor de vizite pentru blogul tău."
 
-#: modules/widgets/authors.php:273
+#: modules/widgets/authors.php:266
 msgid "No Avatars"
 msgstr "Niciun avatar"
 
-#: modules/widgets/authors.php:269
+#: modules/widgets/authors.php:262
 msgid "Avatar Size (px):"
 msgstr "Dimensiune avatar (px):"
 
-#: modules/widgets/authors.php:264
+#: modules/widgets/authors.php:257
 msgid "(at most 10)"
 msgstr "(cel mult 10)"
 
-#: modules/widgets/authors.php:262
+#: modules/widgets/authors.php:255
 msgid "Number of posts to show for each author:"
 msgstr "Număr de articole de arătat pentru fiecare autor:"
 
-#: modules/widgets/authors.php:257
+#: modules/widgets/authors.php:250
 msgid "Display all authors (including those who have not written any posts)"
 msgstr "Afișează toți autorii (inclusiv pe cei care nu au scris niciun articol)"
 
@@ -7786,7 +7786,9 @@ msgstr "Începe unul nou și creează o conexiune nouă"
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:1055
 msgid "No. <a href=\"%1$s\">%2$s</a> is a new and different website that's separate from <a href=\"%3$s\">%4$s</a>. It requires  a new connection to WordPress.com for new stats and subscribers."
-msgstr "Nu. <a href=\"%1$s\">%2$s</a> este un site nou și diferit, separat de <a href=\"%3$s\">%4$s</a>. Are nevoie de o conexiune nouă la WordPress.com pentru statistici și abonați noi."
+msgstr ""
+"Nu. <a href=\"%1$s\">%2$s</a> este un site nou și diferit, care este distinct de\n"
+"\t\t\t\t\t<a href=\"%3$s\">%4$s</a>. El are nevoie de o conexiune nouă la WordPress.com pentru statistici și abonați noi."
 
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:1033
 msgid "Migrate Stats &amp; Subscribers"
@@ -7795,7 +7797,9 @@ msgstr "Migrare statistici și abonați"
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:1007
 msgid "Yes. <a href=\"%1$s\">%2$s</a> is replacing <a href=\"%3$s\">%4$s</a>. I would like to migrate my stats and subscribers from <a href=\"%3$s\">%4$s</a> to <a href=\"%1$s\">%2$s</a>."
-msgstr "Da. <a href=\"%1$s\">%2$s</a> este înlocuit cu <a href=\"%3$s\">%4$s</a>. Vreau să migrez statisticile și abonații de la <a href=\"%3$s\">%4$s</a> la <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+"Da. <a href=\"%1$s\">%2$s</a> înlocuiește <a href=\"%3$s\">%4$s</a>. Aș dori să\n"
+"\t\t\t\t\tmigrez statisticile mele și abonații mei de la <a href=\"%3$s\">%4$s</a> la <a href=\"%1$s\">%2$s</a>."
 
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:982
@@ -7809,7 +7813,9 @@ msgstr "Corectează conexiunea Jetpack"
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:937
 msgid "If this is a separate and new website, or the new home of <a href=\"%1$s\">%2$s</a>, we recommend turning Safe Mode off, and re-establishing your connection to WordPress.com."
-msgstr "Dacă acesta este un site separat și nou sau este noua adresă a <a href=\"%1$s\">%2$s</a>, recomandăm să dezactivezi Mod în siguranță și să restabilești conexiunea la WordPress.com."
+msgstr ""
+"Dacă acesta este un site web nou și separat sau este prima nouă pagină a <a href=\"%1$s\">%2$s</a>,\n"
+"\t\t\t\t\trecomandăm oprirea modul în siguranță și restabilirea conexiunii tale la WordPress.com."
 
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:915
 msgid "Confirm Safe Mode"
@@ -7818,12 +7824,16 @@ msgstr "Confirmă mod de siguranță"
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:891
 msgid "Is this website a temporary duplicate of <a href=\"%1$s\">%2$s</a> for the purposes of testing, staging or development? If so, we recommend keeping it in Safe Mode."
-msgstr "Acest site este un duplicat temporar al <a href=\"%1$s\">%2$s</a> cu scopul de testare, pregătire sau dezvoltare? Dacă este așa, recomandăm să îl păstrezi în Mod în siguranță."
+msgstr ""
+"Este acest site web un duplicat temporar al <a href=\"%1$s\">%2$s</a> în scopul\n"
+"\t\t\t\t\tde testare, pregătire sau dezvoltare? Dacă este așa, recomandăm să-l păstrezi în modul în siguranță."
 
 #. translators: %s: Safe mode docs URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:865
 msgid "Please confirm Safe Mode or fix the Jetpack connection. Select one of the options below or <a href=\"%1$s\">learn more about Safe Mode</a>."
-msgstr "Te rog confirmă modul în siguranță sau corectează conexiunea la Jetpack. Selectează una dintre opțiunile de mai jos sau <a href=\"%1$s\">află mai multe despre Mod în siguranță</a>."
+msgstr ""
+"Te rog confirmă modul de siguranță sau corectează conexiunea Jetpack. Selectează una dintre opțiunile de mai jos sau <a href=\"%1$s\">află\n"
+"\t\t\t\t\tmai mult despre modul de siguranță</a>."
 
 #. translators: %s: Safe mode docs URL and site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:837
@@ -7903,7 +7913,7 @@ msgstr "Autentificarea cu WordPress.com nu este acum disponibilă deoarece acest
 #. Translators: placeholder is an IP address.
 #: views/admin/network-settings.php:43
 msgid "Your current IP: %1$s"
-msgstr "IP-ul tău actual: %1$s"
+msgstr "IP-ul tău actual: %(ip)s"
 
 #: _inc/lib/class.core-rest-api-endpoints.php:1177
 msgid "Invalid parameter \"dismissed\"."
@@ -8087,9 +8097,9 @@ msgid ""
 "\t\tand email. You can configure services to appear as icons, text, or both and some services like Twitter\n"
 "\t\thave additional options."
 msgstr ""
-"Vizitatorii pot să-ți partajeze articolele pe Twitter, Facebook, Reddit, Digg, LinkedIn sau prin imprimare\n"
-"→\t→\tși prin email. Poți configura serviciile pentru a apărea ca iconuri, text sau ambele și unele servicii,\n"
-"→\t→\t cum ar fi Twitter, au opțiuni suplimentare."
+"Vizitatorii pot partaja articolele tale pe Twitter, Facebook, Reddit, Digg, LinkedIn, Google+, prin imprimare\n"
+"→\t→\tși prin email. Poți configura serviciile pentru a apărea ca iconuri, text sau ambele și unele servicii, precum\n"
+"→\t→\tTwitter, au opțiuni suplimentare."
 
 #: modules/module-info.php:171
 msgid ""
@@ -9716,7 +9726,7 @@ msgstr "URL pagină Facebook"
 #. translators: %s: link to widgets administration screen.
 #: modules/widgets/facebook-likebox.php:125
 msgid "It looks like your Facebook URL is incorrectly configured. Please check it in your <a href=\"%1$s\">widget settings</a>."
-msgstr "Se pare că URL-ul tău Facebook este configurat incorect. Te rog verifică-l în <a href=\"%1$s\">setări piese</a>."
+msgstr "Se pare că URL-ul tău Facebook este configurat incorect. Te rog verifică-l în <a href=\"%s\">setări piesă</a>."
 
 #: modules/widgets/contact-info.php:329
 msgid "Hours:"
@@ -9735,7 +9745,7 @@ msgid "Address:"
 msgstr "Adresă:"
 
 #: jetpack_vendor/automattic/jetpack-search/src/widgets/class-search-widget.php:1024
-#: modules/widgets/authors.php:250 modules/widgets/blog-stats.php:93
+#: modules/widgets/authors.php:243 modules/widgets/blog-stats.php:93
 #: modules/widgets/contact-info.php:259 modules/widgets/flickr/form.php:12
 #: modules/widgets/gallery/templates/form.php:11
 #: modules/widgets/goodreads.php:186 modules/widgets/google-translate.php:191
@@ -9778,59 +9788,59 @@ msgstr "Orar de lucru și informații"
 msgid "Display a map with your location, hours, and contact information."
 msgstr "Afișează o hartă cu locația ta, orarul și informații de contact."
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 #: _inc/blocks/editor-beta.js:88 _inc/blocks/editor-experimental.js:88
 #: _inc/blocks/editor-no-post-editor.js:59 _inc/blocks/editor.js:88
 msgid "Delete"
 msgstr "Șterge"
 
-#: modules/widget-visibility/widget-conditions.php:608
+#: modules/widget-visibility/widget-conditions.php:601
 msgctxt "Shown between widget visibility conditions."
 msgid "or"
 msgstr "sau"
 
-#: modules/widget-visibility/widget-conditions.php:573
+#: modules/widget-visibility/widget-conditions.php:566
 #: _inc/build/widget-visibility/editor/index.js:1
 msgctxt "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
 msgid "is"
 msgstr "este"
 
-#: modules/widget-visibility/widget-conditions.php:569
+#: modules/widget-visibility/widget-conditions.php:562
 msgctxt "Noun, as in: \"This post has one taxonomy.\""
 msgid "Taxonomy"
 msgstr "Taxonomie"
 
-#: modules/widget-visibility/widget-conditions.php:567
+#: modules/widget-visibility/widget-conditions.php:560
 msgctxt "Example: The user is looking at a page, not a post."
 msgid "Page"
 msgstr "Pagină"
 
-#: modules/widget-visibility/widget-conditions.php:566
+#: modules/widget-visibility/widget-conditions.php:559
 msgctxt "Noun, as in: \"This page is a date archive.\""
 msgid "Date"
 msgstr "Date"
 
-#: modules/widget-visibility/widget-conditions.php:565
+#: modules/widget-visibility/widget-conditions.php:558
 msgctxt "Noun, as in: \"This post has one tag.\""
 msgid "Tag"
 msgstr "Etichetă"
 
-#: modules/widget-visibility/widget-conditions.php:562
+#: modules/widget-visibility/widget-conditions.php:555
 msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
 msgid "Role"
 msgstr "Rol"
 
-#: modules/widget-visibility/widget-conditions.php:561
+#: modules/widget-visibility/widget-conditions.php:554
 msgctxt "Noun"
 msgid "User"
 msgstr "Utilizator"
 
-#: modules/widget-visibility/widget-conditions.php:558
+#: modules/widget-visibility/widget-conditions.php:551
 msgctxt "Noun, as in: \"The author of this post is...\""
 msgid "Author"
 msgstr "Autor"
 
-#: modules/widget-visibility/widget-conditions.php:557
+#: modules/widget-visibility/widget-conditions.php:550
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/dashboard/jp-search-dashboard.js:2
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
@@ -9841,29 +9851,29 @@ msgstr "Autor"
 msgid "Category"
 msgstr "Categorie"
 
-#: modules/widget-visibility/widget-conditions.php:556
+#: modules/widget-visibility/widget-conditions.php:549
 msgctxt "Used as the default option in a dropdown list"
 msgid "-- Select --"
 msgstr "-- Selectează --"
 
-#: modules/widget-visibility/widget-conditions.php:534
+#: modules/widget-visibility/widget-conditions.php:527
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Hide"
 msgstr "Ascunde"
 
-#: modules/widget-visibility/widget-conditions.php:533
+#: modules/widget-visibility/widget-conditions.php:526
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Show"
 msgstr "Arată"
 
 #. translators: %s is a HTML select widget for widget visibility, 'show' and
 #. 'hide' are it's options. It will read like 'show if' or 'hide if'.
-#: modules/widget-visibility/widget-conditions.php:531
+#: modules/widget-visibility/widget-conditions.php:524
 msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show if"
 msgid "%s if:"
 msgstr "%s dacă:"
 
-#: modules/widget-visibility/widget-conditions.php:525
+#: modules/widget-visibility/widget-conditions.php:518
 #: _inc/blocks/editor-beta.js:36 _inc/blocks/editor-beta.js:94
 #: _inc/blocks/editor-experimental.js:36 _inc/blocks/editor-experimental.js:94
 #: _inc/blocks/editor-no-post-editor.js:21
@@ -9872,57 +9882,57 @@ msgstr "%s dacă:"
 msgid "Visibility"
 msgstr "Vizibilitate"
 
-#: modules/widget-visibility/widget-conditions.php:341
+#: modules/widget-visibility/widget-conditions.php:334
 msgid "All taxonomy pages"
 msgstr "Toate paginile cu taxonomii"
 
-#: modules/widget-visibility/widget-conditions.php:338
+#: modules/widget-visibility/widget-conditions.php:331
 msgid "Static page:"
 msgstr "Pagină statică:"
 
-#: modules/widget-visibility/widget-conditions.php:311
+#: modules/widget-visibility/widget-conditions.php:304
 msgid "Post type:"
 msgstr "Tip de articol:"
 
-#: modules/widget-visibility/widget-conditions.php:299
+#: modules/widget-visibility/widget-conditions.php:292
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
 msgid "Search results"
 msgstr "Rezultate căutare"
 
-#: modules/widget-visibility/widget-conditions.php:298
+#: modules/widget-visibility/widget-conditions.php:291
 msgid "404 error page"
 msgstr "Pagină eroare 404"
 
-#: modules/widget-visibility/widget-conditions.php:297
+#: modules/widget-visibility/widget-conditions.php:290
 msgid "Archive page"
 msgstr "Pagină arhivă"
 
-#: modules/widget-visibility/widget-conditions.php:296
+#: modules/widget-visibility/widget-conditions.php:289
 msgid "Posts page"
 msgstr "Pagină articole"
 
-#: modules/widget-visibility/widget-conditions.php:295 _inc/build/admin.js:148
+#: modules/widget-visibility/widget-conditions.php:288 _inc/build/admin.js:148
 msgid "Front page"
 msgstr "Pagina din față"
 
-#: modules/widget-visibility/widget-conditions.php:292
+#: modules/widget-visibility/widget-conditions.php:285
 msgid "Yearly archives"
 msgstr "Arhive anuale"
 
-#: modules/widget-visibility/widget-conditions.php:291
+#: modules/widget-visibility/widget-conditions.php:284
 msgid "Monthly archives"
 msgstr "Arhive lunare"
 
-#: modules/widget-visibility/widget-conditions.php:290
+#: modules/widget-visibility/widget-conditions.php:283
 msgid "Daily archives"
 msgstr "Arhive zilnice"
 
-#: modules/widget-visibility/widget-conditions.php:289
+#: modules/widget-visibility/widget-conditions.php:282
 msgid "All date archives"
 msgstr "Toate arhivele de date"
 
-#: modules/widget-visibility/widget-conditions.php:264
+#: modules/widget-visibility/widget-conditions.php:257
 msgid "All tag pages"
 msgstr "Toate paginile cu etichete"
 
@@ -10398,7 +10408,7 @@ msgstr "Vezi statisticile pe WordPress.com chiar acum"
 msgid "Loading&hellip;"
 msgstr "Încarc&hellip;"
 
-#: modules/sso.php:576 modules/sso.php:976
+#: modules/sso.php:576 modules/sso.php:982
 msgid "Log in with WordPress.com"
 msgstr "Autentificare cu WordPress.com"
 
@@ -10419,7 +10429,7 @@ msgstr "Necesită autentificare în-doi-pași"
 msgid "Tweets by @%s"
 msgstr "Twituri de @%s"
 
-#: modules/shortcodes/slideshow.php:228
+#: modules/shortcodes/slideshow.php:219
 msgid "This slideshow requires JavaScript."
 msgstr "Această prezentare necesită JavaScript."
 
@@ -11332,7 +11342,7 @@ msgstr "Înglobări scurtcoduri"
 #: modules/module-headings.php:161
 msgctxt "Module Description"
 msgid "Add Twitter and Facebook buttons at the bottom of each post, making it easy for visitors to share your content."
-msgstr "Adaugă butoane Twitter și Facebook în partea de jos a fiecărui articol, astfel vizitatorii pot să-ți partajeze cu ușurință conținutul."
+msgstr "Adaugă butoane Twitter, Facebook și Google+ în partea de jos a fiecărui articol, ușurând partajarea conținutului pentru vizitatorii tăi."
 
 #: modules/module-headings.php:160
 msgctxt "Module Name"
@@ -13188,7 +13198,7 @@ msgstr "Trebuie să te <a href=\"%s\">autentifici</a> pentru a publica un coment
 
 #: modules/comments/base.php:256
 msgid "Error: please enter a valid email address."
-msgstr "Eroare: te rog introdu o adresă de email validă."
+msgstr "Eroare: te rog să introduci o adresă de email validă."
 
 #: modules/comments/base.php:254
 msgid "Error: please fill the required fields (name, email)."
@@ -13299,7 +13309,7 @@ msgstr "Te rog introdu numele tău."
 
 #: modules/carousel/jetpack-carousel.php:1095
 msgid "Sorry, but we could not authenticate your request."
-msgstr "Regret, dar nu am putut să autentific cererea ta."
+msgstr "Regretăm, dar nu am putut să-ți autentificăm cererea."
 
 #: modules/carousel/jetpack-carousel.php:1081
 msgid "Comments on this post are closed."
@@ -13435,7 +13445,7 @@ msgstr "Comentariu"
 msgid "Jetpack's Carousel has been disabled, because another plugin or your theme is overriding the [gallery] shortcode."
 msgstr "Caruselul din Jetpack a fost dezactivat deoarece un alt modul sau o altă temă contramandează scurtcodul [gallery]."
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 msgid "Add"
 msgstr "Adaugă"
 

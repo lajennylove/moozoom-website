@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-09 12:16:00+0000\n"
+"PO-Revision-Date: 2022-05-25 00:41:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,6 +26,33 @@ msgstr "WordAds"
 #: jetpack_vendor/automattic/jetpack-wordads/src/dashboard/components/module-control/index.jsx:22
 msgid "Earn income by allowing Jetpack to display high quality ads."
 msgstr "Få inntekter ved å la Jetpack vise annonser med høy kvalitet."
+
+#: modules/videopress/class.videopress-edit-attachment.php:333
+msgid "Public"
+msgstr "Offentlig"
+
+#: modules/videopress/class.videopress-edit-attachment.php:332
+msgid "Site Default"
+msgstr "Standard for nettstedet"
+
+#: modules/videopress/class.videopress-edit-attachment.php:216
+msgctxt "A header for the video privacy setting area."
+msgid "Privacy Setting"
+msgstr "Personverninnstilling"
+
+#: modules/module-headings.php:135
+msgctxt "Module Name"
+msgid "Brute force protection"
+msgstr "Råkraft-angrepsbesyttelse"
+
+#: jetpack_vendor/automattic/jetpack-wordads/src/dashboard/class-dashboard.php:55
+msgctxt "product name shown in menu"
+msgid "WordAds"
+msgstr "WordAds"
+
+#: jetpack_vendor/automattic/jetpack-wordads/src/dashboard/class-dashboard.php:54
+msgid "WordAds Settings"
+msgstr "Innstillinger for WordAds"
 
 #: _inc/lib/class.core-rest-api-endpoints.php:2180
 msgid "Jetpack Blocks disabled."
@@ -1648,7 +1675,7 @@ msgstr "Oppgi ditt etternavn"
 msgid "Enter your first name"
 msgstr "Oppgi ditt fornavn"
 
-#: modules/sso.php:944
+#: modules/sso.php:950
 msgid "Account not found. If you already have an account, make sure you have connected to WordPress.com."
 msgstr "Konto ikke funnet. Om du allerede har en konto, sørg for at du er tilkoblet WordPress.com."
 
@@ -1715,7 +1742,7 @@ msgstr "WooCommerce-analyse"
 msgid "Use Small Header"
 msgstr "Bruk lite sidehode"
 
-#: modules/sso.php:768
+#: modules/sso.php:774
 msgid "You must have Two-Step Authentication enabled on your WordPress.com account."
 msgstr "Du må ha totrinns-autensering påslått på din WordPress.com-konto."
 
@@ -1756,7 +1783,7 @@ msgstr "Øyeblikkelig søk og filtrering for å hjelpe besøkende til  finne rel
 msgid "Could not accept the Terms of Service. Please try again later."
 msgstr "Kunne ikke godta tjenestebetingelsene. Vennligst prøv igjen."
 
-#: modules/sso.php:783
+#: modules/sso.php:789
 msgid "Something got a little mixed up and an unexpected WordPress.com user logged in."
 msgstr "Noe har blitt blandet sammen og en uventet WordPress.com-bruker logget seg inn."
 
@@ -2080,7 +2107,7 @@ msgid "Play Slideshow"
 msgstr "Spill av lysbildekarusell"
 
 #: extensions/blocks/slideshow/slideshow.php:195
-#: modules/shortcodes/slideshow.php:310
+#: modules/shortcodes/slideshow.php:291
 msgid "Pause Slideshow"
 msgstr "Pause lysbildekarusell"
 
@@ -2094,14 +2121,14 @@ msgid "Go to slide %d"
 msgstr "Gå til lysbilde %d"
 
 #: extensions/blocks/slideshow/slideshow.php:100
-#: modules/shortcodes/slideshow.php:311 _inc/blocks/editor-beta.js:54
+#: modules/shortcodes/slideshow.php:292 _inc/blocks/editor-beta.js:54
 #: _inc/blocks/editor-experimental.js:54 _inc/blocks/editor.js:54
 #: _inc/blocks/story/view.js:6
 msgid "Next Slide"
 msgstr "Neste lysbilde"
 
 #: extensions/blocks/slideshow/slideshow.php:101
-#: modules/shortcodes/slideshow.php:309 _inc/blocks/editor-beta.js:54
+#: modules/shortcodes/slideshow.php:290 _inc/blocks/editor-beta.js:54
 #: _inc/blocks/editor-experimental.js:54 _inc/blocks/editor.js:54
 #: _inc/blocks/story/view.js:6
 msgid "Previous Slide"
@@ -4050,19 +4077,19 @@ msgstr "Ikoner for sosiale medier"
 msgid "Add social-media icons to your site."
 msgstr "Legg til ikoner for sosiale medier til ditt nettsted."
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1264
-#: modules/publicize/publicize.php:1277 modules/subscriptions.php:220
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1258
+#: modules/publicize/publicize.php:1271 modules/subscriptions.php:220
 msgid "View post"
 msgstr "Vis innlegg"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1267
-#: modules/publicize/publicize.php:1280
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1261
+#: modules/publicize/publicize.php:1274
 msgid "View project"
 msgstr "Vis prosjekt"
 
 #. translators: Service name is %1$s, and account name is %2$s.
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1286
-#: modules/publicize/publicize.php:1299
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1280
+#: modules/publicize/publicize.php:1293
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
@@ -4078,15 +4105,15 @@ msgstr "Klikk for å lagre på Skype"
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1311
-#: modules/publicize/publicize.php:1324
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1305
+#: modules/publicize/publicize.php:1318
 msgid "Project published and sharing project on %1$s."
 msgstr "Prosjekt publisert og deler prosjektet på %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1294
-#: modules/publicize/publicize.php:1307
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1288
+#: modules/publicize/publicize.php:1301
 msgid "Post published and sharing on %1$s."
 msgstr "Innlegg publisert og deler på %1$s."
 
@@ -4097,8 +4124,8 @@ msgstr "Innlegg publisert og sender e-post til abonnenter."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1303
-#: modules/publicize/publicize.php:1316
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1297
+#: modules/publicize/publicize.php:1310
 msgid "Post published, sending emails to subscribers and sharing post on %1$s."
 msgstr "Innlegg publisert, sender e-post til abonnenter og deler innlegget på %1$s."
 
@@ -5603,7 +5630,7 @@ msgstr "%s må være en alfanumerisk streng eller en verfiseringsmerkelapp."
 msgid "Color scheme"
 msgstr "Fargeskjema"
 
-#: modules/widget-visibility/widget-conditions.php:313
+#: modules/widget-visibility/widget-conditions.php:306
 msgid "Post type Archives:"
 msgstr "Innholdstypearkiver:"
 
@@ -5621,7 +5648,7 @@ msgstr "Opphavsrett"
 msgid "View"
 msgstr "Vis"
 
-#: modules/widget-visibility/widget-conditions.php:633
+#: modules/widget-visibility/widget-conditions.php:626
 msgid "Match all conditions"
 msgstr "Tilfredsstill alle betingelsene"
 
@@ -5635,12 +5662,12 @@ msgstr "Publiser til min <strong>Tumblr-blogg</strong>:"
 msgid "Publicize to my <strong>Facebook Page</strong>:"
 msgstr "Publiser til min <strong>Facebook-side</strong>:"
 
-#: modules/widget-visibility/widget-conditions.php:611
+#: modules/widget-visibility/widget-conditions.php:604
 msgctxt "Shown between widget visibility conditions."
 msgid "and"
 msgstr "og"
 
-#: modules/widget-visibility/widget-conditions.php:601
+#: modules/widget-visibility/widget-conditions.php:594
 msgctxt "Checkbox on Widget Visibility if children of the selected page should be included in the visibility rule."
 msgid "Include children"
 msgstr "inkluder underliggende"
@@ -5997,19 +6024,19 @@ msgstr "Info:"
 msgid "Choose between a full post or an excerpt for the blog and archive pages, or opt for the theme's default combination of excerpt and full post."
 msgstr "Velg mellom fullt innlegg eller utdrag for blogg- og arkivsidene, eller gå for temaets standard kombinasjon av utdrag og fullt innlegg."
 
-#: modules/widgets/authors.php:269
+#: modules/widgets/authors.php:262
 msgid "Avatar Size (px):"
 msgstr "Avtarstørrelse (px):"
 
-#: modules/widgets/authors.php:264
+#: modules/widgets/authors.php:257
 msgid "(at most 10)"
 msgstr "(inntil 10)"
 
-#: modules/widgets/authors.php:262
+#: modules/widgets/authors.php:255
 msgid "Number of posts to show for each author:"
 msgstr "Antall innlegg å vise for hver forfatter:"
 
-#: modules/widgets/authors.php:257
+#: modules/widgets/authors.php:250
 msgid "Display all authors (including those who have not written any posts)"
 msgstr "Vis alle forfattere (inkludert de som aldri har skrevet noe innlegg)"
 
@@ -6047,7 +6074,7 @@ msgstr "Blip.tv-tjenesten har vært stengt siden 20. august 2015."
 msgid "Hit counter is delayed by up to 60 seconds."
 msgstr "Besøkstellere ligger etter med opp til 60 sekunder."
 
-#: modules/widgets/authors.php:273
+#: modules/widgets/authors.php:266
 msgid "No Avatars"
 msgstr "Ingen avatarer"
 
@@ -6996,8 +7023,8 @@ msgstr "Kan ikke vise oversikt over utvidelsene."
 #: _inc/lib/class.core-rest-api-endpoints.php:3750
 msgid "%s plugin needs updating."
 msgid_plural "%s plugins need updating."
-msgstr[0] "%s utvidelse trenger oppdatering."
-msgstr[1] "%s utvidelser trenger oppdateringer."
+msgstr[0] "Utvidelsen %s trenger oppdatering."
+msgstr[1] "Utvidelsene %s trenger oppdateringer."
 
 #: _inc/lib/class.core-rest-api-endpoints.php:3741
 msgid "All plugins are up-to-date. Keep up the good work!"
@@ -8031,7 +8058,7 @@ msgstr "Bildetekst:"
 msgid "Carousel"
 msgstr "Karusell"
 
-#: modules/widget-visibility/widget-conditions.php:557
+#: modules/widget-visibility/widget-conditions.php:550
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/dashboard/jp-search-dashboard.js:2
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
@@ -8054,7 +8081,7 @@ msgstr "Velg bilder"
 msgid "Custom"
 msgstr "Tilpasset"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 #: _inc/blocks/editor-beta.js:88 _inc/blocks/editor-experimental.js:88
 #: _inc/blocks/editor-no-post-editor.js:59 _inc/blocks/editor.js:88
 msgid "Delete"
@@ -8105,7 +8132,7 @@ msgctxt "Example of a phone number"
 msgid "1-202-555-1212"
 msgstr "+47 123 45 678"
 
-#: modules/widget-visibility/widget-conditions.php:567
+#: modules/widget-visibility/widget-conditions.php:560
 msgctxt "Example: The user is looking at a page, not a post."
 msgid "Page"
 msgstr "Side"
@@ -8237,32 +8264,32 @@ msgstr "Mediefil"
 msgid "My Tweets"
 msgstr "Mine tvitringer"
 
-#: modules/widget-visibility/widget-conditions.php:561
+#: modules/widget-visibility/widget-conditions.php:554
 msgctxt "Noun"
 msgid "User"
 msgstr "Bruker"
 
-#: modules/widget-visibility/widget-conditions.php:558
+#: modules/widget-visibility/widget-conditions.php:551
 msgctxt "Noun, as in: \"The author of this post is...\""
 msgid "Author"
 msgstr "Forfatter"
 
-#: modules/widget-visibility/widget-conditions.php:562
+#: modules/widget-visibility/widget-conditions.php:555
 msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
 msgid "Role"
 msgstr "Rolle"
 
-#: modules/widget-visibility/widget-conditions.php:566
+#: modules/widget-visibility/widget-conditions.php:559
 msgctxt "Noun, as in: \"This page is a date archive.\""
 msgid "Date"
 msgstr "Dato"
 
-#: modules/widget-visibility/widget-conditions.php:565
+#: modules/widget-visibility/widget-conditions.php:558
 msgctxt "Noun, as in: \"This post has one tag.\""
 msgid "Tag"
 msgstr "Stikkord"
 
-#: modules/widget-visibility/widget-conditions.php:569
+#: modules/widget-visibility/widget-conditions.php:562
 msgctxt "Noun, as in: \"This post has one taxonomy.\""
 msgid "Taxonomy"
 msgstr "Taksonomi"
@@ -8353,7 +8380,7 @@ msgstr "Vis kart"
 msgid "Show profile photos in the plugin."
 msgstr "Vis profilbilder i dette innstikket."
 
-#: modules/widget-visibility/widget-conditions.php:608
+#: modules/widget-visibility/widget-conditions.php:601
 msgctxt "Shown between widget visibility conditions."
 msgid "or"
 msgstr "eller"
@@ -8395,7 +8422,7 @@ msgid "Tiles"
 msgstr "Fliser"
 
 #: jetpack_vendor/automattic/jetpack-search/src/widgets/class-search-widget.php:1024
-#: modules/widgets/authors.php:250 modules/widgets/blog-stats.php:93
+#: modules/widgets/authors.php:243 modules/widgets/blog-stats.php:93
 #: modules/widgets/contact-info.php:259 modules/widgets/flickr/form.php:12
 #: modules/widgets/gallery/templates/form.php:11
 #: modules/widgets/goodreads.php:186 modules/widgets/google-translate.php:191
@@ -8422,17 +8449,17 @@ msgstr "Mest populære innlegg og sider etter visninger, beregnet etter 24-48 ti
 msgid "Twitter Timeline"
 msgstr "Twitter tidslinje"
 
-#: modules/widget-visibility/widget-conditions.php:556
+#: modules/widget-visibility/widget-conditions.php:549
 msgctxt "Used as the default option in a dropdown list"
 msgid "-- Select --"
 msgstr "-- velg --"
 
-#: modules/widget-visibility/widget-conditions.php:534
+#: modules/widget-visibility/widget-conditions.php:527
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Hide"
 msgstr "Skjul"
 
-#: modules/widget-visibility/widget-conditions.php:533
+#: modules/widget-visibility/widget-conditions.php:526
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Show"
 msgstr "Vis"
@@ -8445,7 +8472,7 @@ msgstr "Bekreftede tjenester"
 msgid "View Full Profile &rarr;"
 msgstr "Vis full profil &rarr;"
 
-#: modules/widget-visibility/widget-conditions.php:525
+#: modules/widget-visibility/widget-conditions.php:518
 #: _inc/blocks/editor-beta.js:36 _inc/blocks/editor-beta.js:94
 #: _inc/blocks/editor-experimental.js:36 _inc/blocks/editor-experimental.js:94
 #: _inc/blocks/editor-no-post-editor.js:21
@@ -8458,7 +8485,7 @@ msgstr "Synlighet"
 msgid "What's a Gravatar?"
 msgstr "Hva er en gravatar?"
 
-#: modules/widget-visibility/widget-conditions.php:573
+#: modules/widget-visibility/widget-conditions.php:566
 #: _inc/build/widget-visibility/editor/index.js:1
 msgctxt "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
 msgid "is"
@@ -8471,7 +8498,7 @@ msgstr "Du må velge hva du skal vise i denne <a href=\"%s\">Gravatarprofil-widg
 
 #. translators: %s is a HTML select widget for widget visibility, 'show' and
 #. 'hide' are it's options. It will read like 'show if' or 'hide if'.
-#: modules/widget-visibility/widget-conditions.php:531
+#: modules/widget-visibility/widget-conditions.php:524
 msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show if"
 msgid "%s if:"
 msgstr "%s hvis:"
@@ -8592,7 +8619,7 @@ msgstr "%s feil"
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Velg &mdash;"
 
-#: modules/widget-visibility/widget-conditions.php:298
+#: modules/widget-visibility/widget-conditions.php:291
 msgid "404 error page"
 msgstr "Status 404-siden"
 
@@ -8616,15 +8643,15 @@ msgstr "Alle forfattersider"
 msgid "All category pages"
 msgstr "Alle kategorisider"
 
-#: modules/widget-visibility/widget-conditions.php:289
+#: modules/widget-visibility/widget-conditions.php:282
 msgid "All date archives"
 msgstr "Alle datoarkiv"
 
-#: modules/widget-visibility/widget-conditions.php:264
+#: modules/widget-visibility/widget-conditions.php:257
 msgid "All tag pages"
 msgstr "Alle stikkordsider"
 
-#: modules/widget-visibility/widget-conditions.php:341
+#: modules/widget-visibility/widget-conditions.php:334
 msgid "All taxonomy pages"
 msgstr "Alle taksonomisider"
 
@@ -8632,7 +8659,7 @@ msgstr "Alle taksonomisider"
 msgid "An unknown error has occurred. Please try again later."
 msgstr "En ukjent feil har oppståttt. Vennligst prøv igjen senere."
 
-#: modules/widget-visibility/widget-conditions.php:297
+#: modules/widget-visibility/widget-conditions.php:290
 msgid "Archive page"
 msgstr "Arkivside"
 
@@ -8656,7 +8683,7 @@ msgstr "Sirkler"
 msgid "Count the page views of registered users who are logged in."
 msgstr "Tell sidevisninger for registrerte brukere som er logget inn."
 
-#: modules/widget-visibility/widget-conditions.php:290
+#: modules/widget-visibility/widget-conditions.php:283
 msgid "Daily archives"
 msgstr "Daglige arkiv"
 
@@ -8692,7 +8719,7 @@ msgstr "Følg kommentarer"
 msgid "Follower Settings"
 msgstr "Innstillinger for følging"
 
-#: modules/widget-visibility/widget-conditions.php:295 _inc/build/admin.js:148
+#: modules/widget-visibility/widget-conditions.php:288 _inc/build/admin.js:148
 msgid "Front page"
 msgstr "Forsiden"
 
@@ -8738,7 +8765,7 @@ msgstr "Logget ut"
 msgid "Logo"
 msgstr "Logo"
 
-#: modules/widget-visibility/widget-conditions.php:291
+#: modules/widget-visibility/widget-conditions.php:284
 msgid "Monthly archives"
 msgstr "Månedlige arkiv"
 
@@ -8763,11 +8790,11 @@ msgstr "JavaScript er nødvendig for å spille %s."
 msgid "Please verify your birthday."
 msgstr "Vennligst bekreft din fødselsdag."
 
-#: modules/widget-visibility/widget-conditions.php:311
+#: modules/widget-visibility/widget-conditions.php:304
 msgid "Post type:"
 msgstr "Innleggstype:"
 
-#: modules/widget-visibility/widget-conditions.php:296
+#: modules/widget-visibility/widget-conditions.php:289
 msgid "Posts page"
 msgstr "Innleggssiden"
 
@@ -8779,7 +8806,7 @@ msgstr "Utgiver begrenser avspilling av video-innbygginger."
 msgid "Remove logo"
 msgstr "Fjern logo"
 
-#: modules/widget-visibility/widget-conditions.php:299
+#: modules/widget-visibility/widget-conditions.php:292
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
 msgid "Search results"
@@ -8830,7 +8857,7 @@ msgstr "Beklager, ingenting å rapportere."
 msgid "Square Tiles"
 msgstr "Kvadratiske fliser"
 
-#: modules/widget-visibility/widget-conditions.php:338
+#: modules/widget-visibility/widget-conditions.php:331
 msgid "Static page:"
 msgstr "Fast side:"
 
@@ -8942,7 +8969,7 @@ msgstr "Vi er ikke i stand til hente statistikken akkurat nå. Vennligst prøv i
 msgid "Widget title:"
 msgstr "Widget-tittel:"
 
-#: modules/widget-visibility/widget-conditions.php:292
+#: modules/widget-visibility/widget-conditions.php:285
 msgid "Yearly archives"
 msgstr "Årlige arkiv"
 
@@ -9253,7 +9280,7 @@ msgstr "Kun ikon"
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: modules/sso.php:576 modules/sso.php:976
+#: modules/sso.php:576 modules/sso.php:982
 msgid "Log in with WordPress.com"
 msgstr "Logg inn med WordPress.com"
 
@@ -9386,7 +9413,7 @@ msgstr "Dette innlegget har blitt delt!"
 msgid "This slideshow could not be started. Try refreshing the page or viewing it in another browser."
 msgstr "Bildekarusellen kunne ikke starte. Forsøk oppfriske siden eller vise den med en annen nettleser."
 
-#: modules/shortcodes/slideshow.php:228
+#: modules/shortcodes/slideshow.php:219
 msgid "This slideshow requires JavaScript."
 msgstr "Denne bildekrusellen krever javaskript."
 
@@ -11409,7 +11436,7 @@ msgstr "(obligatorisk)"
 msgid "A few catchy words to motivate your readers to comment"
 msgstr "Et par velvalgte ord for motivere dine lesere til kommentare"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 msgid "Add"
 msgstr "Legg til"
 

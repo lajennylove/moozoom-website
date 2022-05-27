@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/3.0.0\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: fa\n"
 "Project-Id-Version: Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release)\n"
 
@@ -340,31 +340,31 @@ msgstr "برای اشتراک‌گذاری روی Skype کلیک کنید"
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1311
-#: modules/publicize/publicize.php:1324
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1305
+#: modules/publicize/publicize.php:1318
 msgid "Project published and sharing project on %1$s."
 msgstr "پروژه منتشر شد. در حال اشتراک‌گذاری پروژه روی %1$s."
 
 #. translators: Service name is %1$s, and account name is %2$s.
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1286
-#: modules/publicize/publicize.php:1299
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1280
+#: modules/publicize/publicize.php:1293
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1294
-#: modules/publicize/publicize.php:1307
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1288
+#: modules/publicize/publicize.php:1301
 msgid "Post published and sharing on %1$s."
 msgstr "نوشته منتشر شد و در حال انتشار روی %1$s."
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1267
-#: modules/publicize/publicize.php:1280
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1261
+#: modules/publicize/publicize.php:1274
 msgid "View project"
 msgstr "دیدن پروژه"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1264
-#: modules/publicize/publicize.php:1277 modules/subscriptions.php:220
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1258
+#: modules/publicize/publicize.php:1271 modules/subscriptions.php:220
 msgid "View post"
 msgstr "دیدن نوشته"
 
@@ -1081,11 +1081,11 @@ msgstr "%1$s: %2$s"
 msgid "Color scheme"
 msgstr "رنگ‌بندی"
 
-#: modules/widget-visibility/widget-conditions.php:313
+#: modules/widget-visibility/widget-conditions.php:306
 msgid "Post type Archives:"
 msgstr "بایگانی گونه‌های نوشته:"
 
-#: modules/widget-visibility/widget-conditions.php:611
+#: modules/widget-visibility/widget-conditions.php:604
 msgctxt "Shown between widget visibility conditions."
 msgid "and"
 msgstr "و"
@@ -1094,11 +1094,11 @@ msgstr "و"
 msgid "Copyright"
 msgstr "حق نشر"
 
-#: modules/widget-visibility/widget-conditions.php:633
+#: modules/widget-visibility/widget-conditions.php:626
 msgid "Match all conditions"
 msgstr "هم‌خوانی با همهٔ شرایط"
 
-#: modules/widget-visibility/widget-conditions.php:601
+#: modules/widget-visibility/widget-conditions.php:594
 msgctxt "Checkbox on Widget Visibility if children of the selected page should be included in the visibility rule."
 msgid "Include children"
 msgstr "شامل فرزندان"
@@ -1373,23 +1373,23 @@ msgstr "آمار سایت"
 msgid "Show a hit counter for your blog."
 msgstr "نمایش شمارنده بازدید برای سایت شما"
 
-#: modules/widgets/authors.php:273
+#: modules/widgets/authors.php:266
 msgid "No Avatars"
 msgstr "بدون آواتار"
 
-#: modules/widgets/authors.php:269
+#: modules/widgets/authors.php:262
 msgid "Avatar Size (px):"
 msgstr "اندازه آواتار (پیکسل):"
 
-#: modules/widgets/authors.php:264
+#: modules/widgets/authors.php:257
 msgid "(at most 10)"
 msgstr "(حداکثر 10)"
 
-#: modules/widgets/authors.php:262
+#: modules/widgets/authors.php:255
 msgid "Number of posts to show for each author:"
 msgstr "نمایش تعداد نوشته‌ها برای هر نویسنده:"
 
-#: modules/widgets/authors.php:257
+#: modules/widgets/authors.php:250
 msgid "Display all authors (including those who have not written any posts)"
 msgstr "نمایش همه نویسنده‌ها (شامل آن‌هایی که نوشته ای هم ندارند)"
 
@@ -3488,7 +3488,7 @@ msgstr "آبی"
 msgid "Caption:"
 msgstr "برنگاشت:"
 
-#: modules/widget-visibility/widget-conditions.php:557
+#: modules/widget-visibility/widget-conditions.php:550
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/dashboard/jp-search-dashboard.js:2
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
@@ -3519,7 +3519,7 @@ msgstr "سفارشی"
 msgid "Custom Email Address"
 msgstr "رایانشانی سفارشی"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 #: _inc/blocks/editor-beta.js:88 _inc/blocks/editor-experimental.js:88
 #: _inc/blocks/editor-no-post-editor.js:59 _inc/blocks/editor.js:88
 msgid "Delete"
@@ -3578,7 +3578,7 @@ msgctxt "Example of a phone number"
 msgid "1-202-555-1212"
 msgstr "1-202-555-1212"
 
-#: modules/widget-visibility/widget-conditions.php:567
+#: modules/widget-visibility/widget-conditions.php:560
 msgctxt "Example: The user is looking at a page, not a post."
 msgid "Page"
 msgstr "صفحه"
@@ -3728,32 +3728,32 @@ msgstr "میانه"
 msgid "My Tweets"
 msgstr "توییت‌های من"
 
-#: modules/widget-visibility/widget-conditions.php:561
+#: modules/widget-visibility/widget-conditions.php:554
 msgctxt "Noun"
 msgid "User"
 msgstr "کاربر"
 
-#: modules/widget-visibility/widget-conditions.php:558
+#: modules/widget-visibility/widget-conditions.php:551
 msgctxt "Noun, as in: \"The author of this post is...\""
 msgid "Author"
 msgstr "نویسنده"
 
-#: modules/widget-visibility/widget-conditions.php:562
+#: modules/widget-visibility/widget-conditions.php:555
 msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
 msgid "Role"
 msgstr "نقش"
 
-#: modules/widget-visibility/widget-conditions.php:566
+#: modules/widget-visibility/widget-conditions.php:559
 msgctxt "Noun, as in: \"This page is a date archive.\""
 msgid "Date"
 msgstr "تاریخ"
 
-#: modules/widget-visibility/widget-conditions.php:565
+#: modules/widget-visibility/widget-conditions.php:558
 msgctxt "Noun, as in: \"This post has one tag.\""
 msgid "Tag"
 msgstr "برچسب"
 
-#: modules/widget-visibility/widget-conditions.php:569
+#: modules/widget-visibility/widget-conditions.php:562
 msgctxt "Noun, as in: \"This post has one taxonomy.\""
 msgid "Taxonomy"
 msgstr "رده‌بندی"
@@ -3868,7 +3868,7 @@ msgstr "نمایش نقشه"
 msgid "Show profile photos in the plugin."
 msgstr "نمایش تصاویر شناس‌نامه در افزونه."
 
-#: modules/widget-visibility/widget-conditions.php:608
+#: modules/widget-visibility/widget-conditions.php:601
 msgctxt "Shown between widget visibility conditions."
 msgid "or"
 msgstr "یا"
@@ -3914,7 +3914,7 @@ msgid "Tiles"
 msgstr "کاشی‌ها"
 
 #: jetpack_vendor/automattic/jetpack-search/src/widgets/class-search-widget.php:1024
-#: modules/widgets/authors.php:250 modules/widgets/blog-stats.php:93
+#: modules/widgets/authors.php:243 modules/widgets/blog-stats.php:93
 #: modules/widgets/contact-info.php:259 modules/widgets/flickr/form.php:12
 #: modules/widgets/gallery/templates/form.php:11
 #: modules/widgets/goodreads.php:186 modules/widgets/google-translate.php:191
@@ -3945,17 +3945,17 @@ msgstr "تایم‌لاین توییتر"
 msgid "Types of pages to display:"
 msgstr "انواع صفحه‌ها برای نمایش:"
 
-#: modules/widget-visibility/widget-conditions.php:556
+#: modules/widget-visibility/widget-conditions.php:549
 msgctxt "Used as the default option in a dropdown list"
 msgid "-- Select --"
 msgstr "-- گزینش --"
 
-#: modules/widget-visibility/widget-conditions.php:534
+#: modules/widget-visibility/widget-conditions.php:527
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Hide"
 msgstr "نهفتن"
 
-#: modules/widget-visibility/widget-conditions.php:533
+#: modules/widget-visibility/widget-conditions.php:526
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Show"
 msgstr "نمایش"
@@ -3973,7 +3973,7 @@ msgstr "دیدن شناسنامهٔ %1$s روی %2$s"
 msgid "View Full Profile &rarr;"
 msgstr "مشاهدهٔ شناسنامهٔ کامل &rarr;"
 
-#: modules/widget-visibility/widget-conditions.php:525
+#: modules/widget-visibility/widget-conditions.php:518
 #: _inc/blocks/editor-beta.js:36 _inc/blocks/editor-beta.js:94
 #: _inc/blocks/editor-experimental.js:36 _inc/blocks/editor-experimental.js:94
 #: _inc/blocks/editor-no-post-editor.js:21
@@ -3986,7 +3986,7 @@ msgstr "رویت‌پذیری"
 msgid "What's a Gravatar?"
 msgstr "گراواتار چیست؟"
 
-#: modules/widget-visibility/widget-conditions.php:573
+#: modules/widget-visibility/widget-conditions.php:566
 #: _inc/build/widget-visibility/editor/index.js:1
 msgctxt "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
 msgid "is"
@@ -4009,7 +4009,7 @@ msgstr "خوانده‌ام"
 
 #. translators: %s is a HTML select widget for widget visibility, 'show' and
 #. 'hide' are it's options. It will read like 'show if' or 'hide if'.
-#: modules/widget-visibility/widget-conditions.php:531
+#: modules/widget-visibility/widget-conditions.php:524
 msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show if"
 msgid "%s if:"
 msgstr "%s اگر:"
@@ -4032,7 +4032,7 @@ msgstr "خطای %s"
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; گزینش کنید &mdash;"
 
-#: modules/widget-visibility/widget-conditions.php:298
+#: modules/widget-visibility/widget-conditions.php:291
 msgid "404 error page"
 msgstr "صفحه‌ی خطای 404"
 
@@ -4056,15 +4056,15 @@ msgstr "همهٔ صفحه‌های نوسنده‌ها"
 msgid "All category pages"
 msgstr "همهٔ صفحه‌های دسته‌ها"
 
-#: modules/widget-visibility/widget-conditions.php:289
+#: modules/widget-visibility/widget-conditions.php:282
 msgid "All date archives"
 msgstr "همهٔ بایگانی‌های تاریخ"
 
-#: modules/widget-visibility/widget-conditions.php:264
+#: modules/widget-visibility/widget-conditions.php:257
 msgid "All tag pages"
 msgstr "همهٔ صفحه‌های برچسب‌ها"
 
-#: modules/widget-visibility/widget-conditions.php:341
+#: modules/widget-visibility/widget-conditions.php:334
 msgid "All taxonomy pages"
 msgstr "تمام صفحه‌های رده‌بندی"
 
@@ -4072,7 +4072,7 @@ msgstr "تمام صفحه‌های رده‌بندی"
 msgid "An unknown error has occurred. Please try again later."
 msgstr "خطای ناشناخته‌ای رخ داد. لطفاً بعداً دوباره تلاش کنید."
 
-#: modules/widget-visibility/widget-conditions.php:297
+#: modules/widget-visibility/widget-conditions.php:290
 msgid "Archive page"
 msgstr "صفحهٔ بایگانی"
 
@@ -4113,7 +4113,7 @@ msgstr "امکان دریافت شناسانهٔ بارگذاری ویدئوپر
 msgid "Count the page views of registered users who are logged in."
 msgstr "شمارش بازدیدهای کاربران نام‌نویسی‌شده‌ای که وارد شده‌اند."
 
-#: modules/widget-visibility/widget-conditions.php:290
+#: modules/widget-visibility/widget-conditions.php:283
 msgid "Daily archives"
 msgstr "بایگانی‌های روزانه"
 
@@ -4158,7 +4158,7 @@ msgstr "دنبال‌کردن دیدگاه‌ها"
 msgid "Follower Settings"
 msgstr "تنظیمات دنبال‌کنندگان"
 
-#: modules/widget-visibility/widget-conditions.php:295 _inc/build/admin.js:148
+#: modules/widget-visibility/widget-conditions.php:288 _inc/build/admin.js:148
 msgid "Front page"
 msgstr "صفحهٔ نخست"
 
@@ -4235,7 +4235,7 @@ msgstr "وارد نشده"
 msgid "Logo"
 msgstr "نشان‌واره"
 
-#: modules/widget-visibility/widget-conditions.php:291
+#: modules/widget-visibility/widget-conditions.php:284
 msgid "Monthly archives"
 msgstr "بایگانی ماهانه"
 
@@ -4272,11 +4272,11 @@ msgstr "برای اجرای %s به جاوا اسکرپیت نیاز است."
 msgid "Please verify your birthday."
 msgstr "خواهشمندیم زادروز خود را درستی‌سنجی نمایید."
 
-#: modules/widget-visibility/widget-conditions.php:311
+#: modules/widget-visibility/widget-conditions.php:304
 msgid "Post type:"
 msgstr "نوع نوشته:"
 
-#: modules/widget-visibility/widget-conditions.php:296
+#: modules/widget-visibility/widget-conditions.php:289
 msgid "Posts page"
 msgstr "صفحهٔ نوشته‌ها"
 
@@ -4288,7 +4288,7 @@ msgstr "ناشر پخش فیلم‌های جاسازی‌شده را محدود 
 msgid "Remove logo"
 msgstr "برداشتن نشان‌واره"
 
-#: modules/widget-visibility/widget-conditions.php:299
+#: modules/widget-visibility/widget-conditions.php:292
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
 msgid "Search results"
@@ -4338,7 +4338,7 @@ msgstr "متأسفانه, هیچ گزارشی موجود نیست."
 msgid "Square Tiles"
 msgstr "کاشی‌های مربعی"
 
-#: modules/widget-visibility/widget-conditions.php:338
+#: modules/widget-visibility/widget-conditions.php:331
 msgid "Static page:"
 msgstr "صفحه‌ی ایستا:"
 
@@ -4458,7 +4458,7 @@ msgstr "نتوانستیم در این لحظه به آمار شما دست پی
 msgid "Widget title:"
 msgstr "عنوان ابزارک:"
 
-#: modules/widget-visibility/widget-conditions.php:292
+#: modules/widget-visibility/widget-conditions.php:285
 msgid "Yearly archives"
 msgstr "بایگانی‌های سالانه"
 
@@ -4680,7 +4680,7 @@ msgstr "لینکداین"
 msgid "Live Preview"
 msgstr "پیش‌نمایش زنده"
 
-#: modules/sso.php:576 modules/sso.php:976
+#: modules/sso.php:576 modules/sso.php:982
 msgid "Log in with WordPress.com"
 msgstr "ثبت ورود از راه WordPress.com"
 
@@ -4825,7 +4825,7 @@ msgstr "پارامتر رمز موجود نیست"
 msgid "This post has been shared!"
 msgstr "این نوشته به اشتراک گذاشته شده!"
 
-#: modules/shortcodes/slideshow.php:228
+#: modules/shortcodes/slideshow.php:219
 msgid "This slideshow requires JavaScript."
 msgstr "این نمایش پرده‌ای نیاز به جاوااسکریپت دارد."
 
@@ -6801,7 +6801,7 @@ msgstr "%s به یک رایانشانی معتبر نیاز دارد"
 msgid "(required)"
 msgstr "(لازم)"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 msgid "Add"
 msgstr "افزودن"
 

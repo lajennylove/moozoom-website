@@ -406,32 +406,57 @@ function selectFeeling(id) {
 
 }
 
-function contactFormSubmit() {
-    $("#contactForm").validate();
+var pricing_heding = "sales";
+    var how_do_you_feel = "";
+    $('.pricing_head').click(function() {
 
-    $.ajax({
-        type: "POST",
-        url: 'https://my.moozoomapp.com/api/contact-us',
-        data: {
-            firstName: $(".firstname").val(),
-            lastName: $(".lastname").val(),
-            email: $(".email").val(),
-            phone: $(".phone").val(),
-            contactMethod: "email",
-            message: $(".message").val(),
-            type: "sales",
-            emotion: "sad"
-        },
-         success: function(data) {
-            $(".success_msg").empty().append("<h3>Thank you for getting in touch! </h3>");
-            $(".error_msg").css('display', 'none');
-            // Ajax call completed successfully
-
-        },
-        error: function(data) {
-            $(".error_msg").empty().append("<h3>Something Went  </h3>");
-            $(".error_msg").css('display', 'block');
-            // // Some error in ajax call
+        pricing_heding = $(this).html();
+        if (pricing_heding == "Pricing") {
+            pricing_heding = "Sales";
         }
+        if (pricing_heding == "Improvements") {
+            pricing_heding = "Suggestion";
+        }
+
     });
-}
+    $('.how-do-you-feel').click(function() {
+
+        how_do_you_feel = $(this).attr('data-value');
+		$(".how-do-you-feel").removeClass("shadow");
+        $(this).addClass("shadow");    });
+    $('select').on('change', function() {
+        pricing_heding = this.value;
+		//console.log(pricing_heding);
+    });
+
+    function contactFormSubmit() {
+        $("#contactForm").validate({
+            submitHandler: function(form) {
+                $.ajax({
+                    type: "POST",
+                    url: 'https://my.moozoomapp.com/api/contact-us',
+                    data: {
+                        firstName: $(".firstname").val(),
+                        lastName: $(".lastname").val(),
+                        email: $(".email").val(),
+                        phone: $(".phone").val(),
+                        contactMethod: $('input[name=email_type]:checked', '#contactForm').val(),
+                        message: $(".message").val(),
+                        type: pricing_heding.toLowerCase(),
+                        emotion: how_do_you_feel
+                    },
+                    success: function(data) {
+                        $(".success_msg").empty().append("<h3>Thank you for getting in touch! </h3>");
+                        $(".error_msg").css('display', 'none');
+                        // Ajax call completed successfully
+
+                    },
+                    error: function(data) {
+                        $(".error_msg").empty().append("<h3>Something Went Wrong! </h3>");
+                        $(".error_msg").css('display', 'block');
+                        // // Some error in ajax call
+                    }
+                });
+            }
+        });
+    }

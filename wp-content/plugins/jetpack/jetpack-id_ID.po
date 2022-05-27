@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-17 09:54:08+0000\n"
+"PO-Revision-Date: 2022-05-24 09:54:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -779,7 +779,7 @@ msgid "Connection Manager"
 msgstr "Pengelola Koneksi"
 
 #. translators: %1$s is a PHP class name.
-#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:147
+#: jetpack_vendor/automattic/jetpack-config/src/class-config.php:154
 msgid "Unable to load class %1$s. Please add the package that contains it using composer and make sure you are requiring the Jetpack autoloader"
 msgstr "Tidak dapat memuat kelas %1$s. Harap tambahkan paket yang berisi situs menggunakan composer dan pastikan Anda mengharuskan Jetpack autoloader"
 
@@ -1168,7 +1168,7 @@ msgstr "CRM"
 
 #: modules/stats/class-jetpack-stats-upgrade-nudges.php:531
 msgid "Sell more and get more leads with the free Jetpack CRM plugin built specifically for WordPress."
-msgstr "Jual dan dapatkan lebih banyak prospek dengan plugin Jetpack CRM gratis yang dibuat khusus untuk WordPress."
+msgstr "Jual dan dapatkan lebih banyak prospek dengan plugin CRM Jetpack yang dibuat khusus untuk WordPress."
 
 #: modules/stats/class-jetpack-stats-upgrade-nudges.php:527
 msgid "Install CRM"
@@ -1256,7 +1256,7 @@ msgstr "Pengguna WordPress.com dapat mengubah informasi umum profilnya (yaitu Na
 #: modules/masterbar/nudges/additional-css/class-atomic-additional-css-manager.php:44
 #: modules/masterbar/nudges/additional-css/class-wpcom-additional-css-manager.php:42
 msgid "Purchase a Pro Plan to<br> activate CSS customization"
-msgstr "Beli Paket Pro untuk<br> mengaktifkan penyesuaian CSS"
+msgstr "Beli Paket Premium untuk<br> mengaktifkan kustomisasi CSS"
 
 #: modules/carousel/jetpack-carousel.php:531
 msgid "Toggle photo comments visibility"
@@ -1739,7 +1739,7 @@ msgstr "Tampilkan menu berbagi pada pemutar."
 
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-videopress.php:55
 msgid "The video content rating. One of G, PG-13 or R-17"
-msgstr "Rating konten video. Salah satu dari G, PG-13, atau R-17"
+msgstr "Rating konten video. Termasuk G, PG-13, R-17, atau X-18"
 
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-videopress.php:49
 msgid "The description of the video."
@@ -2682,7 +2682,7 @@ msgstr "Situs kami tidak terhubung dengan Jetpack"
 msgid "Google Calendar"
 msgstr "Google Kalender"
 
-#: modules/sso.php:944
+#: modules/sso.php:950
 msgid "Account not found. If you already have an account, make sure you have connected to WordPress.com."
 msgstr "Akun tidak ditemukan. Jika sudah memiliki akun, pastikan Anda telah terhubung dengan WordPress.com."
 
@@ -2758,7 +2758,7 @@ msgstr "Masukkan nama depan Anda"
 msgid "Earn"
 msgstr "Pendapatan"
 
-#: modules/sso.php:768
+#: modules/sso.php:774
 msgid "You must have Two-Step Authentication enabled on your WordPress.com account."
 msgstr "Anda harus mengaktifkan Autentikasi Dua Langkah di akun WordPress.com Anda."
 
@@ -2805,7 +2805,7 @@ msgstr "Gunakan Header Kecil"
 msgid "Help visitors quickly find answers with highly relevant instant search results and powerful filtering."
 msgstr "Bantu pengunjung agar cepat menemukan jawaban dengan hasil pencarian yang sangat relevan dan pemfilteran yang canggih."
 
-#: modules/sso.php:783
+#: modules/sso.php:789
 msgid "Something got a little mixed up and an unexpected WordPress.com user logged in."
 msgstr "Ada masalah dan pengguna WordPress.com yang tidak diharapkan sudah login."
 
@@ -3133,7 +3133,7 @@ msgid "Play Slideshow"
 msgstr "Putar Slideshow"
 
 #: extensions/blocks/slideshow/slideshow.php:195
-#: modules/shortcodes/slideshow.php:310
+#: modules/shortcodes/slideshow.php:291
 msgid "Pause Slideshow"
 msgstr "Jeda Slideshow"
 
@@ -3147,14 +3147,14 @@ msgid "Go to slide %d"
 msgstr "Buka slide %d"
 
 #: extensions/blocks/slideshow/slideshow.php:100
-#: modules/shortcodes/slideshow.php:311 _inc/blocks/editor-beta.js:54
+#: modules/shortcodes/slideshow.php:292 _inc/blocks/editor-beta.js:54
 #: _inc/blocks/editor-experimental.js:54 _inc/blocks/editor.js:54
 #: _inc/blocks/story/view.js:6
 msgid "Next Slide"
 msgstr "Slide Berikutnya"
 
 #: extensions/blocks/slideshow/slideshow.php:101
-#: modules/shortcodes/slideshow.php:309 _inc/blocks/editor-beta.js:54
+#: modules/shortcodes/slideshow.php:290 _inc/blocks/editor-beta.js:54
 #: _inc/blocks/editor-experimental.js:54 _inc/blocks/editor.js:54
 #: _inc/blocks/story/view.js:6
 msgid "Previous Slide"
@@ -5109,7 +5109,7 @@ msgstr "Persetujuan berakhir setelah"
 
 #: modules/widgets/eu-cookie-law/form.php:201
 msgid "Visitors must provide consent by clicking the dismiss button when WordAds is turned on."
-msgstr "Pengunjung harus memberikan persetujuan dengan mengklik tombol tutup saat WordAds diaktifkan."
+msgstr "Pengunjung harus memberikan persetujuan dengan mengklik tombol tutup saat Iklan Jetpack diaktifkan."
 
 #: modules/widgets/eu-cookie-law/form.php:149
 msgctxt "action"
@@ -5123,7 +5123,7 @@ msgstr "Teks tautan"
 #. Translators: %s is the URL to a Jetpack support article.
 #: modules/widgets/eu-cookie-law/form.php:97
 msgid "For GDPR compliance, please make sure your policy contains <a href=\"%s\" target=\"_blank\">privacy information relating to WordAds</a>."
-msgstr "Untuk mematuhi GDPR, pastikan kebijakan Anda memuat <a href=\"%s\" target=\"_blank\">informasi privasi terkait WordAds</a>."
+msgstr "Untuk kepatuhan GDPR, pastikan kebijakan Anda berisi <a href=\"%s\" target=\"_blank\">kebijakan informasi terkait Iklan Jetpack</a>."
 
 #: modules/widgets/eu-cookie-law/form.php:86
 msgid "The default policy URL only covers cookies set by Jetpack. If you’re running other plugins, custom cookies, or third-party tracking technologies, you should create and link to your own cookie statement."
@@ -5222,38 +5222,38 @@ msgstr "Klik untuk berbagi di Skype"
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1311
-#: modules/publicize/publicize.php:1324
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1305
+#: modules/publicize/publicize.php:1318
 msgid "Project published and sharing project on %1$s."
 msgstr "Proyek diterbitkan dan proyek dibagikan di %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1303
-#: modules/publicize/publicize.php:1316
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1297
+#: modules/publicize/publicize.php:1310
 msgid "Post published, sending emails to subscribers and sharing post on %1$s."
 msgstr "Pos diterbitkan, email dikirimkan ke langganan dan pos dibagikan di %1$s."
 
 #. translators: %1$s is a comma-separated list of services and accounts. Ex.
 #. Facebook (@jetpack), Twitter (@jetpack)
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1294
-#: modules/publicize/publicize.php:1307
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1288
+#: modules/publicize/publicize.php:1301
 msgid "Post published and sharing on %1$s."
 msgstr "Pos diterbitkan dan %1$s."
 
 #. translators: Service name is %1$s, and account name is %2$s.
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1286
-#: modules/publicize/publicize.php:1299
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1280
+#: modules/publicize/publicize.php:1293
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1267
-#: modules/publicize/publicize.php:1280
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1261
+#: modules/publicize/publicize.php:1274
 msgid "View project"
 msgstr "Lihat proyek"
 
-#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1264
-#: modules/publicize/publicize.php:1277 modules/subscriptions.php:220
+#: jetpack_vendor/automattic/jetpack-publicize/src/class-publicize-base.php:1258
+#: modules/publicize/publicize.php:1271 modules/subscriptions.php:220
 msgid "View post"
 msgstr "Lihat pos"
 
@@ -5310,7 +5310,7 @@ msgstr "Terjadi masalah saat memvalidasi permintaan ini."
 #: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:186
 #: jetpack_vendor/automattic/jetpack-connection/src/class-secrets.php:205
 msgid "The required \"%s\" parameter is missing."
-msgstr "Parameter wajib \"%s\" tidak ditemukan."
+msgstr "Parameter “nonce” yang dibutuhkan hilang."
 
 #: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:283
 #: jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php:384
@@ -6774,20 +6774,20 @@ msgstr "Error saat mengambil static.html. Coba jalankan: "
 msgid "Color scheme"
 msgstr "Skema warna"
 
-#: modules/widget-visibility/widget-conditions.php:313
+#: modules/widget-visibility/widget-conditions.php:306
 msgid "Post type Archives:"
 msgstr "Arsip Tipe pos:"
 
-#: modules/widget-visibility/widget-conditions.php:633
+#: modules/widget-visibility/widget-conditions.php:626
 msgid "Match all conditions"
 msgstr "Cocok untuk segala kondisi"
 
-#: modules/widget-visibility/widget-conditions.php:611
+#: modules/widget-visibility/widget-conditions.php:604
 msgctxt "Shown between widget visibility conditions."
 msgid "and"
 msgstr "dan"
 
-#: modules/widget-visibility/widget-conditions.php:601
+#: modules/widget-visibility/widget-conditions.php:594
 msgctxt "Checkbox on Widget Visibility if children of the selected page should be included in the visibility rule."
 msgid "Include children"
 msgstr "Sertakan anak-anak"
@@ -7083,23 +7083,23 @@ msgstr "Statistik Blog"
 msgid "Show a hit counter for your blog."
 msgstr "Tampilkan penghitung hit untuk blog Anda."
 
-#: modules/widgets/authors.php:273
+#: modules/widgets/authors.php:266
 msgid "No Avatars"
 msgstr "Tanpa avatar"
 
-#: modules/widgets/authors.php:269
+#: modules/widgets/authors.php:262
 msgid "Avatar Size (px):"
 msgstr "Ukuran Avatar (px):"
 
-#: modules/widgets/authors.php:264
+#: modules/widgets/authors.php:257
 msgid "(at most 10)"
 msgstr "(paling banyak 10)"
 
-#: modules/widgets/authors.php:262
+#: modules/widgets/authors.php:255
 msgid "Number of posts to show for each author:"
 msgstr "Jumlah postingan yang ditampilkan untuk setiap penulis:"
 
-#: modules/widgets/authors.php:257
+#: modules/widgets/authors.php:250
 msgid "Display all authors (including those who have not written any posts)"
 msgstr "Tampilkan semua penulis (termasuk yang belum menulis pos sama sekali)"
 
@@ -7755,7 +7755,9 @@ msgstr "Mulai dari Awal & Buat Koneksi Baru"
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:1055
 msgid "No. <a href=\"%1$s\">%2$s</a> is a new and different website that's separate from <a href=\"%3$s\">%4$s</a>. It requires  a new connection to WordPress.com for new stats and subscribers."
-msgstr "No. <a href=\"%1$s\">%2$s</a> adalah situs web baru dan terpisah dari <a href=\"%3$s\">%4$s</a>.  Koneksi baru ke WordPress.com diperlukan untuk statistik dan pelanggan baru."
+msgstr ""
+"Tidak. <a href=\"%1$s\">%2$s</a> adalah situs web baru dan terpisah dari \n"
+"\t\t\t\t\t<a href=\"%3$s\">%4$s</a>. Koneksi baru ke WordPress.com diperlukan untuk statistik dan pelanggan baru."
 
 #: modules/contact-form/class-grunion-contact-form-endpoint.php:24
 #: modules/contact-form/class-grunion-contact-form-endpoint.php:42
@@ -7769,7 +7771,9 @@ msgstr "Migrasi Statistik & Pelanggan"
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:1007
 msgid "Yes. <a href=\"%1$s\">%2$s</a> is replacing <a href=\"%3$s\">%4$s</a>. I would like to migrate my stats and subscribers from <a href=\"%3$s\">%4$s</a> to <a href=\"%1$s\">%2$s</a>."
-msgstr "Ya. <a href=\"%1$s\">%2$s</a> sedang menggantikan <a href=\"%3$s\">%4$s</a>. Saya ingin memindahkan statistik dan pelanggan saya dari <a href=\"%3$s\">%4$s</a> ke <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+"Ya. <a href=\"%1$s\">%2$s</a> menggantikan <a href=\"%3$s\">%4$s</a>. Saya ingin\n"
+"\t\t\t\t\tMemigrasi statistik dan pelanggan saya dari <a href=\"%3$s\">%4$s</a> ke <a href=\"%1$s\">%2$s</a>."
 
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:982
@@ -7787,12 +7791,16 @@ msgstr "Konfirmasi Mode Aman"
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:891
 msgid "Is this website a temporary duplicate of <a href=\"%1$s\">%2$s</a> for the purposes of testing, staging or development? If so, we recommend keeping it in Safe Mode."
-msgstr "Apakah situs web ini duplikat sementara <a href=\"%1$s\">%2$s</a> untuk tujuan pengujian, staging, atau pengembangan? Jika ya, sebaiknya pertahankan Mode Aman."
+msgstr ""
+"Apakah situs web ini duplikat sementara <a href=\"%1$s\">%2$s</a> untuk tujuan \n"
+"\t\t\t\t\tpengujian, staging, atau pengembangan? Jika ya, sebaiknya pertahankan Mode Aman."
 
 #. translators: %s: Site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:937
 msgid "If this is a separate and new website, or the new home of <a href=\"%1$s\">%2$s</a>, we recommend turning Safe Mode off, and re-establishing your connection to WordPress.com."
-msgstr "Jika ini adalah situs web yang baru dan terpisah, atau rumah baru bagi <a href=\"%1$s\">%2$s</a>, sebaiknya nonaktifkan Mode Aman, dan buat ulang koneksi ke WordPress.com."
+msgstr ""
+"Jika ini adalah situs web yang baru dan terpisah, atau rumah baru bagi <a href=\"%1$s\">%2$s</a>, \n"
+"\t\t\t\t\tsebaiknya nonaktifkan Mode Aman, dan buat ulang koneksi ke WordPress.com."
 
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:733
 msgid "Try Again"
@@ -7801,7 +7809,9 @@ msgstr "Coba Lagi"
 #. translators: %s: Safe mode docs URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:865
 msgid "Please confirm Safe Mode or fix the Jetpack connection. Select one of the options below or <a href=\"%1$s\">learn more about Safe Mode</a>."
-msgstr "Silakan konfirmasi Mode Aman atau perbaiki koneksi Jetpack. Pilih salah satu pilihan di bawah atau <a href=\"%1$s\">pelajari lebih lanjut tentang Mode Aman</a>."
+msgstr ""
+"Silakan konfirmasi Mode Aman atau perbaiki koneksi Jetpack. Pilih salah satu pilihan di bawah atau <a href=\"%1$s\">pelajari \n"
+"\t\t\t\t\tselengkapnya tentang Mode Aman</a>."
 
 #. translators: %s: Safe mode docs URL and site URL.
 #: jetpack_vendor/automattic/jetpack-identity-crisis/src/class-identity-crisis.php:837
@@ -7876,7 +7886,7 @@ msgstr "Login dengan WordPress.com saat ini tidak tersedia karena situs ini meng
 #. Translators: placeholder is an IP address.
 #: views/admin/network-settings.php:43
 msgid "Your current IP: %1$s"
-msgstr "IP Anda saat ini: %1$s"
+msgstr "IP Anda Saat Ini: %(ip)s"
 
 #: _inc/lib/class.core-rest-api-endpoints.php:1177
 msgid "Invalid parameter \"dismissed\"."
@@ -9275,7 +9285,7 @@ msgstr "Keterangan:"
 msgid "Carousel"
 msgstr "Carousel"
 
-#: modules/widget-visibility/widget-conditions.php:557
+#: modules/widget-visibility/widget-conditions.php:550
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/dashboard/jp-search-dashboard.js:2
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
@@ -9306,7 +9316,7 @@ msgstr "Tersuai"
 msgid "Custom Email Address"
 msgstr "Alamat Email Tersuai"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 #: _inc/blocks/editor-beta.js:88 _inc/blocks/editor-experimental.js:88
 #: _inc/blocks/editor-no-post-editor.js:59 _inc/blocks/editor.js:88
 msgid "Delete"
@@ -9361,7 +9371,7 @@ msgctxt "Example of a phone number"
 msgid "1-202-555-1212"
 msgstr "1-202-555-1212"
 
-#: modules/widget-visibility/widget-conditions.php:567
+#: modules/widget-visibility/widget-conditions.php:560
 msgctxt "Example: The user is looking at a page, not a post."
 msgid "Page"
 msgstr "Halaman"
@@ -9458,7 +9468,7 @@ msgstr "ID Pengguna tidak valid, harap verifikasi dan masukkan kembali ID penggu
 #. translators: %s: link to widgets administration screen.
 #: modules/widgets/facebook-likebox.php:125
 msgid "It looks like your Facebook URL is incorrectly configured. Please check it in your <a href=\"%1$s\">widget settings</a>."
-msgstr "Sepertinya terdapat kesalahan pada konfigurasi URL Facebook Anda. Periksa di <a href=\"%1$s\">pengaturan widget</a> Anda."
+msgstr "Kelihatannya URL Facebook Anda belum dikonfigurasikan dengan tepat. Silakan cek di <a href=\"%s\">pengaturan widget</a> Anda."
 
 #: modules/widgets/flickr/form.php:119 modules/widgets/rsslinks-widget.php:181
 #: modules/widgets/social-icons.php:268
@@ -9520,32 +9530,32 @@ msgstr "Sedang"
 msgid "My Tweets"
 msgstr "Kicauan Saya"
 
-#: modules/widget-visibility/widget-conditions.php:561
+#: modules/widget-visibility/widget-conditions.php:554
 msgctxt "Noun"
 msgid "User"
 msgstr "Pengguna"
 
-#: modules/widget-visibility/widget-conditions.php:558
+#: modules/widget-visibility/widget-conditions.php:551
 msgctxt "Noun, as in: \"The author of this post is...\""
 msgid "Author"
 msgstr "Penulis"
 
-#: modules/widget-visibility/widget-conditions.php:562
+#: modules/widget-visibility/widget-conditions.php:555
 msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
 msgid "Role"
 msgstr "Peran"
 
-#: modules/widget-visibility/widget-conditions.php:566
+#: modules/widget-visibility/widget-conditions.php:559
 msgctxt "Noun, as in: \"This page is a date archive.\""
 msgid "Date"
 msgstr "Tanggal"
 
-#: modules/widget-visibility/widget-conditions.php:565
+#: modules/widget-visibility/widget-conditions.php:558
 msgctxt "Noun, as in: \"This post has one tag.\""
 msgid "Tag"
 msgstr "Tag"
 
-#: modules/widget-visibility/widget-conditions.php:569
+#: modules/widget-visibility/widget-conditions.php:562
 msgctxt "Noun, as in: \"This post has one taxonomy.\""
 msgid "Taxonomy"
 msgstr "Taksonomi"
@@ -9660,7 +9670,7 @@ msgstr "Tampilkan map"
 msgid "Show profile photos in the plugin."
 msgstr "Tampilkan foto profil dalam plugin."
 
-#: modules/widget-visibility/widget-conditions.php:608
+#: modules/widget-visibility/widget-conditions.php:601
 msgctxt "Shown between widget visibility conditions."
 msgid "or"
 msgstr "atau"
@@ -9706,7 +9716,7 @@ msgid "Tiles"
 msgstr "Susun Ubin"
 
 #: jetpack_vendor/automattic/jetpack-search/src/widgets/class-search-widget.php:1024
-#: modules/widgets/authors.php:250 modules/widgets/blog-stats.php:93
+#: modules/widgets/authors.php:243 modules/widgets/blog-stats.php:93
 #: modules/widgets/contact-info.php:259 modules/widgets/flickr/form.php:12
 #: modules/widgets/gallery/templates/form.php:11
 #: modules/widgets/goodreads.php:186 modules/widgets/google-translate.php:191
@@ -9741,17 +9751,17 @@ msgstr "Lini masa Twitter"
 msgid "Types of pages to display:"
 msgstr "Jenis halaman yang ditampilkan:"
 
-#: modules/widget-visibility/widget-conditions.php:556
+#: modules/widget-visibility/widget-conditions.php:549
 msgctxt "Used as the default option in a dropdown list"
 msgid "-- Select --"
 msgstr "-- Pilih --"
 
-#: modules/widget-visibility/widget-conditions.php:534
+#: modules/widget-visibility/widget-conditions.php:527
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Hide"
 msgstr "Sembunyikan"
 
-#: modules/widget-visibility/widget-conditions.php:533
+#: modules/widget-visibility/widget-conditions.php:526
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Show"
 msgstr "Tampilkan"
@@ -9769,7 +9779,7 @@ msgstr "Tampilkan %1$s&#8217;s profil di %2$s"
 msgid "View Full Profile &rarr;"
 msgstr "Tampilkan Profil Lengkap &rarr;"
 
-#: modules/widget-visibility/widget-conditions.php:525
+#: modules/widget-visibility/widget-conditions.php:518
 #: _inc/blocks/editor-beta.js:36 _inc/blocks/editor-beta.js:94
 #: _inc/blocks/editor-experimental.js:36 _inc/blocks/editor-experimental.js:94
 #: _inc/blocks/editor-no-post-editor.js:21
@@ -9782,7 +9792,7 @@ msgstr "Visibilitas"
 msgid "What's a Gravatar?"
 msgstr "Apa itu Gravatar?"
 
-#: modules/widget-visibility/widget-conditions.php:573
+#: modules/widget-visibility/widget-conditions.php:566
 #: _inc/build/widget-visibility/editor/index.js:1
 msgctxt "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
 msgid "is"
@@ -9805,7 +9815,7 @@ msgstr "Baca"
 
 #. translators: %s is a HTML select widget for widget visibility, 'show' and
 #. 'hide' are it's options. It will read like 'show if' or 'hide if'.
-#: modules/widget-visibility/widget-conditions.php:531
+#: modules/widget-visibility/widget-conditions.php:524
 msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show if"
 msgid "%s if:"
 msgstr "%s jika:"
@@ -9832,7 +9842,7 @@ msgstr "%s Galat"
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Pilih &mdash;"
 
-#: modules/widget-visibility/widget-conditions.php:298
+#: modules/widget-visibility/widget-conditions.php:291
 msgid "404 error page"
 msgstr "laman galat 404"
 
@@ -9856,15 +9866,15 @@ msgstr "Semua laman penulis"
 msgid "All category pages"
 msgstr "Semua laman kategori"
 
-#: modules/widget-visibility/widget-conditions.php:289
+#: modules/widget-visibility/widget-conditions.php:282
 msgid "All date archives"
 msgstr "Semua arsip per tanggal"
 
-#: modules/widget-visibility/widget-conditions.php:264
+#: modules/widget-visibility/widget-conditions.php:257
 msgid "All tag pages"
 msgstr "Semua lama tag"
 
-#: modules/widget-visibility/widget-conditions.php:341
+#: modules/widget-visibility/widget-conditions.php:334
 msgid "All taxonomy pages"
 msgstr "Semua halaman taksonomi"
 
@@ -9872,7 +9882,7 @@ msgstr "Semua halaman taksonomi"
 msgid "An unknown error has occurred. Please try again later."
 msgstr "Terjadi galat tak dikenal. Silakan coba lagi nanti."
 
-#: modules/widget-visibility/widget-conditions.php:297
+#: modules/widget-visibility/widget-conditions.php:290
 msgid "Archive page"
 msgstr "Arsipkan halaman"
 
@@ -9917,7 +9927,7 @@ msgstr "Tak bisa mengambil token unggah VideoPress. Silakan coba lagi nanti."
 msgid "Count the page views of registered users who are logged in."
 msgstr "Hitung tampilnya halaman untuk pengguna terdaftar yang log masuk."
 
-#: modules/widget-visibility/widget-conditions.php:290
+#: modules/widget-visibility/widget-conditions.php:283
 msgid "Daily archives"
 msgstr "Arsip harian"
 
@@ -9966,7 +9976,7 @@ msgstr "Ikuti Komentar"
 msgid "Follower Settings"
 msgstr "Pengaturan Pengikut"
 
-#: modules/widget-visibility/widget-conditions.php:295 _inc/build/admin.js:148
+#: modules/widget-visibility/widget-conditions.php:288 _inc/build/admin.js:148
 msgid "Front page"
 msgstr "Halaman depan"
 
@@ -10048,7 +10058,7 @@ msgstr "Keluar"
 msgid "Logo"
 msgstr "Logo"
 
-#: modules/widget-visibility/widget-conditions.php:291
+#: modules/widget-visibility/widget-conditions.php:284
 msgid "Monthly archives"
 msgstr "Arsip Bulanan"
 
@@ -10085,11 +10095,11 @@ msgstr "JavaScript dibutuhkan untuk memainkan %s."
 msgid "Please verify your birthday."
 msgstr "Harap verifikasi ulang tahun Anda."
 
-#: modules/widget-visibility/widget-conditions.php:311
+#: modules/widget-visibility/widget-conditions.php:304
 msgid "Post type:"
 msgstr "Tipe pos:"
 
-#: modules/widget-visibility/widget-conditions.php:296
+#: modules/widget-visibility/widget-conditions.php:289
 msgid "Posts page"
 msgstr "Halaman tulisan"
 
@@ -10101,7 +10111,7 @@ msgstr "Penerbit membatasi pemutaran video embed."
 msgid "Remove logo"
 msgstr "Hapus logo"
 
-#: modules/widget-visibility/widget-conditions.php:299
+#: modules/widget-visibility/widget-conditions.php:292
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
 msgid "Search results"
@@ -10152,7 +10162,7 @@ msgstr "Maaf, tidak ada yang perlu dilaporkan."
 msgid "Square Tiles"
 msgstr "Susun Ubin Persegi"
 
-#: modules/widget-visibility/widget-conditions.php:338
+#: modules/widget-visibility/widget-conditions.php:331
 msgid "Static page:"
 msgstr "Laman statis:"
 
@@ -10272,7 +10282,7 @@ msgstr "Kami tak bisa menampilkan statistik Anda sekarang. Silakan muat ulang la
 msgid "Widget title:"
 msgstr "Judul widget:"
 
-#: modules/widget-visibility/widget-conditions.php:292
+#: modules/widget-visibility/widget-conditions.php:285
 msgid "Yearly archives"
 msgstr "Arsip tahunan"
 
@@ -10506,7 +10516,7 @@ msgstr "LinkedIn"
 msgid "Live Preview"
 msgstr "Pratinjau Langsung"
 
-#: modules/sso.php:576 modules/sso.php:976
+#: modules/sso.php:576 modules/sso.php:982
 msgid "Log in with WordPress.com"
 msgstr "Log masuk dengan WordPress.com"
 
@@ -10664,7 +10674,7 @@ msgstr "Tulisan ini telah dibagikan!"
 msgid "This slideshow could not be started. Try refreshing the page or viewing it in another browser."
 msgstr "Slideshow ini tak bisa dijalankan. Coba segarkan laman atau buka dengan browser lain."
 
-#: modules/shortcodes/slideshow.php:228
+#: modules/shortcodes/slideshow.php:219
 msgid "This slideshow requires JavaScript."
 msgstr "Slideshow ini membutuhkan JavaScript."
 
@@ -10710,7 +10720,7 @@ msgstr "Perhatian! Dukungan Multibyte tidak ditemukan!"
 #: modules/related-posts/jetpack-related-posts.php:1722
 msgid "With %s comment"
 msgid_plural "With %s comments"
-msgstr[0] "Dengan %s komentar"
+msgstr[0] "Dengan 1 komentar"
 msgstr[1] "Dengan %s komentar"
 
 #: modules/sharedaddy/sharing.php:486
@@ -11380,7 +11390,7 @@ msgstr "Sematan Shortcode"
 #: modules/module-headings.php:161
 msgctxt "Module Description"
 msgid "Add Twitter and Facebook buttons at the bottom of each post, making it easy for visitors to share your content."
-msgstr "Tambahkan tombol Twitter dan Facebook di bawah setiap pos agar pengunjung lebih mudah membagikan konten Anda."
+msgstr "Tambahkan tombol Twitter, Facebook, dan Google+ di bawah setiap pos, sehingga mempermudah pengunjung membagikan konten Anda."
 
 #: modules/module-headings.php:146
 msgctxt "Module Description"
@@ -12683,7 +12693,7 @@ msgstr "(wajib)"
 msgid "A few catchy words to motivate your readers to comment"
 msgstr "Tambahkan sejumlah ucapan menarik untuk memancing komentar pembaca Anda."
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 msgid "Add"
 msgstr "Tambah"
 

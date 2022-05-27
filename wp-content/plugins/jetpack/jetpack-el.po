@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: el_GR\n"
 "Project-Id-Version: Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release)\n"
 
@@ -767,7 +767,7 @@ msgstr "Επικεφαλίδα:"
 msgid "Carousel"
 msgstr "Καρουζέλ"
 
-#: modules/widget-visibility/widget-conditions.php:557
+#: modules/widget-visibility/widget-conditions.php:550
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/dashboard/jp-search-dashboard.js:2
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
@@ -798,7 +798,7 @@ msgstr "Προσαρμογή"
 msgid "Custom Email Address"
 msgstr "Προσαρμοσμένη διεύθυνση email"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 #: _inc/blocks/editor-beta.js:88 _inc/blocks/editor-experimental.js:88
 #: _inc/blocks/editor-no-post-editor.js:59 _inc/blocks/editor.js:88
 msgid "Delete"
@@ -853,7 +853,7 @@ msgctxt "Example of a phone number"
 msgid "1-202-555-1212"
 msgstr "1-202-555-1212"
 
-#: modules/widget-visibility/widget-conditions.php:567
+#: modules/widget-visibility/widget-conditions.php:560
 msgctxt "Example: The user is looking at a page, not a post."
 msgid "Page"
 msgstr "Σελίδα"
@@ -1004,32 +1004,32 @@ msgstr "Μέσο"
 msgid "My Tweets"
 msgstr "Τα tweets μου"
 
-#: modules/widget-visibility/widget-conditions.php:561
+#: modules/widget-visibility/widget-conditions.php:554
 msgctxt "Noun"
 msgid "User"
 msgstr "Χρήστης"
 
-#: modules/widget-visibility/widget-conditions.php:558
+#: modules/widget-visibility/widget-conditions.php:551
 msgctxt "Noun, as in: \"The author of this post is...\""
 msgid "Author"
 msgstr "Συντάκτης"
 
-#: modules/widget-visibility/widget-conditions.php:562
+#: modules/widget-visibility/widget-conditions.php:555
 msgctxt "Noun, as in: \"The user role of that can access this widget is...\""
 msgid "Role"
 msgstr "Ρόλος"
 
-#: modules/widget-visibility/widget-conditions.php:566
+#: modules/widget-visibility/widget-conditions.php:559
 msgctxt "Noun, as in: \"This page is a date archive.\""
 msgid "Date"
 msgstr "χρονολογικό"
 
-#: modules/widget-visibility/widget-conditions.php:565
+#: modules/widget-visibility/widget-conditions.php:558
 msgctxt "Noun, as in: \"This post has one tag.\""
 msgid "Tag"
 msgstr "Ετικέτα"
 
-#: modules/widget-visibility/widget-conditions.php:569
+#: modules/widget-visibility/widget-conditions.php:562
 msgctxt "Noun, as in: \"This post has one taxonomy.\""
 msgid "Taxonomy"
 msgstr "ταξινομία"
@@ -1144,7 +1144,7 @@ msgstr "Προβολή χάρτη"
 msgid "Show profile photos in the plugin."
 msgstr "Προβολή φωτογραφιών προφίλ στο πρόσθετο."
 
-#: modules/widget-visibility/widget-conditions.php:608
+#: modules/widget-visibility/widget-conditions.php:601
 msgctxt "Shown between widget visibility conditions."
 msgid "or"
 msgstr "ή"
@@ -1190,7 +1190,7 @@ msgid "Tiles"
 msgstr "Εικόνες"
 
 #: jetpack_vendor/automattic/jetpack-search/src/widgets/class-search-widget.php:1024
-#: modules/widgets/authors.php:250 modules/widgets/blog-stats.php:93
+#: modules/widgets/authors.php:243 modules/widgets/blog-stats.php:93
 #: modules/widgets/contact-info.php:259 modules/widgets/flickr/form.php:12
 #: modules/widgets/gallery/templates/form.php:11
 #: modules/widgets/goodreads.php:186 modules/widgets/google-translate.php:191
@@ -1221,17 +1221,17 @@ msgstr "Ροή Twitter"
 msgid "Types of pages to display:"
 msgstr "Είδη σελιδών για προβολή:"
 
-#: modules/widget-visibility/widget-conditions.php:556
+#: modules/widget-visibility/widget-conditions.php:549
 msgctxt "Used as the default option in a dropdown list"
 msgid "-- Select --"
 msgstr "Επιλέξτε"
 
-#: modules/widget-visibility/widget-conditions.php:534
+#: modules/widget-visibility/widget-conditions.php:527
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Hide"
 msgstr "Απόκρυψη"
 
-#: modules/widget-visibility/widget-conditions.php:533
+#: modules/widget-visibility/widget-conditions.php:526
 msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
 msgid "Show"
 msgstr "Εμφάνιση"
@@ -1249,7 +1249,7 @@ msgstr "Προβολή του προφίλ %1$s στο %2$s"
 msgid "View Full Profile &rarr;"
 msgstr "Προβολή πλήρους προφίλ &rarr;"
 
-#: modules/widget-visibility/widget-conditions.php:525
+#: modules/widget-visibility/widget-conditions.php:518
 #: _inc/blocks/editor-beta.js:36 _inc/blocks/editor-beta.js:94
 #: _inc/blocks/editor-experimental.js:36 _inc/blocks/editor-experimental.js:94
 #: _inc/blocks/editor-no-post-editor.js:21
@@ -1262,7 +1262,7 @@ msgstr "Ορατότητα"
 msgid "What's a Gravatar?"
 msgstr "Τί είναι το Gravatar;"
 
-#: modules/widget-visibility/widget-conditions.php:573
+#: modules/widget-visibility/widget-conditions.php:566
 #: _inc/build/widget-visibility/editor/index.js:1
 msgctxt "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
 msgid "is"
@@ -1285,7 +1285,7 @@ msgstr "Διάβασα"
 
 #. translators: %s is a HTML select widget for widget visibility, 'show' and
 #. 'hide' are it's options. It will read like 'show if' or 'hide if'.
-#: modules/widget-visibility/widget-conditions.php:531
+#: modules/widget-visibility/widget-conditions.php:524
 msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show if"
 msgid "%s if:"
 msgstr "%s αν:"
@@ -1308,7 +1308,7 @@ msgstr "%s Σφάλμα"
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Επιλογή &mdash;"
 
-#: modules/widget-visibility/widget-conditions.php:298
+#: modules/widget-visibility/widget-conditions.php:291
 msgid "404 error page"
 msgstr "Σφάλμα 404. Δεν βρέθηκε"
 
@@ -1332,15 +1332,15 @@ msgstr "Πλήρης λίστα συντακτών"
 msgid "All category pages"
 msgstr "Πλήρης λίστα κατηγοριών"
 
-#: modules/widget-visibility/widget-conditions.php:289
+#: modules/widget-visibility/widget-conditions.php:282
 msgid "All date archives"
 msgstr "Πλήρης λίστα αρχείου"
 
-#: modules/widget-visibility/widget-conditions.php:264
+#: modules/widget-visibility/widget-conditions.php:257
 msgid "All tag pages"
 msgstr "Πλήρης λίστα ετικετών"
 
-#: modules/widget-visibility/widget-conditions.php:341
+#: modules/widget-visibility/widget-conditions.php:334
 msgid "All taxonomy pages"
 msgstr "Προβολή όλων των κατηγοριών και ετικετών"
 
@@ -1348,7 +1348,7 @@ msgstr "Προβολή όλων των κατηγοριών και ετικετ�
 msgid "An unknown error has occurred. Please try again later."
 msgstr "Δημιουργήθηκε σφάλμα. Παρακαλώ προσπαθήστε ξανά."
 
-#: modules/widget-visibility/widget-conditions.php:297
+#: modules/widget-visibility/widget-conditions.php:290
 msgid "Archive page"
 msgstr "Αρχείο"
 
@@ -1389,7 +1389,7 @@ msgstr "Δεν ήταν δυνατή η μεταφορά του αρχείο σ�
 msgid "Count the page views of registered users who are logged in."
 msgstr "Καταμέτρηση των προβολών σελίδων εγγεγραμένων χρηστών που παραμένουν συνδεδεμένοι."
 
-#: modules/widget-visibility/widget-conditions.php:290
+#: modules/widget-visibility/widget-conditions.php:283
 msgid "Daily archives"
 msgstr "Ημερήσιο αρχείο"
 
@@ -1434,7 +1434,7 @@ msgstr "Ακολουθήστε τα Σχόλια"
 msgid "Follower Settings"
 msgstr "Ρυθμίσεις Παρακολούθησης Περιεχομένου"
 
-#: modules/widget-visibility/widget-conditions.php:295 _inc/build/admin.js:148
+#: modules/widget-visibility/widget-conditions.php:288 _inc/build/admin.js:148
 msgid "Front page"
 msgstr "Πρώτη σελίδα"
 
@@ -1512,7 +1512,7 @@ msgstr "Αποσύνδεση"
 msgid "Logo"
 msgstr "Λογότυπο"
 
-#: modules/widget-visibility/widget-conditions.php:291
+#: modules/widget-visibility/widget-conditions.php:284
 msgid "Monthly archives"
 msgstr "Μηνιαία αρχεία"
 
@@ -1549,11 +1549,11 @@ msgstr "Απαιτείται η χρήση JavaScript για την αναπαρ
 msgid "Please verify your birthday."
 msgstr "Επιβεβαιώστε τα γεννέθλια σας."
 
-#: modules/widget-visibility/widget-conditions.php:311
+#: modules/widget-visibility/widget-conditions.php:304
 msgid "Post type:"
 msgstr "Είδος περιεχομένου:"
 
-#: modules/widget-visibility/widget-conditions.php:296
+#: modules/widget-visibility/widget-conditions.php:289
 msgid "Posts page"
 msgstr "Άρθρα"
 
@@ -1565,7 +1565,7 @@ msgstr "Ο δημιουργός του βίντεο απαγορεύει την 
 msgid "Remove logo"
 msgstr "Αφαίρεση λογότυπου"
 
-#: modules/widget-visibility/widget-conditions.php:299
+#: modules/widget-visibility/widget-conditions.php:292
 #: jetpack_vendor/automattic/jetpack-search/build/customberg/jp-search-configure.js:11
 #: jetpack_vendor/automattic/jetpack-search/build/instant-search/jp-search.chunk-main-payload.js:1
 msgid "Search results"
@@ -1616,7 +1616,7 @@ msgstr "Δεν υπάρχουν δεδομένα για την δημιουργ�
 msgid "Square Tiles"
 msgstr "Τετράγωνα"
 
-#: modules/widget-visibility/widget-conditions.php:338
+#: modules/widget-visibility/widget-conditions.php:331
 msgid "Static page:"
 msgstr "Στατική σελίδα:"
 
@@ -1736,7 +1736,7 @@ msgstr "Δεν ήταν δυνατή η φόρτωση των στατιστικ
 msgid "Widget title:"
 msgstr "Τίτλος widget:"
 
-#: modules/widget-visibility/widget-conditions.php:292
+#: modules/widget-visibility/widget-conditions.php:285
 msgid "Yearly archives"
 msgstr "Ετήσιο αρχείο"
 
@@ -1932,7 +1932,7 @@ msgstr "LinkedIn"
 msgid "Live Preview"
 msgstr "Προεπισκόπηση σε πραγματικό χρόνο"
 
-#: modules/sso.php:576 modules/sso.php:976
+#: modules/sso.php:576 modules/sso.php:982
 msgid "Log in with WordPress.com"
 msgstr "Σύνδεση με WordPress.com"
 
@@ -2086,7 +2086,7 @@ msgstr "Η δημοσίευση σας κοινοποιήθηκε!"
 msgid "This slideshow could not be started. Try refreshing the page or viewing it in another browser."
 msgstr "Δεν ήταν δυνατή η προβολή του σλάιντ. Παρακαλώ προσπαθήστε ξανά."
 
-#: modules/shortcodes/slideshow.php:228
+#: modules/shortcodes/slideshow.php:219
 msgid "This slideshow requires JavaScript."
 msgstr "Το σλάιντ απαιτεί την χρήση JavaScript."
 
@@ -4030,7 +4030,7 @@ msgstr "(υποχρεωτικό)"
 msgid "A few catchy words to motivate your readers to comment"
 msgstr "Κάτι έξυπνο για να παρακινήσετε τους επισκέπτες σας να σχολιάσουν"
 
-#: modules/widget-visibility/widget-conditions.php:614
+#: modules/widget-visibility/widget-conditions.php:607
 msgid "Add"
 msgstr "Προσθήκη"
 

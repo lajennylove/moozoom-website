@@ -1,4 +1,3 @@
-
 </main>
 
 <?php do_action( 'moozoom_content_end' ); ?>
@@ -74,7 +73,7 @@
 
 				<!-- <div></div> -->
 		
-				<div class="w-full text-black flex flex-col lg:items-start items-center justify-between">
+				<div class="w-full text-black flex flex-col lg:items-start items-center justify-between md-768">
 
 					<!-- footer logo -->
 					<a href="<?php bloginfo( 'url' ); ?>" class="ml-[-8px] mb-4 lg:mb-0">
@@ -127,6 +126,58 @@
 
 				</div>
 			</div>
+			<div class="w-full text-black flex flex-col lg:items-start items-center justify-between md-768-block">
+
+					<!-- footer logo -->
+					<a href="<?php bloginfo( 'url' ); ?>" class="ml-[-8px] mb-4 lg:mb-0">
+						<?php get_template_part( 'template-parts/header', 'logo' ); ?>
+					</a>
+					<!-- End footer logo -->
+
+					<div class="flex w-full flex-col-reverse lg:items-start items-center"><span class="lg:mt-3 lg:mb-0 mb-[24px] font-normal text-[#879BB4] items-center">© 2022 moozoom. <?php _e('All rights reserved', 'wpml_theme'); ?></span>
+						<div class="flex items-center gap-x-2">
+
+							<!-- footer switch lang -->
+							<?php 
+								// Get the current language links for the postID		
+								$url = get_the_permalink();
+								$wpml_permalink['en'] = apply_filters( 'wpml_permalink', $url , 'en' );
+								$wpml_permalink['fr'] = apply_filters( 'wpml_permalink', $url , 'fr' );
+								?>
+							<div class="w-full py-1 mt-2 md:hidden">
+								<?php 
+									if ( $url == $wpml_permalink['en'] ) get_template_part( 'template-parts/header', 'lang', array('url' => $wpml_permalink['fr'], 'lang' => 'fr' ) ); 
+									else get_template_part( 'template-parts/header', 'lang', array('url' => $wpml_permalink['en'], 'lang' => 'en' ) );
+								?>
+							</div>
+							<div class="hidden md:block relative" x-data="{ open: false }" @mouseleave="open = false">
+								<div class="p-4 border border-transparent rounded-md relative z-[90] cursor-pointer hover:border-violet-700"
+									x-bind:class="open ? 'border-violet-700 border' : 'border-blueGray-300'"
+									@mouseover="open = true">
+									<?php 
+										if ( $url == $wpml_permalink['en'] ) get_template_part( 'template-parts/header', 'english', array('url' => $wpml_permalink['en'], 'active' => true ) ); 
+										else get_template_part( 'template-parts/header', 'french', array('url' => $wpml_permalink['fr'], 'active' => true ) );
+									?>
+								</div>
+								<div x-cloak x-show="open" class="absolute w-full -mt-2 z-[80] z-1">
+									<div class="left-0 pt-2 overflow-hidden bg-white border-b border-l border-r rounded-lg border-blueGray-300">
+										<a>
+											<div class="flex flex-col p-4 cursor-pointer hover:bg-purple-100">
+												<?php 
+													if ( $url != $wpml_permalink['en'] ) get_template_part( 'template-parts/header', 'english', array('url' => $wpml_permalink['en'], 'active' => false ) ); 
+													else get_template_part( 'template-parts/header', 'french', array('url' => $wpml_permalink['fr'], 'active' => false ) );
+												?>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<!-- End footer switch lang -->
+
+						</div>
+					</div>
+
+				</div>
 		</div>
 	</div>
 	<!-- End footer menus -->
