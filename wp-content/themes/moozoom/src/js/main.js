@@ -97,11 +97,11 @@ if (document.querySelector('.resolved')) {
     resolvedNext.addEventListener('click', () => siemaresolved.next());
 
     var resolvedStep = [];
-    resolvedStep[0] = document.querySelector('.resolved-step-0');
-    resolvedStep[1] = document.querySelector('.resolved-step-1');
-    resolvedStep[2] = document.querySelector('.resolved-step-2');
-    resolvedStep[3] = document.querySelector('.resolved-step-3');
-    resolvedStep[4] = document.querySelector('.resolved-step-4');
+        resolvedStep[0] = document.querySelector('.resolved-step-0');
+        resolvedStep[1] = document.querySelector('.resolved-step-1');
+        resolvedStep[2] = document.querySelector('.resolved-step-2');
+        resolvedStep[3] = document.querySelector('.resolved-step-3');
+        resolvedStep[4] = document.querySelector('.resolved-step-4');
 
     function printSlideIndexRes(id) {
         toggleStateRes(this.currentSlide, true);
@@ -139,11 +139,11 @@ if (document.querySelector('.testimonials')) {
     testimonialsNext.addEventListener('click', () => siematestimonials.next());
 
     var testimonialsStep = [];
-    testimonialsStep[0] = document.querySelector('.testimonials-step-0');
-    testimonialsStep[1] = document.querySelector('.testimonials-step-1');
-    testimonialsStep[2] = document.querySelector('.testimonials-step-2');
-    testimonialsStep[3] = document.querySelector('.testimonials-step-3');
-    testimonialsStep[4] = document.querySelector('.testimonials-step-4');
+        testimonialsStep[0] = document.querySelector('.testimonials-step-0');
+        testimonialsStep[1] = document.querySelector('.testimonials-step-1');
+        testimonialsStep[2] = document.querySelector('.testimonials-step-2');
+        testimonialsStep[3] = document.querySelector('.testimonials-step-3');
+        testimonialsStep[4] = document.querySelector('.testimonials-step-4');
 
     function printSlideIndexTes(id) {
         toggleStateTes(this.currentSlide, true);
@@ -174,15 +174,15 @@ if (document.querySelector('.moozoomapp')) {
         onChange: printSlideIndex
     });
     var challenges = [];
-    challenges[0] = document.querySelector('.btn0-moozoomapp');
-    challenges[1] = document.querySelector('.btn1-moozoomapp');
-    challenges[2] = document.querySelector('.btn2-moozoomapp');
-    challenges[3] = document.querySelector('.btn3-moozoomapp');
+        challenges[0] = document.querySelector('.btn0-moozoomapp');
+        challenges[1] = document.querySelector('.btn1-moozoomapp');
+        challenges[2] = document.querySelector('.btn2-moozoomapp');
+        challenges[3] = document.querySelector('.btn3-moozoomapp');
 
-    challenges[0].addEventListener('click', () => siemaChallenges.goTo(0, toggleState(0, true)));
-    challenges[1].addEventListener('click', () => siemaChallenges.goTo(1, toggleState(1, true)));
-    challenges[2].addEventListener('click', () => siemaChallenges.goTo(2, toggleState(2, true)));
-    challenges[3].addEventListener('click', () => siemaChallenges.goTo(3, toggleState(3, true)));
+        challenges[0].addEventListener('click', () => siemaChallenges.goTo(0, toggleState(0, true)));
+        challenges[1].addEventListener('click', () => siemaChallenges.goTo(1, toggleState(1, true)));
+        challenges[2].addEventListener('click', () => siemaChallenges.goTo(2, toggleState(2, true)));
+        challenges[3].addEventListener('click', () => siemaChallenges.goTo(3, toggleState(3, true)));
 
     function printSlideIndex(id) {
         toggleState(this.currentSlide, true);
@@ -231,37 +231,28 @@ if (document.querySelector('.activities')) {
 
 
     var activities = [];
-    activities[0] = document.querySelector('.activity-1');
-    activities[1] = document.querySelector('.activity-2');
-    activities[2] = document.querySelector('.activity-3');
-    activities[3] = document.querySelector('.activity-4');
-    activities[4] = document.querySelector('.activity-5');
-    activities[5] = document.querySelector('.activity-6');
+        activities[0] = document.querySelector('.activity-1');
+        activities[1] = document.querySelector('.activity-2');
+        activities[2] = document.querySelector('.activity-3');
+        activities[3] = document.querySelector('.activity-4');
+        activities[4] = document.querySelector('.activity-5');
+        activities[5] = document.querySelector('.activity-6');
 
-    // var activitiesScroll = [];
-    //     activitiesScroll[0] = document.querySelector('.activity-1');
-    //     activitiesScroll[1] = document.querySelector('.activity-2');
-    //     activitiesScroll[2] = document.querySelector('.activity-3');
-    //     activitiesScroll[3] = document.querySelector('.activity-4');
-    //     activitiesScroll[4] = document.querySelector('.activity-5');
-    //     activitiesScroll[5] = document.querySelector('.activity-6');
-
-
-    activities[0].addEventListener('click', () => siemaActivities.goTo(0, toggleStateAct(0, true)));
-    activities[1].addEventListener('click', () => siemaActivities.goTo(1, toggleStateAct(1, true)));
-    activities[2].addEventListener('click', () => siemaActivities.goTo(2, toggleStateAct(2, true)));
-    activities[3].addEventListener('click', () => siemaActivities.goTo(3, toggleStateAct(3, true)));
-    activities[4].addEventListener('click', () => siemaActivities.goTo(4, toggleStateAct(4, true)));
-    activities[5].addEventListener('click', () => siemaActivities.goTo(5, toggleStateAct(5, true)));
+        activities[0].addEventListener('click', () => siemaActivities.goTo(0, toggleStateAct(0, true)));
+        activities[1].addEventListener('click', () => siemaActivities.goTo(1, toggleStateAct(1, true)));
+        activities[2].addEventListener('click', () => siemaActivities.goTo(2, toggleStateAct(2, true)));
+        activities[3].addEventListener('click', () => siemaActivities.goTo(3, toggleStateAct(3, true)));
+        activities[4].addEventListener('click', () => siemaActivities.goTo(4, toggleStateAct(4, true)));
+        activities[5].addEventListener('click', () => siemaActivities.goTo(5, toggleStateAct(5, true)));
 
 
     var activitiesMob = [];
-    activitiesMob[0] = document.querySelector('.rounded-activity-1');
-    activitiesMob[1] = document.querySelector('.rounded-activity-2');
-    activitiesMob[2] = document.querySelector('.rounded-activity-3');
-    activitiesMob[3] = document.querySelector('.rounded-activity-4');
-    activitiesMob[4] = document.querySelector('.rounded-activity-5');
-    activitiesMob[5] = document.querySelector('.rounded-activity-6');
+        activitiesMob[0] = document.querySelector('.rounded-activity-1');
+        activitiesMob[1] = document.querySelector('.rounded-activity-2');
+        activitiesMob[2] = document.querySelector('.rounded-activity-3');
+        activitiesMob[3] = document.querySelector('.rounded-activity-4');
+        activitiesMob[4] = document.querySelector('.rounded-activity-5');
+        activitiesMob[5] = document.querySelector('.rounded-activity-6');
 
 
     function printSlideIndexAct(id) {
@@ -307,32 +298,6 @@ if (document.querySelector('.activities')) {
 
                 }
             }
-
-            // for ( let i=2; i<5; i++ ) {
-            //     if ( id == i ) {
-            //         console.log(activitiesScroll[i].classList)
-            //         activitiesScroll[i-1].classList.add('hidden');
-            //         activitiesScroll[i-2].classList.add('hidden');
-            //         activitiesScroll[i-3].classList.add('hidden');
-
-            //     }
-            //     else {
-            //         activitiesScroll[i-1].classList.remove('hidden');
-            //         activitiesScroll[i-2].classList.remove('hidden');
-            //     }
-            // }
-            // for (let i = 5; i < 6; i++) {
-            //     if (id == i) {
-            //         console.log(activitiesScroll[i - 5].classList + 'ddd')
-            //         activitiesScroll[i - 5].classList.add('hidden');
-            //         activitiesScroll[i - 4].classList.add('hidden');
-            //         activitiesScroll[i - 3].classList.add('hidden');
-
-            //     } else {
-            //         // activitiesScroll[i-1].classList.remove('hidden');
-            //         // activitiesScroll[i-2].classList.remove('hidden');
-            //     }
-            // }
         }
     }
 }
@@ -407,56 +372,89 @@ function selectFeeling(id) {
 }
 
 var pricing_heding = "sales";
-    var how_do_you_feel = "";
-    $('.pricing_head').click(function() {
+var how_do_you_feel = "";
 
-        pricing_heding = $(this).html();
-        if (pricing_heding == "Pricing") {
-            pricing_heding = "Sales";
+// function to select the contact form's department to send the email
+$('.pricing_head').click(function() {
+
+    pricing_heding = $(this).html();
+    if (pricing_heding == "Pricing") {
+        pricing_heding = "Sales";
+    }
+    if (pricing_heding == "Improvements") {
+        pricing_heding = "Suggestion";
+    }
+
+});
+
+// function to select the contact form's feeling to send the email
+$('.how-do-you-feel').click(function() {
+    how_do_you_feel = $(this).attr('data-value');
+    $(".how-do-you-feel").removeClass("shadow");
+    $(this).addClass("shadow");    
+});
+
+// function to change the heading of the contact form
+$('select').on('change', function() {
+    pricing_heding = this.value;
+    //console.log(pricing_heding);
+});
+
+// function to submit the contact form
+function contactFormSubmit() {
+    $("#contactForm").validate({
+        submitHandler: function(form) {
+            
+            // handle the double submit
+            if ( isDoubleClicked( $("#contactForm")) ) return;
+
+            // environment verification
+            var service, environment = site.home_url;
+
+            if (~environment.indexOf("moozoomapp")) service = 'https://my.moozoomapp.com/api/contact-us';
+            else service = 'https://amock.io/api/arzola/post/';
+
+            // sending the ajax request
+            $.ajax({
+                type      : 'POST', 
+                url       : service, 
+                data: {
+                    firstName: $(".firstname").val(),
+                    lastName: $(".lastname").val(),
+                    email: $(".email").val(),
+                    phone: $(".phone").val(),
+                    contactMethod: $('input[name=email_type]:checked', '#contactForm').val(),
+                    message: $(".message").val(),
+                    type: pricing_heding.toLowerCase(),
+                    emotion: how_do_you_feel
+                },
+                success: function(data) {
+                    // Ajax call completed successfully
+                    $(".success_msg").empty().append("<h3>Thank you for getting in touch! </h3>");
+                    $(".error_msg").css('display', 'none');
+
+                },
+                error: function(data) {
+                    // Show error in ajax call
+                    $(".error_msg").empty().append("<h3>Something Went Wrong! </h3>");
+                    $(".error_msg").css('display', 'block');
+                }
+            });
         }
-        if (pricing_heding == "Improvements") {
-            pricing_heding = "Suggestion";
-        }
-
     });
-    $('.how-do-you-feel').click(function() {
+}
 
-        how_do_you_feel = $(this).attr('data-value');
-		$(".how-do-you-feel").removeClass("shadow");
-        $(this).addClass("shadow");    });
-    $('select').on('change', function() {
-        pricing_heding = this.value;
-		//console.log(pricing_heding);
-    });
+// Prevent double submission
+function isDoubleClicked(element) {
+    //if already clicked return TRUE to indicate this click is not allowed
+    if (element.data("isclicked")) return true;
 
-    function contactFormSubmit() {
-        $("#contactForm").validate({
-            submitHandler: function(form) {
-                $.ajax({
-                    type: "POST",
-                    url: 'https://my.moozoomapp.com/api/contact-us',
-                    data: {
-                        firstName: $(".firstname").val(),
-                        lastName: $(".lastname").val(),
-                        email: $(".email").val(),
-                        phone: $(".phone").val(),
-                        contactMethod: $('input[name=email_type]:checked', '#contactForm').val(),
-                        message: $(".message").val(),
-                        type: pricing_heding.toLowerCase(),
-                        emotion: how_do_you_feel
-                    },
-                    success: function(data) {
-                        $(".success_msg").empty().append("<h3>Thank you for getting in touch! </h3>");
-                        $(".error_msg").css('display', 'none');
-                        // Ajax call completed successfully
+    //mark as clicked for 1 second
+    element.data("isclicked", true);
+    setTimeout(function () {
+        element.removeData("isclicked");
+    }, 60000);
 
-                    },
-                    error: function(data) {
-                        $(".error_msg").empty().append("<h3>Something Went Wrong! </h3>");
-                        $(".error_msg").css('display', 'block');
-                        // // Some error in ajax call
-                    }
-                });
-            }
-        });
+    //return FALSE to indicate this click was allowed
+    return false;
     }
